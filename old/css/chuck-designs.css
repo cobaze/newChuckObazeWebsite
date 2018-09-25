@@ -1,0 +1,2314 @@
+/*-----------------------------------------------------------------------------
+Prototype Style Sheet (empty commented stylesheet)
+
+version:   1.0
+author:    Chuck Obaze
+email:     obazechuck@gmail.com
+website:   http://obazedesigns.com
+-----------------------------------------------------------------------------*/
+/* =imports
+-----------------------------------------------------------------------------*/
+/* START FONT FAMILY*/
+/* END FONT FAMILY*/
+/* =SASS Variables
+-----------------------------------------------------------------------------*/
+/* line 26, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#home-portfolio h2, div#process h2, div#phil h2, div#expertise h2, div#about h2, div#portfolio h2, div#contact h2, div.nipost-holder h2, div.nipost-holder h3, div.nipost-holder h4 {
+  text-align: center;
+  margin-bottom: 2%;
+  color: #414042;
+  font-size: 3.5em;
+  font-weight: 300;
+}
+
+/* line 34, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.portfolio-bg, div.contact-bg, div.nipost-bg, div.aglow-bg, div.connect-bg, div.bugout-bg, div.wedding-bg, div.flyer-bg, div.interconf-bg, div.tailored-bg, div.rebrand-bg, div.branding-bg, div.newsletter-bg, div.tradeshow-bg, div.invitation-bg, div.video-bg, div.lowpro-bg {
+  height: 150em;
+  width: 100%;
+  position: fixed;
+  background-position: 0em -40em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -3;
+  top: 0em;
+  left: 0;
+  overflow: hidden;
+}
+
+/* line 47, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+section.nipost-first-container, section.aglow-first-container, section.connect-first-container, section.bugout-first-container, section.wedding-first-container, section.flyer-first-container, section.interconf-first-container, section.tailored-first-container, section.rebrand-first-container, section.branding-first-container, section.newsletter-first-container, section.tradeshow-first-container, section.invitation-first-container, section.video-first-container, section.lowpro-first-container {
+  padding-top: 5%;
+  background: #ffffff;
+  clear: both;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* =Remember Order Of Styling Links
+-----------------------------------------------------------------------------*/
+/* line 65, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+a:link, a:visited, a:hover, a:focus, a:active html {
+  font-size: 10px;
+}
+
+/* line 74, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 79, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+body {
+  font-size: 10px;
+  font-family: 'Exo 2', sans-serif;
+  width: 100%;
+  margin: 0 auto;
+  display: none;
+}
+
+/* line 88, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+hr {
+  height: 3px;
+  background-color: #f98348;
+  margin: 0 auto;
+  width: 2em;
+  border: 0;
+}
+
+/* line 96, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+#main-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 101, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+header.main-header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  background-color: transparent;
+  padding: 2em 0 2em 0;
+}
+
+/* line 109, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+header.main-header img {
+  float: left;
+  width: 100%;
+  max-width: 4em;
+  padding-left: 2%;
+}
+
+/* line 117, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+#lines {
+  display: none;
+}
+
+/* line 121, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+.active-link {
+  border-bottom: solid #82cec4 0.3em;
+}
+
+/* line 125, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+nav.main-nav {
+  float: right;
+  padding-right: 2%;
+  position: relative;
+  top: 1.3em;
+}
+
+/* line 131, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+nav.main-nav ul {
+  clear: both;
+  height: 2em;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 138, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+nav.main-nav ul li {
+  list-style: none;
+  float: left;
+  margin-right: 2em;
+  display: inline;
+}
+
+/* line 144, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+nav.main-nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.7em;
+  font-weight: 200;
+  /*&:visited{
+					border-bottom: solid $red-color .3em;
+				}*/
+}
+
+/* line 154, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+nav.main-nav ul li a:hover, nav.main-nav ul li a:focus {
+  border-bottom: solid #82cec4 0.3em;
+}
+
+/* line 162, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+li.contact-nav {
+  margin-right: 0em !important;
+}
+
+/* START STYLING INDEX PAGE
+-----------------------------------------------------------------------------*/
+/* START STYLING HOME SECTION STYLES
+-------------------------------------------*/
+/* line 172, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.home-bg {
+  height: 150em;
+  max-height: 100%;
+  width: 100%;
+  position: fixed;
+  background-image: url(../imgs/home-bg.jpg);
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  top: 0em;
+  left: 0;
+  overflow: hidden;
+}
+
+/* line 189, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+section.home-container {
+  height: 100em;
+  max-height: 100%;
+  clear: both;
+  width: 100%;
+}
+
+/* line 197, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#home {
+  width: 100%;
+  padding-top: 12%;
+  box-sizing: border-box;
+  height: 100em;
+  max-height: 100%;
+  margin: 0 auto;
+}
+
+/* line 206, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.home-contents {
+  height: 25em;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 7%;
+  margin-bottom: 28em;
+  position: relative;
+  z-index: -1;
+}
+
+/* line 215, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.home-contents h1 {
+  width: 100%;
+  color: #ffffff;
+  font-size: 15em;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: bolder;
+  line-height: 1.5em;
+  opacity: 0.7;
+  position: fixed;
+  z-index: -1;
+}
+
+/* line 228, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.home-contents h2 {
+  width: 100%;
+  color: #ffffff;
+  font-size: 4em;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 300;
+  line-height: 1.5em;
+  position: fixed;
+  z-index: -1;
+}
+
+/* line 240, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.home-contents img {
+  margin: 0 auto;
+  display: block;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 80em;
+  max-width: 80%;
+  position: relative;
+  z-index: -1;
+}
+
+/* line 252, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+a.dwn-btn {
+  max-width: 6em;
+  height: 6em;
+  max-height: 100%;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  background-image: url(../imgs/dwn-btn-white.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/* line 263, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+a.dwn-btn:hover, a.dwn-btn:focus {
+  background-image: url(../imgs/dwn-btn.png);
+}
+
+/* START STYLING HOME PORTFOLIO SECTION
+-------------------------------------------*/
+/* line 271, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+section.home-portfolio-container {
+  width: 100%;
+  height: 120em;
+  background-color: #ffffff;
+}
+
+/* line 277, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#home-portfolio {
+  width: 120em;
+  max-width: 100%;
+  height: 101em;
+  margin: 0 auto;
+  clear: both;
+  padding-top: 5%;
+  box-sizing: border-box;
+  margin-bottom: 3%;
+}
+
+/* line 291, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#home-portfolio > p {
+  font-size: 2em;
+  font-weight: 200;
+  line-height: 1.5em;
+  color: #414042;
+  width: 30em;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+/* line 304, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.left-holder, div.right-holder {
+  height: 70em;
+  max-width: 100%;
+  width: 60em;
+  float: left;
+}
+
+/* line 311, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.left-top {
+  height: 43.5em;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 316, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.left-top a {
+  text-decoration: none;
+}
+
+/* line 319, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.left-top a > p {
+  font-size: medium;
+  width: 6em;
+  position: relative;
+  padding: 0.5em;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  top: 25em;
+  background-color: #82cec4;
+}
+
+/* line 332, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.left-top a img {
+  width: 103%;
+  position: relative;
+  bottom: 5em;
+}
+
+/* line 341, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.right-top {
+  height: 29em;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 346, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.right-top a {
+  text-decoration: none;
+}
+
+/* line 349, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.right-top a img {
+  width: 102%;
+  position: relative;
+  bottom: 17.5em;
+}
+
+/* line 355, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.right-top a > p {
+  font-size: medium;
+  width: 8.1em;
+  position: relative;
+  padding: 0.5em;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  top: 16em;
+  background-color: #82cec4;
+}
+
+/* line 371, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.left-bottom-one {
+  float: left;
+  width: 50%;
+  height: 25.5em;
+  overflow: hidden;
+}
+
+/* line 377, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.left-bottom-one a {
+  text-decoration: none;
+}
+
+/* line 380, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.left-bottom-one a img {
+  width: 118%;
+  position: relative;
+  right: 2em;
+  bottom: 4.5em;
+}
+
+/* line 387, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.left-bottom-one a > p {
+  font-size: medium;
+  width: 10em;
+  position: relative;
+  padding: 0.5em;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  top: 13.8em;
+  background-color: #82cec4;
+}
+
+/* line 402, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.left-bottom-two {
+  float: left;
+  width: 50%;
+  height: 25.5em;
+  overflow: hidden;
+}
+
+/* line 408, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.left-bottom-two a {
+  text-decoration: none;
+}
+
+/* line 411, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.left-bottom-two a img {
+  width: 107%;
+  position: relative;
+  right: 2em;
+  bottom: 5.5em;
+}
+
+/* line 418, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.left-bottom-two a > p {
+  font-size: medium;
+  max-width: 100%;
+  width: 8em;
+  position: relative;
+  padding: 0.5em;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  top: 13.8em;
+  background-color: #82cec4;
+}
+
+/* line 434, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.right-bottom {
+  height: 40em;
+  width: 100%;
+  float: left;
+  overflow: hidden;
+}
+
+/* line 440, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.right-bottom a {
+  text-decoration: none;
+}
+
+/* line 443, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.right-bottom a img {
+  width: 130%;
+  position: relative;
+  right: 10.5em;
+  bottom: 12em;
+}
+
+/* line 450, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.right-bottom a > p {
+  font-size: medium;
+  width: 9em;
+  position: relative;
+  padding: 0.5em;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  top: 22.9em;
+  background-color: #82cec4;
+}
+
+/* line 465, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.port {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+  clear: both;
+  max-width: 31em;
+}
+
+/* line 472, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.port a {
+  text-decoration: none;
+  padding: 1em;
+  font-size: 2em;
+  font-weight: 600;
+  color: #f98348;
+  background-color: #ffffff;
+  border: solid #f98348 0.125em;
+  box-sizing: border-box;
+  display: block;
+}
+
+/* line 483, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.port a:hover, div.port a:focus {
+  color: #ffffff;
+  background-color: #f98348;
+}
+
+/* END STYLING SECTION PORTFOLIO AND HOME-PORTFOLIO-CONTAINER STYLES
+-----------------------------------------------------------------------------*/
+/* START STYLING SECTION PROCESS AND PROCESS-CONTAINER STYLES
+-----------------------------------------------------------------------------*/
+/* line 498, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+section.process-container {
+  width: 100%;
+  height: 70em;
+  background-color: #fafafa;
+}
+
+/* line 505, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#process {
+  width: 100%;
+  height: 70em;
+  padding-top: 5%;
+  margin: 0 auto;
+  clear: both;
+  box-sizing: border-box;
+}
+
+/* line 519, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.icon-holder {
+  height: 35em;
+  width: 131em;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* line 526, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.icon {
+  float: left;
+  width: auto;
+  margin: 2.3%;
+}
+
+/* line 531, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.icon img {
+  width: 15em;
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+/* line 538, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.icon p {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: #414042;
+  text-align: center;
+  width: 13em;
+  margin-top: 1em;
+}
+
+/* line 547, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.icon p span {
+  font-size: 0.8em;
+  font-weight: 200;
+}
+
+/* START STYLING PHIL SECTION
+-------------------------------------------*/
+/* line 557, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+section.phil-container {
+  width: 100%;
+  height: 45em;
+  background-image: url(../imgs/phil-bg.jpg);
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* line 566, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#phil {
+  height: 45em;
+  padding-top: 5%;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* line 573, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#phil h2 {
+  color: #ffffff;
+}
+
+/* line 578, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#phil p {
+  font-size: 2.5em;
+  font-weight: 200;
+  line-height: 1.5em;
+  color: #ffffff;
+  width: 36em;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* START STYLING EXPERTISE SECTION
+-------------------------------------------*/
+/* line 594, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+section.expertise-container {
+  width: 100%;
+  height: 75em;
+  background-color: #82cec4;
+}
+
+/* line 601, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#expertise {
+  width: 100%;
+  clear: both;
+  box-sizing: border-box;
+  height: 75em;
+  padding-top: 5%;
+  margin: 0 auto;
+}
+
+/* line 609, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#expertise h2 {
+  color: #ffffff;
+  margin-bottom: 5%;
+}
+
+/* line 617, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.grouped {
+  height: 45em;
+  width: 125em;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* line 624, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.left-group-top, div.left-group-bottom, div.right-group-top, div.right-group-bottom {
+  height: 15em;
+  float: left;
+  max-width: 100%;
+  width: 57em;
+  margin-bottom: 5%;
+}
+
+/* line 632, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.left-group-top, div.right-group-top {
+  margin-right: 8%;
+}
+
+/* line 636, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.ex-icon {
+  margin: 0 auto;
+  height: 15em;
+}
+
+/* line 640, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.ex-icon img {
+  width: 15em;
+  float: left;
+  display: block;
+  margin-right: 5%;
+}
+
+/* line 647, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.ex-icon p {
+  text-align: left;
+  font-size: 2em;
+  font-weight: bold;
+  color: #ffffff;
+  width: 19em;
+  margin-top: 1em;
+  float: left;
+}
+
+/* line 656, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.ex-icon p span {
+  font-size: 0.8em;
+  font-weight: 200;
+}
+
+/* START STYLING ABOUT SECTION
+-------------------------------------------*/
+/* line 667, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+section.about-container {
+  width: 100%;
+  background-image: url(../imgs/phil.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 81.5em;
+}
+
+/* line 676, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#about {
+  height: 81.5em;
+  padding-top: 5%;
+  margin: 0 auto;
+  width: 100%;
+  clear: both;
+  box-sizing: border-box;
+}
+
+/* line 684, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#about h2 {
+  color: #ffffff;
+}
+
+/* line 689, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#about > p {
+  font-size: 2em;
+  font-weight: 200;
+  line-height: 1.5em;
+  color: #ffffff;
+  width: 42em;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 1.5%;
+}
+
+/* line 700, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#about > p a {
+  text-decoration: none;
+  color: #82cec4;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+/* line 706, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#about > p a:hover, div#about > p a:focus {
+  color: #f98348;
+}
+
+/* line 712, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#about img {
+  width: 15em;
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 3em;
+}
+
+/* line 722, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+.social-icons {
+  height: 5.3em;
+  width: 25em;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 1%;
+}
+
+/* line 730, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+.linked {
+  background: url(../imgs/linkedin.png) no-repeat;
+  background-size: 3em;
+  width: 3em;
+  height: 3em;
+  float: left;
+  margin: 1em;
+}
+
+/* line 738, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+.linked:hover, .linked:focus {
+  background-image: url(../imgs/linkedin-orange.png);
+}
+
+/* line 743, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+.pin {
+  background: url(../imgs/pinterest.png) no-repeat;
+  background-size: 3em;
+  width: 3em;
+  height: 3em;
+  float: left;
+  margin: 1em;
+}
+
+/* line 751, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+.pin:hover, .pin:focus {
+  background-image: url(../imgs/pinterest-orange.png);
+}
+
+/* line 756, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+.google-plus {
+  background: url(../imgs/google-plus.png) no-repeat;
+  background-size: 3em;
+  width: 3em;
+  height: 3em;
+  float: left;
+  margin: 1em;
+}
+
+/* line 764, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+.google-plus:hover, .google-plus:focus {
+  background-image: url(../imgs/google-plus-orange.png);
+}
+
+/* line 769, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+.vim {
+  background: url(../imgs/vimeo.png) no-repeat;
+  background-size: 3em;
+  width: 3em;
+  height: 3em;
+  float: left;
+  margin: 1em;
+}
+
+/* line 777, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+.vim:hover, .vim:focus {
+  background-image: url(../imgs/vimeo-orange.png);
+}
+
+/* line 782, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+.behan {
+  background: url(../imgs/behance.png) no-repeat;
+  background-size: 3em;
+  width: 3em;
+  height: 3em;
+  float: left;
+  margin: 1em;
+}
+
+/* line 790, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+.behan:hover, .behan:focus {
+  background-image: url(../imgs/behance-orange.png);
+}
+
+/* line 795, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.dwn-pdf {
+  width: 20em;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 4em;
+  margin: 0 auto;
+}
+
+/* line 802, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.dwn-pdf a {
+  text-decoration: none;
+  padding: 1em;
+  color: #f98348;
+  background-color: transparent;
+  border: solid #f98348 0.2em;
+  box-sizing: border-box;
+  display: block;
+  height: 5em;
+}
+
+/* line 812, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.dwn-pdf a:hover, div.dwn-pdf a:focus {
+  color: #ffffff;
+  background-color: #f98348;
+}
+
+/* line 817, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.dwn-pdf a > p {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-bottom: 1%;
+}
+
+/* END STYLING INDEX PAGE
+-----------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+/* START STYLING PROJECTS PAGE
+-----------------------------------------------------------------------------*/
+/* START STYLING TOP PORTFOLIO SECTION
+-------------------------------------------*/
+/* line 841, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.portfolio-bg {
+  background-image: url(../imgs/portfolio-img.jpg);
+  background-position: 0em 0em;
+}
+
+/* line 847, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+section.top-portfolio-container {
+  width: 100%;
+  height: 50em;
+}
+
+/* line 852, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#top-portfolio {
+  width: 100%;
+  padding-top: 7%;
+  box-sizing: border-box;
+  height: 96em;
+  margin: 0 auto;
+}
+
+/* line 859, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#top-portfolio h1 {
+  width: 100%;
+  color: #ffffff;
+  font-size: 15em;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: bolder;
+  line-height: 1.5em;
+  opacity: 0.7;
+  position: fixed;
+  z-index: -2;
+}
+
+/* line 872, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#top-portfolio h2 {
+  width: 100%;
+  font-size: 4em;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 300;
+  line-height: 1.5em;
+  position: fixed;
+  z-index: -1;
+  font-family: 'Kaushan Script', cursive;
+  color: #ffffff;
+}
+
+/* START STYLING PORTFOLIO SECTION
+-------------------------------------------*/
+/* line 890, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+section.portfolio-container {
+  width: 100%;
+  height: 161em;
+  background-color: #ffffff;
+}
+
+/* line 897, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#portfolio {
+  height: 97em;
+  padding-top: 5%;
+  margin: 0 auto;
+  width: 100%;
+  clear: both;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+/* line 910, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#portfolio > p {
+  font-size: 2em;
+  font-weight: 200;
+  line-height: 1.5em;
+  color: #414042;
+  width: 37em;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+/* line 924, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.port-item {
+  width: 25%;
+  height: 34em;
+  float: left;
+  overflow: hidden;
+}
+
+/* line 931, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.port-item a > img {
+  width: 100%;
+}
+
+/* END STYLING PORTFOLIO PAGE
+-----------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------*/
+/* START CONTACT PAGE STYLES
+-----------------------------------------------------------------------------*/
+/* line 947, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.contact-bg {
+  background-image: url(../imgs/contact-bg-img-2.jpg);
+  background-position: -30em -35em;
+}
+
+/* line 953, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+section.top-contact-container {
+  width: 100%;
+  height: 50em;
+}
+
+/* line 958, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#top-contact {
+  width: 100%;
+  padding-top: 7%;
+  box-sizing: border-box;
+  height: 96em;
+  margin: 0 auto;
+}
+
+/* line 965, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#top-contact h1 {
+  width: 100%;
+  color: #ffffff;
+  font-size: 15em;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: bolder;
+  line-height: 1.5em;
+  opacity: 0.7;
+  position: fixed;
+  z-index: -2;
+}
+
+/* line 980, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+section#contact-container {
+  width: 100%;
+  height: 110em;
+  background-color: #ffffff;
+}
+
+/* line 986, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#contact {
+  height: 110em;
+  padding-top: 5%;
+  margin: 0 auto;
+  width: 100%;
+  clear: both;
+  box-sizing: border-box;
+}
+
+/* line 998, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#contact > p {
+  font-size: 2em;
+  font-weight: 200;
+  line-height: 1.5em;
+  color: #414042;
+  width: 30em;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+/* line 1012, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+h3.alert {
+  font-weight: bolder;
+  color: #f98348;
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+/* line 1020, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.p1 {
+  margin-top: 20%;
+}
+
+/* line 1023, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.p1 h3 {
+  font-weight: bolder;
+  color: #f98348;
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+/* line 1034, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+span.error h3 {
+  font-weight: 200;
+  color: #f98348;
+  font-size: 1.5em;
+  font-style: italic;
+  text-align: left;
+  margin-bottom: 2%;
+}
+
+/* line 1044, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+form#contact-us {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 85em;
+}
+
+/* line 1050, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+input, textarea {
+  margin-bottom: 1.5em;
+  display: block;
+  width: 61em;
+  max-width: 100%;
+  height: 100%;
+  padding: 1.5em;
+  font-size: 1.4em;
+  line-height: 1.42857143;
+  color: #808080;
+  border: solid 1px #414042;
+  box-shadow: inset 0.2em 0.2em 0.4em #414042;
+  -webkit-box-shadow: inset 0.2em 0.2em 0.4em #414042;
+  -moz-box-shadow: inset 0.2em 0.2em 0.4em #414042;
+  -ms-box-shadow: inset 0.2em 0.2em 0.4em #414042;
+  box-sizing: border-box;
+}
+
+/* line 1066, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+button {
+  padding: 1em;
+  border: #f98348 solid 0.1em;
+  font-size: 2.5em;
+  font-weight: 600;
+  color: #f98348;
+  background-color: #ffffff;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: block;
+}
+
+/* line 1077, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+button:hover, button:focus {
+  background-color: #f98348;
+  color: #ffffff;
+  border: #f98348 solid 0.1em;
+}
+
+/* START FOOTER STYLE
+-----------------------------------------------------------------------------*/
+/* line 1087, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+footer.main-footer {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  box-sizing: border-box;
+  background-color: #535252;
+  clear: both;
+}
+
+/* line 1094, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+footer.main-footer p {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 200;
+  color: #ffffff;
+}
+
+/* START NIPOST PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+/* line 1105, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.nipost-bg {
+  background-image: url(../imgs/nipost-bg-img.jpg);
+  background-position: -90em -60em;
+}
+
+/* line 1113, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+section.nipost-home-container {
+  width: 100%;
+  height: 50em;
+}
+
+/* line 1118, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#nipost-home {
+  width: 100%;
+  padding-top: 7%;
+  box-sizing: border-box;
+  height: 96em;
+  margin: 0 auto;
+}
+
+/* line 1125, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#nipost-home h1 {
+  width: 100%;
+  color: #ffffff;
+  font-size: 13em;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: bolder;
+  line-height: 1.5em;
+  opacity: 0.7;
+  position: fixed;
+  z-index: -2;
+}
+
+/* line 1138, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#nipost-home h2 {
+  width: 100%;
+  font-size: 4em;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 300;
+  line-height: 1.5em;
+  position: fixed;
+  z-index: -1;
+  font-family: 'Kaushan Script', cursive;
+  color: #ffffff;
+}
+
+/* line 1153, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+section.nipost-first-container {
+  height: 525em;
+}
+
+/* line 1158, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.nipost-holder {
+  width: 100em;
+  max-width: 100%;
+  clear: both;
+  margin: 0 auto;
+}
+
+/* line 1164, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.nipost-holder h2 {
+  margin-bottom: 0.5em;
+}
+
+/* line 1169, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.nipost-holder > img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  /*margin-bottom:5%;*/
+  border: solid #696969 0.2em;
+}
+
+/* line 1177, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.nipost-holder > p {
+  font-size: 1.9em;
+  line-height: 1.4em;
+  color: #808080;
+  font-weight: 300;
+  width: 100%;
+  max-width: 45em;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+
+/* line 1189, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.nipost-holder h3 {
+  margin: 5% 0 5% 0;
+  font-weight: 300;
+  color: #414042;
+}
+
+/* line 1196, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.nipost-holder h4 {
+  margin: 5% 0 5% 0;
+  font-weight: 200;
+  color: #414042;
+}
+
+/* line 1204, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.nipost-collateral-holder {
+  width: 100%;
+  height: 80em;
+  border: solid 1px blue;
+}
+
+/* START AGLOW PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+/* line 1214, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.aglow-bg {
+  background-image: url(../imgs/aglow-bg.jpg);
+}
+
+/* line 1219, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+section.aglow-first-container {
+  height: 284em;
+}
+
+/* START CONNECT GA PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+/* line 1227, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.connect-bg {
+  background-image: url(../imgs/connect-bg.jpg);
+}
+
+/* line 1232, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+section.connect-first-container {
+  height: 510em;
+}
+
+/* line 1237, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+.second-last-img {
+  margin-bottom: 5% !important;
+}
+
+/* line 1241, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+.first-sketches {
+  margin-bottom: 5%;
+  border: solid gray 2px;
+}
+
+/* START BUG-OUT PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+/* line 1249, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.bugout-bg {
+  background-image: url(../imgs/bugout-bg.jpg);
+  background-position: -20em -60em;
+}
+
+/* line 1255, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+section.bugout-first-container {
+  height: 75em;
+}
+
+/* START WEDDING MAGAZINE PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+/* line 1263, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.wedding-bg {
+  background-image: url(../imgs/wedding-bg.jpg);
+}
+
+/* line 1268, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+section.wedding-first-container {
+  height: 354em;
+}
+
+/* START FLYERS PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+/* line 1276, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.flyer-bg {
+  background-image: url(../imgs/flyer-bg-2.jpg);
+  background-position: -20em -60em;
+}
+
+/* line 1282, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+section.flyer-first-container {
+  height: 330em;
+}
+
+/* line 1287, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#flyer-home {
+  width: 100%;
+  padding-top: 7%;
+  box-sizing: border-box;
+  height: 96em;
+  margin: 0 auto;
+}
+
+/* line 1295, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#flyer-home h1 {
+  width: 100%;
+  color: #ffffff;
+  font-size: 13em;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: bolder;
+  line-height: 0.8em;
+  opacity: 0.7;
+  position: fixed;
+  z-index: -2;
+}
+
+/* START INTERNET CONFERENCE PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+/* line 1312, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.interconf-bg {
+  background-image: url(../imgs/interconf-bg.jpg);
+  background-position: -45em -61em;
+}
+
+/* line 1318, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+section.interconf-first-container {
+  height: 75em;
+}
+
+/* line 1323, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#interconf-home {
+  width: 100%;
+  padding-top: 7%;
+  box-sizing: border-box;
+  height: 96em;
+  margin: 0 auto;
+}
+
+/* line 1330, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div#interconf-home h1 {
+  width: 100%;
+  color: #ffffff;
+  font-size: 13em;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: bolder;
+  line-height: 0.9em;
+  opacity: 0.7;
+  position: fixed;
+  z-index: -2;
+}
+
+/* START TAILORED PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+/* line 1347, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.tailored-bg {
+  background-image: url(../imgs/tailored-creation-2.jpg);
+  background-position: 0em 0em;
+}
+
+/* line 1353, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+section.tailored-first-container {
+  height: 421em;
+}
+
+/* START REBRAND PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+/* line 1361, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.rebrand-bg {
+  background-image: url(../imgs/obaze-design-bg.jpg);
+  background-position: 0em -100em;
+}
+
+/* line 1367, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+section.rebrand-first-container {
+  height: 266em;
+}
+
+/* START BRANDING PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+/* line 1375, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.branding-bg {
+  background-image: url(../imgs/branding-bg.jpg);
+  background-position: -15em -5em;
+}
+
+/* line 1381, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+section.branding-first-container {
+  height: 138em;
+}
+
+/* START NEWSLETTER PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+/* line 1389, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.newsletter-bg {
+  background-image: url(../imgs/newsletter-bg.jpg);
+  background-position: 0em -60em;
+}
+
+/* line 1395, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+section.newsletter-first-container {
+  height: 138em;
+}
+
+/* START POP-UP BANNER PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+/* line 1403, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.tradeshow-bg {
+  background-image: url(../imgs/trade-show-bg.jpg);
+  background-position: -105em -86em;
+}
+
+/* line 1409, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+section.tradeshow-first-container {
+  height: 202em;
+}
+
+/* START INVITATION PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+/* line 1417, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.invitation-bg {
+  background-image: url(../imgs/invitation-bg.jpg);
+  background-position: -25em -16em;
+}
+
+/* line 1423, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+section.invitation-first-container {
+  height: 138em;
+}
+
+/* START VIDEO PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+/* line 1431, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.video-bg {
+  background-image: url(../imgs/video-bg.jpg);
+  background-position: -40em -40em;
+}
+
+/* line 1437, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+section.video-first-container {
+  height: 208em;
+}
+
+/* START LOWPRO PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+/* line 1445, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+div.lowpro-bg {
+  background-image: url(../imgs/lowpro-bg.jpg);
+  background-position: -40em -40em;
+}
+
+/* line 1451, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+section.lowpro-first-container {
+  height: 347em;
+}
+
+/* START MEDIA QUERIES
+-----------------------------------------------------------------------------*/
+/* =Cell Phone Media Query Portrait
+-----------------------------------------------------------------------------*/
+@media only screen and (min-width: 320px) and (max-width: 740px) and (orientation: portrait) {
+  /* =Start Nav Style */
+  /* line 1470, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  nav.main-nav {
+    position: relative;
+    top: 0;
+    padding: 2%;
+  }
+  /* line 1476, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  nav.active-nav {
+    display: none;
+  }
+  /* line 1480, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  #lines {
+    border-bottom: 1.7em double #82cec4;
+    border-top: 0.6em solid #82cec4;
+    content: "";
+    height: 0.5em;
+    width: 3em;
+    display: inline-block;
+    float: right;
+    margin-top: 3%;
+    margin-right: 2%;
+  }
+  /* line 1492, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  #lines:hover {
+    border-bottom: 1.7em double #f98348;
+    border-top: 0.6em solid #f98348;
+  }
+  /* line 1499, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  nav.main-nav ul, nav.main-nav:active ul {
+    display: none;
+    clear: both;
+    height: 12em;
+    position: absolute;
+    padding: 20px;
+    background: #82cec4;
+    border: 1px solid red;
+    right: 0px;
+    top: 60px;
+    width: 33em;
+  }
+  /*nav:active ul {
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: transparent;
+		border: 1px solid red;
+		right: 0px;
+		top: 60px;
+		width: 100%;
+
+
+	}*/
+  /* line 1526, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  nav li {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+    list-style: none;
+    float: left;
+    margin-right: 0;
+    display: inline;
+  }
+  /* line 1539, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  nav:hover ul {
+    display: block;
+  }
+  /* =End Nav Style */
+  /* =Start Home Section Style */
+  /* line 1549, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.home-bg {
+    height: 63em;
+  }
+  /* line 1553, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  section.home-container {
+    height: 63em;
+  }
+  /* line 1557, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div#home {
+    padding-top: 0;
+    height: 63em;
+    clear: both;
+  }
+  /* line 1563, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.home-contents {
+    margin-top: 50%;
+    margin-bottom: 45%;
+    height: 21em;
+  }
+  /* line 1568, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.home-contents h1 {
+    line-height: 0.8em;
+    font-size: 11em;
+    top: 2em;
+  }
+  /* line 1574, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.home-contents h2 {
+    line-height: 1.1em;
+    font-size: 3em;
+  }
+  /* line 1580, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  a.dwn-btn {
+    display: none;
+  }
+  /* =End Home Section Style */
+  /* =Start Home Portfolio Section Style */
+  /* line 1588, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  section.home-portfolio-container {
+    height: 138em;
+  }
+  /* line 1592, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div#home-portfolio {
+    padding: 10% 2% 0 2%;
+    height: 138em;
+  }
+  /* line 1596, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div#home-portfolio h2 {
+    margin-bottom: 10%;
+  }
+  /* line 1602, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.left-holder {
+    height: 46em;
+  }
+  /* line 1606, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.left-top {
+    height: 27.4em;
+  }
+  /* line 1610, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.left-top a p {
+    top: 15em;
+    width: 100%;
+    text-align: center;
+  }
+  /* line 1618, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.left-bottom-one {
+    height: 18.5em;
+  }
+  /* line 1622, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.left-bottom-one a img {
+    width: 112%;
+    bottom: 3.5em;
+  }
+  /* line 1627, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.left-bottom-one a p {
+    top: 9.4em;
+    width: 100%;
+    text-align: center;
+  }
+  /* line 1635, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.left-bottom-two {
+    height: 18.5em;
+  }
+  /* line 1639, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.left-bottom-two a img {
+    width: 112%;
+    bottom: 3.5em;
+    right: 1em;
+  }
+  /* line 1645, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.left-bottom-two a p {
+    top: 9.4em;
+    width: 100%;
+    text-align: center;
+  }
+  /* line 1653, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.right-holder {
+    height: 53.5em;
+  }
+  /* line 1657, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.right-top {
+    height: 24.3em;
+  }
+  /* line 1661, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.right-top a img {
+    bottom: 10.5em;
+    width: 102%;
+  }
+  /* line 1666, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.right-top a p {
+    top: 13em;
+    width: 100%;
+    text-align: center;
+  }
+  /* line 1674, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.right-bottom {
+    height: 29em;
+  }
+  /* line 1678, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.right-bottom a img {
+    bottom: 8.5em;
+    width: 128%;
+    right: 7em;
+  }
+  /* line 1684, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.right-bottom a p {
+    top: 15.94em;
+    width: 100%;
+    text-align: center;
+  }
+  /* line 1692, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.port {
+    position: relative;
+    bottom: 11em;
+  }
+  /* =End Home Portfolio Section Style */
+  /* =Start Process Section Style */
+  /* line 1701, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  section.process-container {
+    height: 150em;
+  }
+  /* line 1705, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div#process {
+    padding: 10% 2% 0 2%;
+    height: 150em;
+  }
+  /* line 1711, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.icon-holder {
+    height: 140em;
+    width: 100%;
+    max-width: 100%;
+  }
+  /* line 1718, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.icon {
+    padding: 10% 14.7% 0 14.7%;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  /* =End Process Section Style */
+  /* =Start Phil Section Style */
+  /* line 1728, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  section.phil-container {
+    height: 43.5em;
+  }
+  /* line 1732, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div#phil {
+    padding: 10% 2% 0 2%;
+    height: 43.5em;
+  }
+  /* line 1736, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div#phil h2 {
+    margin-bottom: 10%;
+  }
+  /* =End Phil Section Style */
+  /* =Start Expertise Section Style */
+  /* line 1745, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  section.expertise-container {
+    height: 150em;
+  }
+  /* line 1749, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div#expertise {
+    height: 150em;
+    padding: 10% 2% 0 2%;
+  }
+  /* line 1753, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div#expertise h2 {
+    margin-bottom: 10%;
+  }
+  /* line 1758, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.grouped {
+    width: 100%;
+    height: 136.8em;
+  }
+  /* line 1763, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.left-group-top,
+  div.left-group-bottom,
+  div.right-group-top,
+  div.right-group-bottom {
+    width: 100%;
+    float: none;
+    height: 32em;
+  }
+  /* line 1772, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.ex-icon {
+    height: 32em;
+    width: 100%;
+  }
+  /* line 1776, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.ex-icon img {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 5%;
+  }
+  /* line 1782, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.ex-icon p {
+    text-align: center;
+    margin-top: 0;
+    width: 15em;
+    margin: 0 auto;
+    display: block;
+    float: none;
+  }
+  /* =End Expertise Section Style */
+  /* =Start About Section Style */
+  /* line 1796, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  section.about-container {
+    height: 110em;
+  }
+  /* line 1800, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div#about {
+    height: 110em;
+    padding: 10% 2% 0 2%;
+  }
+  /* line 1804, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div#about h2 {
+    margin-bottom: 10%;
+  }
+  /* line 1808, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div#about p {
+    text-align: center;
+    margin-bottom: 10%;
+  }
+  /* line 1814, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.social-icons {
+    margin-top: 8%;
+  }
+  /* =End About Section Style */
+  /* =Start Portfolio Page Style */
+  /* line 1822, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.portfolio-bg {
+    background-image: url(../imgs/portfolio-img.jpg);
+    background-position: -50em 0em;
+    height: 30em;
+    background-size: 400%;
+  }
+  /* line 1829, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  section.top-portfolio-container {
+    height: 30em;
+  }
+  /* line 1833, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div#top-portfolio {
+    padding-top: 0;
+    height: 30em;
+  }
+  /* line 1837, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div#top-portfolio h1 {
+    font-size: 7em;
+    line-height: 1.5em;
+    top: 1.5em;
+  }
+  /* line 1844, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  section.portfolio-container {
+    height: 244em;
+  }
+  /* line 1848, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div#portfolio {
+    padding-top: 10%;
+    box-sizing: border-box;
+    height: 358.5em;
+  }
+  /* line 1853, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div#portfolio p {
+    margin-bottom: 10%;
+  }
+  /* line 1859, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.port-item {
+    height: 28em;
+    width: 48em;
+    max-width: 100%;
+  }
+  /* =End Portfolio Page Style */
+  /* =Start Contact Section Style */
+  /* line 1869, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.contact-bg {
+    background-position: -15em 0em;
+    background-size: 175%;
+    height: 30em;
+  }
+  /* line 1875, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  section.top-contact-container {
+    height: 30em;
+  }
+  /* line 1879, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div#top-contact {
+    padding-top: 0;
+    height: 30em;
+  }
+  /* line 1883, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div#top-contact h1 {
+    font-size: 7em;
+    line-height: 0.8em;
+    top: 1.9em;
+  }
+  /* line 1890, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div#contact {
+    padding: 10% 2% 0 2%;
+  }
+  /* line 1893, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div#contact h2 {
+    margin-bottom: 10%;
+  }
+  /* =End Contact Section Style */
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: landscape) {
+  /* line 1910, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  nav.main-nav {
+    top: 0;
+    float: right;
+    padding-right: 2%;
+    position: relative;
+    top: 1.3em;
+  }
+  /* line 1918, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  nav.active-nav {
+    display: none;
+  }
+  /* line 1922, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  #lines {
+    border-bottom: 1.7em double #82cec4;
+    border-top: 0.6em solid #82cec4;
+    content: "";
+    height: 0.5em;
+    width: 3em;
+    display: inline-block;
+    float: right;
+    margin-top: 3%;
+    margin-right: 2%;
+  }
+  /* line 1934, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  #lines:hover {
+    border-bottom: 1.7em double #f98348;
+    border-top: 0.6em solid #f98348;
+  }
+  /* line 1941, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  nav.main-nav ul, nav.main-nav:active ul {
+    display: none;
+    clear: both;
+    height: 12em;
+    position: absolute;
+    padding: 20px;
+    background: #82cec4;
+    border: 1px solid red;
+    right: 0px;
+    top: 60px;
+    width: 63em;
+  }
+  /*nav:active ul {
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: transparent;
+		border: 1px solid red;
+		right: 0px;
+		top: 60px;
+		width: 100%;
+
+
+	}*/
+  /* line 1968, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  nav li {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+    list-style: none;
+    float: left;
+    margin-right: 0;
+    display: inline;
+  }
+  /* line 1981, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  nav:hover ul {
+    display: block;
+  }
+  /* line 1987, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  a.dwn-btn {
+    display: none;
+  }
+  /* =Start Home Section Style */
+  /* line 1993, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.home-bg {
+    height: 40em;
+  }
+  /* line 1997, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  section.home-container {
+    height: 40em;
+  }
+  /* line 2001, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div#home {
+    padding-top: 0;
+    height: 40em;
+    clear: both;
+  }
+  /* line 2007, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.home-contents {
+    margin-top: 0;
+    height: 40em;
+    margin-bottom: 0;
+  }
+  /* line 2012, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.home-contents h1 {
+    line-height: 0.8em;
+    font-size: 11em;
+    top: 1.2em;
+  }
+  /* line 2018, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.home-contents h2 {
+    line-height: 8em;
+    font-size: 3em;
+  }
+  /* line 2024, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  a.dwn-btn {
+    display: none;
+  }
+  /* =End Home Section Style */
+  /* =Start Home Portfolio Section Style */
+  /* line 2032, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  section.home-portfolio-container {
+    height: 138em;
+  }
+  /* line 2036, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div#home-portfolio {
+    padding: 10% 2% 0 2%;
+    height: 138em;
+  }
+  /* line 2040, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div#home-portfolio h2 {
+    margin-bottom: 10%;
+  }
+  /* line 2046, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.left-holder {
+    height: 73em;
+    width: 100%;
+  }
+  /* line 2051, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.left-top {
+    height: 46.4em;
+  }
+  /* line 2055, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.left-top a p {
+    top: 26.9em;
+    width: 100%;
+    text-align: center;
+  }
+  /* line 2063, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.left-bottom-one {
+    height: 26.7em;
+  }
+  /* line 2067, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.left-bottom-one a img {
+    width: 112%;
+    bottom: 3.5em;
+  }
+  /* line 2072, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.left-bottom-one a p {
+    top: 14.5em;
+    width: 100%;
+    text-align: center;
+  }
+  /* line 2080, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.left-bottom-two {
+    height: 26.7em;
+  }
+  /* line 2084, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.left-bottom-two a img {
+    width: 112%;
+    bottom: 4.5em;
+    right: 1em;
+  }
+  /* line 2090, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.left-bottom-two a p {
+    top: 14.5em;
+    width: 100%;
+    text-align: center;
+  }
+  /* line 2098, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.right-holder {
+    height: 53.5em;
+    width: 100%;
+  }
+  /* line 2103, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.right-top {
+    height: 27.5em;
+  }
+  /* line 2107, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.right-top a img {
+    bottom: 21em;
+    width: 102%;
+  }
+  /* line 2112, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.right-top a p {
+    top: 15em;
+    width: 100%;
+    text-align: center;
+  }
+  /* line 2120, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.right-bottom {
+    height: 95em;
+  }
+  /* line 2124, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.right-bottom a img {
+    bottom: 8.5em;
+    width: 128%;
+    right: 7em;
+  }
+  /* line 2130, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.right-bottom a p {
+    top: 29.1em;
+    width: 100%;
+    text-align: center;
+  }
+  /* line 2138, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.port {
+    position: relative;
+    bottom: 11em;
+  }
+  /* =End Home Portfolio Section Style */
+}
+
+/* =iPad Media Query
+-----------------------------------------------------------------------------*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  /* line 2158, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.home-bg {
+    height: 91.8em;
+    border: solid 1px red;
+  }
+  /* line 2163, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  section.home-container {
+    height: 91.8em;
+    border: solid 1px red;
+  }
+  /* line 2168, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div#home {
+    height: 91em;
+    padding-top: 7%;
+  }
+  /* line 2173, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.home-contents {
+    margin-top: 30%;
+    margin-bottom: 33%;
+    border: solid 1px red;
+    height: 31em;
+  }
+  /* line 2180, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.home-contents h1 {
+    line-height: 0.8em;
+    top: 2.1em;
+  }
+  /* line 2185, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  section.home-portfolio-container, div#home-portfolio {
+    height: 185em;
+  }
+  /* line 2189, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.left-holder, div.right-holder {
+    width: 76.8em;
+  }
+  /* line 2193, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.left-bottom-one, div.left-bottom-two {
+    height: 26.5em;
+  }
+  /* line 2197, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.left-bottom-one a p, div.left-bottom-two a p {
+    top: 14.4em;
+  }
+  /* line 2203, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.left-bottom-two a img {
+    bottom: 7.5em;
+  }
+  /* line 2207, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.right-top a img {
+    bottom: 26.5em;
+  }
+  /* line 2211, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.right-bottom a img {
+    width: 115%;
+    bottom: 15em;
+    right: 8.5em;
+  }
+  /* line 2217, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.port {
+    position: relative;
+    bottom: 15em;
+  }
+}
+
+/* =Media Query for Laptops
+-----------------------------------------------------------------------------*/
+@media screen and (min-width: 1024px) and (max-width: 1450px) and (-webkit-min-device-pixel-ratio: 1) {
+  /* START STYLING LAPTOP SIZE INDEX PAGE
+-----------------------------------------------------------------------------*/
+  /* START STYLING LAPTOP SIZE SECTION HOME AND HOME-CONTAINER STYLES
+-----------------------------------------------------------------------------*/
+  /* =Start Home Section Style */
+  /* line 2248, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.home-bg {
+    height: 77em;
+  }
+  /* line 2252, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  section.home-container {
+    height: 77em;
+  }
+  /* line 2256, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.home-contents {
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+  /* line 2261, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div#home-portfolio {
+    padding-top: 8%;
+  }
+  /* =End Home Section Style */
+  /* line 2267, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.grouped {
+    width: 115.5em;
+    height: 38em;
+  }
+  /* line 2272, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.icon {
+    margin: 2.22%;
+  }
+  /* line 2276, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.ex-icon {
+    height: 20em;
+  }
+  /* line 2280, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.ex-icon p {
+    width: 19em;
+  }
+  /* line 2284, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.left-group-top,
+  div.right-group-top {
+    margin-right: 3%;
+    width: 56em;
+    height: 17em;
+  }
+  /* line 2291, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  section.process-container {
+    height: 55em;
+  }
+  /* line 2295, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div#process {
+    padding-top: 5%;
+    height: 55em;
+  }
+  /* line 2300, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  section.phil-container {
+    height: 35em;
+  }
+  /* line 2304, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div#phil {
+    height: 35em;
+    padding-top: 5%;
+  }
+  /* line 2309, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div#expertise {
+    height: 65em;
+    padding-top: 5%;
+  }
+  /* line 2314, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  section.expertise-container {
+    height: 65em;
+  }
+  /* line 2318, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.left-group-bottom,
+  div.right-group-bottom {
+    width: 56em;
+    height: 17em;
+  }
+  /* line 2324, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  section.about-container {
+    height: 75em;
+  }
+  /* line 2328, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div#about {
+    padding-top: 5%;
+    height: 75em;
+  }
+  /* line 2333, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.port-item {
+    width: 25%;
+    height: 24em;
+  }
+  /* line 2338, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  section.portfolio-container {
+    height: 116.4em;
+  }
+  /* line 2342, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div#portfolio {
+    height: 72.7em;
+    padding-top: 5%;
+  }
+  /* line 2347, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  section.top-portfolio-container,
+  section.top-contact-container,
+  section.nipost-home-container {
+    height: 40em;
+  }
+  /* line 2353, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.contact-bg {
+    background-position: -53em -35em;
+  }
+  /* NIPOST Page Style */
+  /* line 2359, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  section.nipost-first-container, div.nipost-holder {
+    height: 465em;
+  }
+}
+
+@media screen and (max-width: 1680px) and (min-width: 1460px) {
+  /* line 2368, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  section.home-container {
+    height: 95em;
+  }
+  /* line 2372, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.home-contents {
+    margin-top: 6%;
+    margin-bottom: 10%;
+  }
+  /* line 2377, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  section.phil-container {
+    height: 37em;
+  }
+  /* line 2381, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div.port-item {
+    height: 30em;
+  }
+  /* line 2386, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  section.portfolio-container {
+    height: 86.5em;
+  }
+  /* line 2390, /Users/chuckobazemac/Documents/chuckobaze/sass/chuck-designs.scss */
+  div#portfolio {
+    height: 86.5em;
+    padding-top: 5%;
+  }
+}
+
+/*# sourceMappingURL=../css/chuck-designs.map */
