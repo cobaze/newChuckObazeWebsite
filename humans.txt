@@ -1,0 +1,14 @@
+/* Chuck Obaze, a Freelance Graphic and Web Designer Based in Atlanta, GA  */
+/* chuckobaze.com */
+/* humanstxt.org */
+
+/* TEAM */
+
+	Web Designer/Developer: Chuck Obaze
+	Twitter: @CHUCKOBAZE
+	From: Atlanta, GA
+
+/* SITE */
+	Language: English
+	Doctype:HTML5, CSS3
+	IDE: Coda 2, Git Hub, Sass, Photoshop, Illustrator, Scout, Cyberduck
