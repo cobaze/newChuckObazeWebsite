@@ -1,0 +1,2395 @@
+/*-----------------------------------------------------------------------------
+Prototype Style Sheet (empty commented stylesheet)
+
+version:   1.0
+author:    Chuck Obaze
+email:     obazechuck@gmail.com
+website:   http://obazedesigns.com
+-----------------------------------------------------------------------------*/
+
+
+/* =imports
+-----------------------------------------------------------------------------*/
+@import 'fontfamily';
+
+@import 'colors';
+
+
+/* =SASS Variables
+-----------------------------------------------------------------------------*/
+
+$border: solid 1px;
+$body-font-size: 10px;
+$section-height: 96em;
+$white-font: #ffffff;
+
+%h2-values{
+	text-align: center;
+	margin-bottom:2%;
+	color: $alt-font-color;
+	font-size: 3.5em;
+	font-weight: 300;
+}
+
+%parrallex-bg{
+	height: 150em;
+	width: 100%;
+	position: fixed;
+	background-position: 0em -40em;
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: -3;
+	top:0em;
+	left:0;
+	overflow: hidden;
+}
+
+%port-container{
+	padding-top: 5%;
+    background: #ffffff;
+    clear: both;
+    margin: 0 auto;
+    width: 100%;
+}
+
+@mixin box-shadow ($radius){
+	box-shadow: $radius;
+	-webkit-box-shadow: $radius;
+	-moz-box-shadow: $radius;
+	-ms-box-shadow: $radius;
+}
+
+/* =Remember Order Of Styling Links
+-----------------------------------------------------------------------------*/
+
+a:link, a:visited, a:hover, a:focus, a:active
+
+/* =Start General Website Style
+-----------------------------------------------------------------------------*/
+
+html{
+	font-size: $body-font-size;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: $body-font-size;
+	font-family: 'Exo 2', sans-serif;
+	width: 100%;
+	margin: 0 auto;
+	display: none;
+
+}
+
+hr{
+	height: 3px;
+	background-color: #f98348;
+	margin: 0 auto;
+	width: 2em;;
+	border: 0;
+}
+
+#main-container{
+	width: 100%;
+	overflow: hidden;
+}
+
+header.main-header{
+	position: fixed;
+	z-index: 2;
+	width: 100%;
+	background-color: transparent;
+	padding: 2em 0 2em 0;
+
+
+	img{
+		float: left;
+		width: 100%;
+		max-width: 4em;
+		padding-left: 2%;
+	}
+}
+
+#lines{
+	display: none;
+}
+
+.active-link{
+	border-bottom: solid $green-color 0.3em;
+}
+
+nav.main-nav{
+	float: right;
+	padding-right: 2%;
+	position: relative;
+	top: 1.3em;
+
+	ul{
+		clear: both;
+		height: 2em;
+		padding: 0;
+		margin: 0;
+
+
+		li{
+			list-style: none;
+			float: left;
+			margin-right: 2em;
+			display: inline;
+
+			a{
+				text-decoration: none;
+				color:#ffffff;
+				font-size: 1.7em;
+				font-weight: 200;
+
+				/*&:visited{
+					border-bottom: solid $red-color .3em;
+				}*/
+
+				&:hover, &:focus, /*&:active*/{
+					border-bottom: solid $green-color .3em;
+				}
+			}
+		}
+	}
+}
+
+li.contact-nav{
+	margin-right: 0em !important;
+}
+
+/* START STYLING INDEX PAGE
+-----------------------------------------------------------------------------*/
+
+/* START STYLING HOME SECTION STYLES
+-------------------------------------------*/
+
+div.home-bg{
+	height: 150em;
+	max-height: 100%;
+	width: 100%;
+	position: fixed;
+	background-image: url(../imgs/home-bg.jpg);
+	background-position: center bottom;
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: -1;
+	top:0em;
+	left:0;
+	overflow: hidden;
+
+}
+
+
+section.home-container{
+
+	height: 100em;
+	max-height: 100%;
+	clear: both;
+	width: 100%;
+}
+
+div#home{
+	width: 100%;
+	padding-top: 12%;
+	box-sizing: border-box;
+	height: 100em;
+	max-height: 100%;
+	margin: 0 auto;
+}
+
+div.home-contents{
+	height: 25em;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 7%;
+	margin-bottom: 28em;
+	position: relative;
+	z-index: -1;
+
+	h1{
+		width: 100%;
+		color: #ffffff;
+		font-size: 15em;
+		text-align: center;
+		margin: 0 auto;
+		font-weight: bolder;
+		line-height: 1.5em;
+		opacity: 0.7;
+		position: fixed;
+		z-index: -1;
+	}
+
+	h2{
+		width: 100%;
+		color: #ffffff;
+		font-size: 4em;
+		text-align: center;
+		margin: 0 auto;
+		font-weight: 300;
+		line-height: 1.5em;
+		position: fixed;
+		z-index: -1;
+	}
+
+	img{
+		margin: 0 auto;
+		display: block;
+		margin-top: 2%;
+		margin-bottom: 2%;
+		width: 80em;
+		max-width: 80%;
+		position: relative;
+		z-index: -1;
+	}
+}
+
+a.dwn-btn{
+		max-width: 6em;
+		height: 6em;
+		max-height: 100%;
+		width: 100%;
+		display: block;
+		margin: 0 auto;
+		background-image: url(../imgs/dwn-btn-white.png);
+		background-size: 100%;
+		background-repeat: no-repeat;
+
+		&:hover, &:focus{
+			background-image: url(../imgs/dwn-btn.png);
+		}
+}
+
+/* START STYLING HOME PORTFOLIO SECTION
+-------------------------------------------*/
+
+section.home-portfolio-container{
+	width:100%;
+	height: 120em;
+	background-color: #ffffff;
+}
+
+div#home-portfolio{
+	width: 120em;
+	max-width: 100%;
+	height: 101em;
+	margin: 0 auto;
+	clear: both;
+	padding-top: 5%;
+	box-sizing: border-box;
+	margin-bottom: 3%;
+
+	h2{
+		@extend %h2-values;
+	}
+
+	&>p{
+		font-size: 2em;
+		font-weight: 200;
+		line-height: 1.5em;
+		color: $alt-font-color;
+		width: 30em;
+		max-width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 2em;
+	}
+}
+
+div.left-holder, div.right-holder{
+	height: 70em;
+	max-width: 100%;
+	width: 60em;
+	float: left;
+}
+
+div.left-top{
+	height: 43.5em;
+	width: 100%;
+	overflow: hidden;
+
+	a{
+		text-decoration: none;
+
+		&>p{
+			font-size: medium;
+			width: 6em;
+			position: relative;
+			padding: 0.5em;
+			color: #ffffff;
+			font-weight: bold;
+			text-decoration: none;
+			z-index: 1;
+			top: 25em;
+			background-color: $green-color;
+		}
+
+		img{
+			width: 103%;
+			position: relative;
+			bottom: 5em;
+		}
+	}
+
+}
+
+div.right-top{
+	height: 29em;
+	width: 100%;
+	overflow: hidden;
+
+	a{
+		text-decoration: none;
+
+	img{
+		width: 102%;
+		position: relative;
+		bottom: 17.5em;
+	}
+
+	&>p{
+			font-size: medium;
+			width: 8.1em;
+			position: relative;
+			padding: 0.5em;
+			color: #ffffff;
+			font-weight: bold;
+			text-decoration: none;
+			z-index: 1;
+			top: 16em;
+			background-color: $green-color;
+		}
+
+	}
+}
+
+div.left-bottom-one{
+	float: left;
+	width: 50%;
+	height: 25.5em;
+	overflow: hidden;
+
+	a{
+		text-decoration: none;
+
+	img{
+		width: 118%;
+		position: relative;
+		right: 2em;
+		bottom: 4.5em;
+	}
+
+	&>p{
+			font-size: medium;
+			width: 10em;
+			position: relative;
+			padding: 0.5em;
+			color: #ffffff;
+			font-weight: bold;
+			text-decoration: none;
+			z-index: 1;
+			top: 13.8em;
+			background-color: $green-color;
+		}
+	}
+}
+
+div.left-bottom-two{
+	float: left;
+	width: 50%;
+	height: 25.5em;
+	overflow: hidden;
+
+	a{
+		text-decoration: none;
+
+		img{
+		width: 107%;
+		position: relative;
+		right: 2em;
+		bottom: 5.5em;
+		}
+
+		&>p{
+			font-size: medium;
+			max-width: 100%;
+			width: 8em;
+			position: relative;
+			padding: 0.5em;
+			color: #ffffff;
+			font-weight: bold;
+			text-decoration: none;
+			z-index: 1;
+			top: 13.8em;
+			background-color: $green-color;
+		}
+	}
+}
+
+div.right-bottom{
+	height: 40em;
+	width: 100%;
+	float: left;
+	overflow: hidden;
+
+	a{
+		text-decoration: none;
+
+	img{
+		width: 130%;
+		position: relative;
+		right: 10.5em;
+		bottom: 12em;
+	}
+
+	&>p{
+			font-size: medium;
+			width: 9em;
+			position: relative;
+			padding: 0.5em;
+			color: #ffffff;
+			font-weight: bold;
+			text-decoration: none;
+			z-index: 1;
+			top: 22.9em;
+			background-color: $green-color;
+		}
+	}
+}
+
+div.port{
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0 auto;
+	clear: both;
+	max-width: 31em;
+
+	a{
+		text-decoration: none;
+		padding: 1em;
+		font-size: 2em;
+		font-weight: 600;
+		color: $orange-color;
+		background-color: #ffffff;
+		border: solid $orange-color 0.125em;
+		box-sizing: border-box;
+		display: block;
+
+		&:hover, &:focus{
+			color: #ffffff;
+			background-color: $orange-color;
+		}
+
+	}
+}
+
+
+/* END STYLING SECTION PORTFOLIO AND HOME-PORTFOLIO-CONTAINER STYLES
+-----------------------------------------------------------------------------*/
+
+/* START STYLING SECTION PROCESS AND PROCESS-CONTAINER STYLES
+-----------------------------------------------------------------------------*/
+
+section.process-container{
+	width:100%;
+	height: 70em;
+	background-color: #fafafa;
+
+}
+
+div#process{
+	width: 100%;
+	height: 70em;
+	padding-top: 5%;
+	margin: 0 auto;
+	clear: both;
+	box-sizing: border-box;
+
+	h2{
+		@extend %h2-values;
+	}
+
+}
+
+div.icon-holder{
+	height: 35em;
+	width: 131em;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+div.icon{
+	float: left;
+	width: auto;
+	margin: 2.3%;
+
+	img{
+		width: 15em;
+		max-width: 100%;
+		margin: 0 auto;
+		display: block;
+	}
+
+	p{
+		text-align: center;
+		font-size: 2em;
+		font-weight: bold;
+		color: $alt-font-color;
+		text-align: center;
+		width: 13em;
+		margin-top: 1em;
+
+		span{
+			font-size: 0.8em;
+			font-weight: 200;
+		}
+	}
+}
+
+/* START STYLING PHIL SECTION
+-------------------------------------------*/
+
+section.phil-container{
+	width:100%;
+	height: 45em;
+	background-image: url(../imgs/phil-bg.jpg);
+	background-position: center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+div#phil{
+	height: 45em;
+	padding-top: 5%;
+	margin: 0 auto;
+	width: 100%;
+	box-sizing: border-box;
+
+	h2{
+		@extend %h2-values;
+		color: #ffffff;
+	}
+
+	p{
+		font-size: 2.5em;
+		font-weight: 200;
+		line-height: 1.5em;
+		color: #ffffff;
+		width: 36em;
+		max-width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+}
+
+/* START STYLING EXPERTISE SECTION
+-------------------------------------------*/
+
+section.expertise-container{
+	width:100%;
+	height: 75em;
+	background-color: $green-color;
+
+}
+
+div#expertise{
+	width: 100%;
+	clear: both;
+	box-sizing: border-box;
+	height: 75em;
+	padding-top: 5%;
+	margin: 0 auto;
+
+	h2{
+		@extend %h2-values;
+		color: #ffffff;
+		margin-bottom: 5%;
+	}
+
+}
+
+div.grouped{
+	height: 45em;
+	width: 125em;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+div.left-group-top, div.left-group-bottom, div.right-group-top, div.right-group-bottom{
+	height: 15em;
+	float: left;
+	max-width: 100%;
+	width: 57em;
+	margin-bottom: 5%;
+}
+
+div.left-group-top, div.right-group-top{
+	margin-right: 8%;
+}
+
+div.ex-icon{
+	margin:0 auto;
+	height: 15em;
+
+	img{
+		width: 15em;
+		float: left;
+		display: block;
+		margin-right: 5%;
+	}
+
+	p{
+		text-align: left;
+		font-size: 2em;
+		font-weight: bold;
+		color: #ffffff;
+		width: 19em;
+		margin-top: 1em;
+		float: left;
+
+		span{
+			font-size: 0.8em;
+			font-weight: 200;
+
+		}
+	}
+}
+
+/* START STYLING ABOUT SECTION
+-------------------------------------------*/
+
+section.about-container{
+	width:100%;
+	background-image: url(../imgs/phil.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 81.5em;
+}
+
+div#about{
+	height: 81.5em;
+	padding-top: 5%;
+	margin: 0 auto;
+	width: 100%;
+	clear: both;
+	box-sizing: border-box;
+
+	h2{
+		@extend %h2-values;
+		color: #ffffff;
+	}
+
+	&>p{
+		font-size: 2em;
+		font-weight: 200;
+		line-height: 1.5em;
+		color: #ffffff;
+		width: 42em;
+		max-width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 1.5%;
+
+		a{
+			text-decoration: none;
+			color: $green-color;
+			font-size: 1em;
+			font-weight: 500;
+
+			&:hover, &:focus{
+				color: $orange-color;
+			}
+		}
+	}
+
+	img{
+		width: 15em;
+		max-width: 100%;
+		margin: 0 auto;
+		display: block;
+		margin-bottom: 3em;
+	}
+
+}
+
+.social-icons{
+	height: 5.3em;
+	width: 25em;
+	max-width: 100%;
+	margin: 0 auto;
+	margin-top: 1%;
+}
+
+.linked{
+	background: url(../imgs/linkedin.png) no-repeat;
+	background-size: 3em;
+	width: 3em;
+	height: 3em;
+	float: left;
+	margin: 1em;
+
+	&:hover, &:focus{
+			background-image: url(../imgs/linkedin-orange.png);
+		}
+}
+
+.pin{
+	background: url(../imgs/pinterest.png) no-repeat;
+	background-size: 3em;
+	width: 3em;
+	height: 3em;
+	float: left;
+	margin: 1em;
+
+	&:hover, &:focus{
+			background-image: url(../imgs/pinterest-orange.png);
+		}
+}
+
+.google-plus{
+	background: url(../imgs/google-plus.png) no-repeat;
+	background-size: 3em;
+	width: 3em;
+	height: 3em;
+	float: left;
+	margin: 1em;
+
+	&:hover, &:focus{
+			background-image: url(../imgs/google-plus-orange.png);
+		}
+}
+
+.vim{
+	background: url(../imgs/vimeo.png) no-repeat;
+	background-size: 3em;
+	width: 3em;
+	height: 3em;
+	float: left;
+	margin: 1em;
+
+	&:hover, &:focus{
+			background-image: url(../imgs/vimeo-orange.png);
+		}
+}
+
+.behan{
+	background: url(../imgs/behance.png) no-repeat;
+	background-size: 3em;
+	width: 3em;
+	height: 3em;
+	float: left;
+	margin: 1em;
+
+	&:hover, &:focus{
+			background-image: url(../imgs/behance-orange.png);
+		}
+}
+
+div.dwn-pdf{
+	width: 20em;
+	max-width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 4em;
+	margin: 0 auto;
+
+	a{
+		text-decoration: none;
+		padding: 1em;
+		color: $orange-color;
+		background-color: transparent;
+		border: solid $orange-color 0.2em;
+		box-sizing: border-box;
+		display: block;
+		height: 5em;
+
+		&:hover, &:focus{
+			color: #ffffff;
+			background-color: $orange-color;
+		}
+
+		&>p{
+			text-align: center;
+			font-size: 2em;
+			font-weight: bold;
+			margin: 0 auto;
+			margin-bottom: 1%;
+		}
+
+	}
+}
+
+/* END STYLING INDEX PAGE
+-----------------------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------------------------------------------------*/
+
+
+/* START STYLING PROJECTS PAGE
+-----------------------------------------------------------------------------*/
+
+/* START STYLING TOP PORTFOLIO SECTION
+-------------------------------------------*/
+
+div.portfolio-bg{
+	@extend %parrallex-bg;
+	background-image: url(../imgs/portfolio-img.jpg);
+	background-position: 0em 0em;
+}
+
+section.top-portfolio-container{
+	width:100%;
+	height: 50em;
+}
+
+div#top-portfolio{
+	width: 100%;
+	padding-top: 7%;
+	box-sizing: border-box;
+	height: 96em;
+	margin: 0 auto;
+
+	h1{
+		width: 100%;
+		color: #ffffff;
+		font-size: 15em;
+		text-align: center;
+		margin: 0 auto;
+		font-weight: bolder;
+		line-height: 1.5em;
+		opacity: 0.7;
+		position: fixed;
+		z-index: -2;
+	}
+
+	h2{
+		width: 100%;
+		font-size: 4em;
+		text-align: center;
+		margin: 0 auto;
+		font-weight: 300;
+		line-height: 1.5em;
+		position: fixed;
+		z-index: -1;
+		font-family: 'Kaushan Script', cursive;
+		color: #ffffff;
+	}
+
+}
+
+/* START STYLING PORTFOLIO SECTION
+-------------------------------------------*/
+
+section.portfolio-container{
+	width:100%;
+	height: 161em;
+	background-color: #ffffff;
+
+}
+
+div#portfolio{
+	height: 97em;
+	padding-top: 5%;
+	margin: 0 auto;
+	width: 100%;
+	clear: both;
+	box-sizing: border-box;
+	background-color: #ffffff;
+
+	h2{
+		@extend %h2-values;
+	}
+
+	&>p{
+		font-size: 2em;
+		font-weight: 200;
+		line-height: 1.5em;
+		color: $alt-font-color;
+		width: 37em;
+		max-width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 2em;
+	}
+
+}
+
+div.port-item{
+	width: 25%;
+	height: 34em;
+	float: left;
+	overflow: hidden;
+
+	a{
+		&>img{
+			width: 100%;
+		}
+	}
+}
+
+/* END STYLING PORTFOLIO PAGE
+-----------------------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------------------------------------------------*/
+
+
+/* START CONTACT PAGE STYLES
+-----------------------------------------------------------------------------*/
+
+div.contact-bg{
+	@extend %parrallex-bg;
+	background-image: url(../imgs/contact-bg-img-2.jpg);
+	background-position: -30em -35em;
+}
+
+section.top-contact-container{
+	width:100%;
+	height: 50em;
+}
+
+div#top-contact{
+	width: 100%;
+	padding-top: 7%;
+	box-sizing: border-box;
+	height: 96em;
+	margin: 0 auto;
+
+	h1{
+		width: 100%;
+		color: #ffffff;
+		font-size: 15em;
+		text-align: center;
+		margin: 0 auto;
+		font-weight: bolder;
+		line-height: 1.5em;
+		opacity: 0.7;
+		position: fixed;
+		z-index: -2;
+	}
+
+}
+
+section#contact-container{
+	width:100%;
+	height: 110em;
+	background-color: #ffffff;
+}
+
+div#contact{
+	height: 110em;
+	padding-top: 5%;
+	margin: 0 auto;
+	width: 100%;
+	clear: both;
+	box-sizing: border-box;
+
+	h2{
+		@extend %h2-values;
+	}
+
+	&>p{
+		font-size: 2em;
+		font-weight: 200;
+		line-height: 1.5em;
+		color: $alt-font-color;
+		width: 30em;
+		max-width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 2em;
+	}
+
+}
+
+h3.alert{
+	font-weight: bolder;
+	color: $orange-color;
+	font-size: 2.5em;
+	text-align: center;
+	margin-bottom: 2%;
+}
+
+div.p1{
+	margin-top: 20%;
+
+	h3{
+	font-weight: bolder;
+	color: $orange-color;
+	font-size: 2.5em;
+	text-align: center;
+	margin-bottom: 2%;
+	}
+}
+
+span.error{
+
+	h3{
+		font-weight: 200;
+		color: $orange-color;
+		font-size: 1.5em;
+		font-style: italic;
+		text-align: left;
+		margin-bottom: 2%;
+	}
+}
+
+form#contact-us{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 85em;
+}
+
+input,textarea{
+	margin-bottom: 1.5em;
+	display: block;
+    width: 61em;
+    max-width: 100%;
+    height: 100%;
+    padding: 1.5em;
+    font-size: 1.4em;
+    line-height: 1.42857143;
+    color: $font-color;
+    border: $border $alt-font-color;
+    @include box-shadow(inset 0.2em 0.2em 0.4em $alt-font-color);
+    box-sizing: border-box;
+
+}
+
+button{
+	padding: 1em;
+	border: $orange-color solid .1em;
+	font-size: 2.5em;
+	font-weight: 600;
+	color: $orange-color;
+	background-color: #ffffff;
+	margin: 0 auto;
+	box-sizing: border-box;
+	display: block;
+
+	&:hover, &:focus{
+		background-color: $orange-color;
+		color: #ffffff;
+		border: $orange-color solid .1em;
+	}
+}
+
+/* START FOOTER STYLE
+-----------------------------------------------------------------------------*/
+
+footer.main-footer{
+	padding-top:2em;
+	padding-bottom: 2em;
+	box-sizing: border-box;
+	background-color: $deeper-gray;
+	clear: both;
+
+	p{
+		text-align: center;
+		font-size: 1.5em;
+		font-weight: 200;
+		color: #ffffff;
+	}
+}
+
+/* START NIPOST PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+
+div.nipost-bg{
+	background-image: url(../imgs/nipost-bg-img.jpg);
+	@extend %parrallex-bg;
+	background-position: -90em -60em;
+
+
+}
+
+section.nipost-home-container{
+	width:100%;
+	height: 50em;
+}
+
+div#nipost-home{
+	width: 100%;
+	padding-top: 7%;
+	box-sizing: border-box;
+	height: 96em;
+	margin: 0 auto;
+
+	h1{
+		width: 100%;
+		color: #ffffff;
+		font-size: 13em;
+		text-align: center;
+		margin: 0 auto;
+		font-weight: bolder;
+		line-height: 1.5em;
+		opacity: 0.7;
+		position: fixed;
+		z-index: -2;
+	}
+
+	h2{
+		width: 100%;
+		font-size: 4em;
+		text-align: center;
+		margin: 0 auto;
+		font-weight: 300;
+		line-height: 1.5em;
+		position: fixed;
+		z-index: -1;
+		font-family: 'Kaushan Script', cursive;
+		color: #ffffff;
+	}
+
+}
+
+section.nipost-first-container{
+	height: 525em;
+	@extend %port-container;
+}
+
+div.nipost-holder{
+	width: 100em;
+	max-width: 100%;
+	clear: both;
+	margin: 0 auto;
+
+	h2{
+		@extend %h2-values;
+		margin-bottom: 0.5em;
+	}
+
+	&>img{
+		width: 100%;
+		display: block;
+		margin: 0 auto;
+		/*margin-bottom:5%;*/
+		border: solid #696969 0.2em;
+	}
+
+	&>p{
+		font-size: 1.9em;
+		line-height: 1.4em;
+		color: $font-color;
+		font-weight: 300;
+		width: 100%;
+		max-width: 45em;
+		text-align: center;
+		margin: 0 auto;
+		margin-bottom: 1em;
+	}
+
+	h3{
+		@extend %h2-values;
+		margin: 5% 0 5% 0;
+		font-weight: 300;
+		color: $alt-font-color;
+	}
+
+	h4{
+		@extend %h2-values;
+		margin: 5% 0 5% 0;
+		font-weight: 200;
+		color: $alt-font-color;
+	}
+}
+
+div.nipost-collateral-holder{
+		width: 100%;
+		height: 80em;
+		border: $border blue;
+
+}
+
+/* START AGLOW PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+
+div.aglow-bg{
+	background-image: url(../imgs/aglow-bg.jpg);
+	@extend %parrallex-bg;
+}
+
+section.aglow-first-container{
+	height: 284em;
+	@extend %port-container;
+}
+
+/* START CONNECT GA PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+
+div.connect-bg{
+	background-image: url(../imgs/connect-bg.jpg);
+	@extend %parrallex-bg;
+}
+
+section.connect-first-container{
+	height: 510em;
+	@extend %port-container;
+}
+
+.second-last-img{
+	margin-bottom: 5% !important;
+}
+
+.first-sketches{
+	margin-bottom: 5%;
+	border: solid gray 2px;
+}
+
+/* START BUG-OUT PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+
+div.bugout-bg{
+	background-image: url(../imgs/bugout-bg.jpg);
+	@extend %parrallex-bg;
+	background-position: -20em -60em;
+}
+
+section.bugout-first-container{
+	height: 75em;
+	@extend %port-container;
+}
+
+/* START WEDDING MAGAZINE PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+
+div.wedding-bg{
+	background-image: url(../imgs/wedding-bg.jpg);
+	@extend %parrallex-bg;
+}
+
+section.wedding-first-container{
+	height: 354em;
+	@extend %port-container;
+}
+
+/* START FLYERS PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+
+div.flyer-bg{
+	background-image: url(../imgs/flyer-bg-2.jpg);
+	@extend %parrallex-bg;
+	background-position: -20em -60em;
+}
+
+section.flyer-first-container{
+	height: 330em;
+	@extend %port-container;
+}
+
+div#flyer-home{
+
+	width: 100%;
+	padding-top: 7%;
+	box-sizing: border-box;
+	height: 96em;
+	margin: 0 auto;
+
+	h1{
+	    width: 100%;
+	    color: #ffffff;
+	    font-size: 13em;
+	    text-align: center;
+	    margin: 0 auto;
+	    font-weight: bolder;
+	    line-height: 0.8em;
+	    opacity: 0.7;
+	    position: fixed;
+	    z-index: -2;
+    }
+}
+
+/* START INTERNET CONFERENCE PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+
+div.interconf-bg{
+	background-image: url(../imgs/interconf-bg.jpg);
+	@extend %parrallex-bg;
+	background-position: -45em -61em;
+}
+
+section.interconf-first-container{
+	height: 75em;
+	@extend %port-container;
+}
+
+div#interconf-home{
+	width: 100%;
+	padding-top: 7%;
+	box-sizing: border-box;
+	height: 96em;
+	margin: 0 auto;
+
+	h1{
+		width: 100%;
+		color: #ffffff;
+		font-size: 13em;
+		text-align: center;
+		margin: 0 auto;
+		font-weight: bolder;
+		line-height: 0.9em;
+		opacity: 0.7;
+		position: fixed;
+		z-index: -2;
+	}
+}
+
+/* START TAILORED PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+
+div.tailored-bg{
+	background-image: url(../imgs/tailored-creation-2.jpg);
+	background-position: 0em 0em;
+	@extend %parrallex-bg;
+}
+
+section.tailored-first-container{
+	height: 421em;
+	@extend %port-container;
+}
+
+/* START REBRAND PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+
+div.rebrand-bg{
+	background-image: url(../imgs/obaze-design-bg.jpg);
+	@extend %parrallex-bg;
+	background-position: 0em -100em;
+}
+
+section.rebrand-first-container{
+	height: 266em;
+	@extend %port-container;
+}
+
+/* START BRANDING PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+
+div.branding-bg{
+	background-image: url(../imgs/branding-bg.jpg);
+	@extend %parrallex-bg;
+	background-position: -15em -5em;
+}
+
+section.branding-first-container{
+	height: 138em;
+	@extend %port-container;
+}
+
+/* START NEWSLETTER PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+
+div.newsletter-bg{
+	background-image: url(../imgs/newsletter-bg.jpg);
+	@extend %parrallex-bg;
+	background-position: 0em -60em;
+}
+
+section.newsletter-first-container{
+	height: 138em;
+	@extend %port-container;
+}
+
+/* START POP-UP BANNER PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+
+div.tradeshow-bg{
+	background-image: url(../imgs/trade-show-bg.jpg);
+	@extend %parrallex-bg;
+	background-position: -105em -86em;
+}
+
+section.tradeshow-first-container{
+	height: 202em;
+	@extend %port-container;
+}
+
+/* START INVITATION PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+
+div.invitation-bg{
+	background-image: url(../imgs/invitation-bg.jpg);
+	@extend %parrallex-bg;
+	background-position: -25em -16em;
+}
+
+section.invitation-first-container{
+	height: 138em;
+	@extend %port-container;
+}
+
+/* START VIDEO PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+
+div.video-bg{
+	background-image: url(../imgs/video-bg.jpg);
+	@extend %parrallex-bg;
+	background-position: -40em -40em;
+}
+
+section.video-first-container{
+	height: 208em;
+	@extend %port-container;
+}
+
+/* START LOWPRO PROJECT PAGE STYLES
+-----------------------------------------------------------------------------*/
+
+div.lowpro-bg{
+	background-image: url(../imgs/lowpro-bg.jpg);
+	@extend %parrallex-bg;
+	background-position: -40em -40em;
+}
+
+section.lowpro-first-container{
+	height: 347em;
+	@extend %port-container;
+}
+
+/* START MEDIA QUERIES
+-----------------------------------------------------------------------------*/
+
+
+/* =Cell Phone Media Query Portrait
+-----------------------------------------------------------------------------*/
+
+@media only screen
+  and (min-width: 320px)
+  and (max-width: 740px)
+  and (orientation: portrait) {
+
+/* =Start Nav Style */
+
+	nav.main-nav{
+		position:relative;
+		top: 0;
+		padding: 2%;
+	}
+
+	nav.active-nav{
+		display: none;
+	}
+
+	#lines {
+	    border-bottom: 1.7em double $green-color;
+	    border-top: 0.6em solid $green-color;
+	    content:"";
+	    height: 0.5em;
+	    width:3em;
+	    display: inline-block;
+	    float: right;
+	    margin-top: 3%;
+	    margin-right: 2%;
+
+
+	    &:hover/*, &:focus, &:active*/{
+					border-bottom: 1.7em double $orange-color;
+					border-top: 0.6em solid $orange-color;
+				}
+
+	}
+
+	nav.main-nav ul, nav.main-nav:active ul{
+		display: none;
+		clear: both;
+		height: 12em;
+		position: absolute;
+		padding: 20px;
+		background: $green-color;
+		border: 1px solid red;
+		right: 0px;
+		top: 60px;
+		width: 33em;
+
+	}
+
+	/*nav:active ul {
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: transparent;
+		border: 1px solid red;
+		right: 0px;
+		top: 60px;
+		width: 100%;
+
+
+	}*/
+
+	nav li {
+
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+		list-style: none;
+		float: left;
+		margin-right:0;
+		display: inline;
+
+	}
+
+	nav:hover ul {
+
+		display: block;
+
+	}
+
+/* =End Nav Style */
+
+/* =Start Home Section Style */
+
+	div.home-bg {
+	    height: 63em;
+    }
+
+	section.home-container {
+	    height: 63em;
+	}
+
+	div#home{
+		padding-top: 0;
+		height: 63em;
+		clear: both;
+	}
+
+	div.home-contents{
+		margin-top: 50%;
+		margin-bottom: 45%;
+		height: 21em;
+
+		h1{
+			line-height: 0.8em;
+			font-size: 11em;
+			top:2em;
+		}
+
+		h2{
+			line-height: 1.1em;
+			font-size: 3em;
+		}
+	}
+
+	a.dwn-btn{
+		display: none;
+	}
+
+/* =End Home Section Style */
+
+/* =Start Home Portfolio Section Style */
+
+	section.home-portfolio-container{
+		height: 138em;
+	}
+
+	div#home-portfolio{
+		padding: 10% 2% 0 2%;
+		height: 138em;
+
+		h2{
+			margin-bottom: 10%;
+		}
+
+	}
+
+	div.left-holder{
+		height: 46em;
+	}
+
+	div.left-top{
+		height: 27.4em;
+
+		a{
+			p{
+				top: 15em;
+				width: 100%;
+				text-align: center;
+			}
+		}
+	}
+
+	div.left-bottom-one{
+		height: 18.5em;
+
+		a{
+			img{
+				width: 112%;
+				bottom: 3.5em;
+			}
+
+			p{
+				top: 9.4em;
+				width: 100%;
+				text-align: center;
+			}
+		}
+	}
+
+	div.left-bottom-two{
+		height: 18.5em;
+
+		a{
+			img{
+				width: 112%;
+				bottom: 3.5em;
+				right: 1em;
+			}
+
+			p{
+				top: 9.4em;
+				width: 100%;
+				text-align: center;
+			}
+		}
+	}
+
+	div.right-holder{
+		height: 53.5em;
+	}
+
+	div.right-top{
+		height: 24.3em;
+
+		a{
+			img{
+				bottom: 10.5em;
+				width: 102%;
+			}
+
+			p{
+				top: 13em;
+				width: 100%;
+				text-align: center;
+			}
+		}
+	}
+
+	div.right-bottom{
+		height: 29em;
+
+		a{
+			img{
+				bottom: 8.5em;
+				width: 128%;
+				right: 7em;
+			}
+
+			p{
+				top: 15.94em;
+				width: 100%;
+				text-align: center;
+			}
+		}
+	}
+
+	div.port{
+		position: relative;
+		bottom: 11em;
+	}
+
+/* =End Home Portfolio Section Style */
+
+/* =Start Process Section Style */
+
+	section.process-container{
+		height: 150em;
+	}
+
+	div#process{
+		padding: 10% 2% 0 2%;
+		height: 150em;
+
+	}
+
+	div.icon-holder{
+		height: 140em;
+		width: 100%;
+		max-width: 100%;
+
+	}
+
+	div.icon{
+		padding: 10% 14.7% 0 14.7%;
+		margin: 0;
+		box-sizing: border-box;
+	}
+
+/* =End Process Section Style */
+
+/* =Start Phil Section Style */
+
+	section.phil-container{
+		height: 43.5em;
+	}
+
+	div#phil{
+		padding: 10% 2% 0 2%;
+		height: 43.5em;
+
+		h2{
+			margin-bottom: 10%;
+		}
+	}
+
+/* =End Phil Section Style */
+
+/* =Start Expertise Section Style */
+
+	section.expertise-container{
+		height: 150em;
+	}
+
+	div#expertise{
+		height: 150em;
+		padding: 10% 2% 0 2%;
+
+		h2{
+			margin-bottom: 10%;
+		}
+	}
+
+	div.grouped{
+		width: 100%;
+		height: 136.8em;
+	}
+
+	div.left-group-top,
+	div.left-group-bottom,
+	div.right-group-top,
+	div.right-group-bottom{
+		width: 100%;
+		float: none;
+		height: 32em;
+	}
+
+	div.ex-icon{
+		height: 32em;
+		width: 100%;
+
+		img{
+			margin: 0 auto;
+			float: none;
+			margin-bottom: 5%;
+		}
+
+		p{
+			text-align: center;
+			margin-top: 0;
+			width: 15em;
+			margin: 0 auto;
+			display: block;
+			float: none;
+		}
+	}
+
+/* =End Expertise Section Style */
+
+/* =Start About Section Style */
+
+	section.about-container{
+		height: 110em;
+	}
+
+	div#about{
+		height: 110em;
+		padding: 10% 2% 0 2%;
+
+		h2{
+			margin-bottom: 10%;
+		}
+
+		p{
+			text-align: center;
+			margin-bottom: 10%;
+		}
+	}
+
+	div.social-icons{
+		margin-top: 8%;
+	}
+
+/* =End About Section Style */
+
+/* =Start Portfolio Page Style */
+
+	div.portfolio-bg{
+		background-image: url(../imgs/portfolio-img.jpg);
+		background-position: -50em 0em;
+		height: 30em;
+		background-size: 400%;
+	}
+
+	section.top-portfolio-container{
+		height: 30em;
+	}
+
+	div#top-portfolio{
+		padding-top: 0;
+		height: 30em;
+
+		h1{
+			font-size: 7em;
+			line-height: 1.5em;
+			top: 1.5em;
+		}
+	}
+
+	section.portfolio-container{
+		height: 244em;
+	}
+
+	div#portfolio{
+		padding-top: 10%;
+		box-sizing: border-box;
+		height: 358.5em;
+
+		p{
+			margin-bottom: 10%;
+		}
+
+	}
+
+	div.port-item{
+		height: 28em;
+		width: 48em;
+		max-width: 100%;
+	}
+
+/* =End Portfolio Page Style */
+
+/* =Start Contact Section Style */
+
+	div.contact-bg{
+		background-position: -15em 0em;
+		background-size: 175%;
+		height: 30em;
+	}
+
+	section.top-contact-container{
+		height: 30em;
+	}
+
+	div#top-contact{
+		padding-top: 0;
+		height: 30em;
+
+		h1{
+			font-size: 7em;
+			line-height: 0.8em;
+			top: 1.9em;
+		}
+	}
+
+	div#contact{
+		padding: 10% 2% 0 2%;
+
+		h2{
+			margin-bottom: 10%;
+		}
+	}
+
+/* =End Contact Section Style */
+
+
+
+}
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 1)
+  and (orientation: landscape) {
+
+  nav.main-nav{
+		top: 0;
+		float: right;
+	    padding-right: 2%;
+	    position: relative;
+	    top: 1.3em;
+	}
+
+	nav.active-nav{
+		display: none;
+	}
+
+	#lines {
+	    border-bottom: 1.7em double $green-color;
+	    border-top: 0.6em solid $green-color;
+	    content:"";
+	    height: 0.5em;
+	    width:3em;
+	    display: inline-block;
+	    float: right;
+	    margin-top: 3%;
+	    margin-right: 2%;
+
+
+	    &:hover/*, &:focus, &:active*/{
+					border-bottom: 1.7em double $orange-color;
+					border-top: 0.6em solid $orange-color;
+				}
+
+	}
+
+	nav.main-nav ul, nav.main-nav:active ul{
+		display: none;
+		clear: both;
+		height: 12em;
+		position: absolute;
+		padding: 20px;
+		background: $green-color;
+		border: 1px solid red;
+		right: 0px;
+		top: 60px;
+		width: 63em;
+
+	}
+
+	/*nav:active ul {
+		display: none;
+		position: absolute;
+		padding: 20px;
+		background: transparent;
+		border: 1px solid red;
+		right: 0px;
+		top: 60px;
+		width: 100%;
+
+
+	}*/
+
+	nav li {
+
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+		list-style: none;
+		float: left;
+		margin-right:0;
+		display: inline;
+
+	}
+
+	nav:hover ul {
+
+		display: block;
+
+	}
+
+	a.dwn-btn{
+		display: none;
+	}
+
+	/* =Start Home Section Style */
+
+	div.home-bg {
+	    height: 40em;
+    }
+
+	section.home-container {
+	    height: 40em;
+	}
+
+	div#home{
+		padding-top: 0;
+		height: 40em;
+		clear: both;
+	}
+
+	div.home-contents{
+		margin-top: 0;
+		height: 40em;
+		margin-bottom: 0;
+
+		h1{
+			line-height: 0.8em;
+			font-size: 11em;
+			top: 1.2em;
+		}
+
+		h2{
+			line-height: 8em;
+			font-size: 3em;
+		}
+	}
+
+	a.dwn-btn{
+		display: none;
+	}
+
+/* =End Home Section Style */
+
+/* =Start Home Portfolio Section Style */
+
+	section.home-portfolio-container{
+		height: 138em;
+	}
+
+	div#home-portfolio{
+		padding: 10% 2% 0 2%;
+		height: 138em;
+
+		h2{
+			margin-bottom: 10%;
+		}
+
+	}
+
+	div.left-holder{
+		height: 73em;
+		width: 100%;
+	}
+
+	div.left-top{
+		height: 46.4em;
+
+		a{
+			p{
+				top: 26.9em;
+				width: 100%;
+				text-align: center;
+			}
+		}
+	}
+
+	div.left-bottom-one{
+		height: 26.7em;
+
+		a{
+			img{
+				width: 112%;
+				bottom: 3.5em;
+			}
+
+			p{
+				top: 14.5em;
+				width: 100%;
+				text-align: center;
+			}
+		}
+	}
+
+	div.left-bottom-two{
+		height: 26.7em;
+
+		a{
+			img{
+				width: 112%;
+				bottom: 4.5em;
+				right: 1em;
+			}
+
+			p{
+				top: 14.5em;
+				width: 100%;
+				text-align: center;
+			}
+		}
+	}
+
+	div.right-holder{
+		height: 53.5em;
+		width: 100%;
+	}
+
+	div.right-top{
+		height: 27.5em;
+
+		a{
+			img{
+				bottom: 21em;
+				width: 102%;
+			}
+
+			p{
+				top: 15em;
+				width: 100%;
+				text-align: center;
+			}
+		}
+	}
+
+	div.right-bottom{
+		height: 95em;
+
+		a{
+			img{
+				bottom: 8.5em;
+				width: 128%;
+				right: 7em;
+			}
+
+			p{
+				top: 29.1em;
+				width: 100%;
+				text-align: center;
+			}
+		}
+	}
+
+	div.port{
+		position: relative;
+		bottom: 11em;
+	}
+
+/* =End Home Portfolio Section Style */
+
+
+}
+
+
+/* =iPad Media Query
+-----------------------------------------------------------------------------*/
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+	div.home-bg {
+	    height: 91.8em;
+	    border: $border red;
+    }
+
+	section.home-container {
+	    height: 91.8em;
+	    border: $border red;
+	}
+
+	div#home{
+		height: 91em;
+		padding-top: 7%;
+	}
+
+	div.home-contents{
+		margin-top: 30%;
+		margin-bottom: 33%;
+		border: $border red;
+		height: 31em;
+	}
+
+	div.home-contents h1{
+		line-height: 0.8em;
+		top: 2.1em;
+	}
+
+	section.home-portfolio-container, div#home-portfolio{
+		height: 185em;
+	}
+
+	div.left-holder, div.right-holder{
+		width: 76.8em;
+	}
+
+	div.left-bottom-one, div.left-bottom-two{
+		height: 26.5em;
+
+		a{
+			p{
+				top:14.4em;
+			}
+		}
+	}
+
+	div.left-bottom-two a img{
+		bottom: 7.5em;
+	}
+
+	div.right-top a img{
+		bottom: 26.5em;
+	}
+
+	div.right-bottom a img{
+		width: 115%;
+		bottom: 15em;
+		right: 8.5em;
+	}
+
+	div.port{
+		position: relative;
+		bottom: 15em;
+	}
+
+}
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* =Media Query for Laptops
+-----------------------------------------------------------------------------*/
+
+@media screen
+  and (min-width: 1024px)
+  and (max-width: 1450px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+/* START STYLING LAPTOP SIZE INDEX PAGE
+-----------------------------------------------------------------------------*/
+
+/* START STYLING LAPTOP SIZE SECTION HOME AND HOME-CONTAINER STYLES
+-----------------------------------------------------------------------------*/
+
+/* =Start Home Section Style */
+
+	div.home-bg {
+	    height: 67.8em;
+    }
+
+	section.home-container {
+	    height: 67.8em;
+	}
+
+	div.home-contents{
+		margin-top: 8%;
+		margin-bottom: 8%;
+	}
+
+	div#home-portfolio{
+		padding-top: 8%;
+	}
+
+/* =End Home Section Style */
+
+	div.grouped{
+		width: 115.5em;
+		height: 38em;
+	}
+
+	div.icon {
+	    margin: 2.22%;
+    }
+
+    div.ex-icon {
+	    height: 20em;
+    }
+
+    div.ex-icon p{
+	    width: 19em;
+    }
+
+    div.left-group-top,
+    div.right-group-top{
+	    margin-right: 3%;
+	    width: 56em;
+	    height: 17em;
+    }
+
+   section.process-container{
+	   	height: 55em;
+    }
+
+    div#process{
+	    padding-top: 5%;
+	    height: 55em;
+    }
+
+    section.phil-container{
+		height: 35em;
+	}
+
+	div#phil{
+		height: 35em;
+		padding-top: 5%;
+	}
+
+	div#expertise{
+		height: 65em;
+		padding-top: 5%;
+	}
+
+	section.expertise-container {
+	    height: 65em;
+	}
+
+    div.left-group-bottom,
+    div.right-group-bottom{
+	    width: 56em;
+	    height: 17em;
+    }
+
+    section.about-container{
+	    height: 75em;
+    }
+
+    div#about{
+		padding-top: 5%;
+		height: 75em;
+	}
+
+    div.port-item{
+		width: 25%;
+		height: 24em;
+	}
+
+	section.portfolio-container{
+		height: 116.4em;
+	}
+
+	div#portfolio{
+		height: 72.7em;
+		padding-top: 5%;
+	}
+
+	section.top-portfolio-container,
+	section.top-contact-container,
+	section.nipost-home-container{
+		height: 40em;
+	}
+
+	div.contact-bg{
+		background-position: -53em -35em;
+	}
+
+	/* NIPOST Page Style */
+
+	section.nipost-first-container, div.nipost-holder{
+		height: 465em;
+	}
+}
+
+@media screen
+  and (max-width: 1680px)
+  and (min-width: 1460px) {
+
+	section.home-container {
+	    height: 95em;
+	}
+
+	div.home-contents{
+		margin-top: 6%;
+		margin-bottom: 10%;
+	}
+
+	section.phil-container{
+		height: 37em;
+	}
+
+	div.port-item{
+		height: 30em;
+
+	}
+
+	section.portfolio-container{
+		height:86.5em;
+	}
+
+	div#portfolio{
+		height:86.5em;
+		padding-top: 5%;
+	}
+}
+

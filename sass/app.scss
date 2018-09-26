@@ -13,7 +13,25 @@ website:   http://obazedesigns.com
 
 /* =SASS Variables
 -----------------------------------------------------------------------------*/
-
+$border: solid 1px;
+$body-font-size: 10px;
 
 /* START STYLING INDEX PAGE
 -----------------------------------------------------------------------------*/
+
+html{
+    font-size: $body-font-size;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-body{
+    border: $border $red-color;
+}
+
+.site-logo img{
+    width: 15em;
+}
