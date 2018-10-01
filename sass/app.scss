@@ -30,8 +30,65 @@ html{
 
 .main-body{
     border: $border $red-color;
+    padding-right: 0rem !important;
+    padding-left: 0rem !important;
 }
 
-.site-logo img{
-    width: 15em;
+header.main-header{
+
 }
+
+.hero-img{
+    /*background:url(../imgs/main-bg.jpg) no-repeat;*/
+    background-size: cover;
+    background-position: center;
+}
+
+.site-logo{
+    
+    img{
+        width: 6em;
+    }
+}
+
+// This is to prevent FOUC (flash of unstyled content.)
+
+.no-js .top-bar {
+  display: none;
+}
+
+/* Small screen only */
+@media screen and (max-width: 39.9375em) {
+    
+    .site-logo{
+    
+    img{
+        width: 6em;
+        margin: 0 auto;
+    }
+}
+    
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+    
+    // This is to prevent FOUC (flash of unstyled content.)
+    
+    .no-js .top-bar {
+    display: block;
+  }
+
+  .no-js .title-bar {
+    display: none;
+  }
+    
+   .main-body{
+        border: $border $red-color;
+        padding-right: 0rem !important;
+        padding-left: 0rem !important;
+    }
+    
+    
+}
+
