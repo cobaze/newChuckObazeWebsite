@@ -33,16 +33,20 @@ html {
     border: $border $red-color;
     padding-right: 0rem !important;
     padding-left: 0rem !important;
+
 }
 
 header.main-header {
     background-color: transparent;
+    position: absolute;
+    top: 0rem;
 }
 
 .hero-img {
-    /*background:url(../imgs/main-bg.jpg) no-repeat;*/
+    background:url(../imgs/main-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    height: 100%;
 }
 
 .site-logo {
@@ -58,12 +62,15 @@ nav.main-nav {
         float: right;
         background-color: transparent;
 
-        li {
+        li  {
             font-weight: bolder;
             font-size: 2em !important;
             padding-right: 2em;
+            color: white;
 
-            a {}
+            a {
+                height: auto;
+            }
         }
     }
 }
