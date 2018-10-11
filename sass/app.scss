@@ -7,6 +7,11 @@ email:     obazechuck@gmail.com
 website:   http://obazedesigns.com
 -----------------------------------------------------------------------------*/
 
+/* =Remember Order Of Styling Links
+-----------------------------------------------------------------------------*/
+
+a:link, a:visited, a:hover, a:focus, a:active
+
 /* =imports
 -----------------------------------------------------------------------------*/
 @import 'colors';
@@ -33,26 +38,26 @@ html {
     border: $border $red-color;
     padding-right: 0rem !important;
     padding-left: 0rem !important;
-
 }
 
 header.main-header {
     background-color: transparent;
     position: absolute;
     top: 0rem;
+    border: $border green;
 }
 
 .hero-img {
-    background:url(../imgs/main-bg.jpg) no-repeat;
+    background: url(../imgs/home-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100%;
+    height: 100rem;
 }
 
 .site-logo {
 
     img {
-        width: 6em;
+        width: 6rem;
     }
 }
 
@@ -63,13 +68,14 @@ nav.main-nav {
         background-color: transparent;
 
         li  {
-            font-weight: bolder;
-            font-size: 2em !important;
-            padding-right: 2em;
-            color: white;
+            
 
             a {
-                height: auto;
+                font-weight: bolder;
+                font-size: 2em !important;
+                padding-right: 2em;
+                color: $white-color;
+                height: 100%;
             }
         }
     }
@@ -88,7 +94,6 @@ nav.main-nav {
 
         img {
             width: 6em;
-            margin: 0 auto;
         }
     }
 

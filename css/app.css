@@ -1,1 +1,106 @@
-html{font-size:10px;font-family:'Barlow', sans-serif}*{margin:0;padding:0}.main-body{border:solid 1px #f0555a;padding-right:0rem !important;padding-left:0rem !important}header.main-header{background-color:transparent;position:absolute;top:0rem}.hero-img{background:url(../imgs/main-bg.jpg) no-repeat;background-size:cover;background-position:center;height:100%}.site-logo img{width:6em}nav.main-nav ul{float:right;background-color:transparent}nav.main-nav ul li{font-weight:bolder;font-size:2em !important;padding-right:2em;color:white}nav.main-nav ul li a{height:auto}.no-js .top-bar{display:none}@media screen and (max-width: 39.9375em){.site-logo img{width:6em;margin:0 auto}nav.main-nav{width:100% !important}nav.main-nav ul{width:100% !important;background-color:transparent}nav.main-nav ul li{width:100% !important;font-weight:bolder;font-size:2em !important;padding-right:2em;text-align:center}nav.main-nav ul li li.styled-active{width:100% !important}nav.main-nav ul li li.styled-active a{width:100% !important}}@media screen and (min-width: 40em){.no-js .top-bar{display:block}.no-js .title-bar{display:none}.main-body{border:solid 1px #f0555a;padding-right:0rem !important;padding-left:0rem !important}}
+/*-----------------------------------------------------------------------------
+Prototype Style Sheet (empty commented stylesheet)
+
+version:   1.0
+author:    Chuck Obaze
+email:     obazechuck@gmail.com
+website:   http://obazedesigns.com
+-----------------------------------------------------------------------------*/
+/* =imports
+-----------------------------------------------------------------------------*/
+/* =SASS Variables
+-----------------------------------------------------------------------------*/
+/* START STYLING INDEX PAGE
+-----------------------------------------------------------------------------*/
+html {
+  font-size: 10px;
+  font-family: 'Barlow', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-body {
+  border: solid 1px #f0555a;
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+header.main-header {
+  background-color: transparent;
+  position: absolute;
+  top: 0rem;
+  border: solid 1px green;
+}
+
+.hero-img {
+  background: url(../imgs/home-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100rem;
+}
+
+.site-logo img {
+  width: 6rem;
+}
+
+nav.main-nav ul {
+  float: right;
+  background-color: transparent;
+}
+
+nav.main-nav ul li a {
+  font-weight: bolder;
+  font-size: 2em !important;
+  padding-right: 2em;
+  color: #FFFFFF;
+  height: 100%;
+}
+
+.no-js .top-bar {
+  display: none;
+}
+
+/* Small screen only */
+@media screen and (max-width: 39.9375em) {
+  .site-logo img {
+    width: 6em;
+  }
+  nav.main-nav {
+    width: 100% !important;
+  }
+  nav.main-nav ul {
+    width: 100% !important;
+    background-color: transparent;
+  }
+  nav.main-nav ul li {
+    width: 100% !important;
+    font-weight: bolder;
+    font-size: 2em !important;
+    padding-right: 2em;
+    text-align: center;
+  }
+  nav.main-nav ul li li.styled-active {
+    width: 100% !important;
+  }
+  nav.main-nav ul li li.styled-active a {
+    width: 100% !important;
+  }
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+  .no-js .top-bar {
+    display: block;
+  }
+  .no-js .title-bar {
+    display: none;
+  }
+  .main-body {
+    border: solid 1px #f0555a;
+    padding-right: 0rem !important;
+    padding-left: 0rem !important;
+  }
+}
