@@ -19,7 +19,7 @@
 	      <script src="js/respond.min.js"></script>
 	    <![endif]-->
     <script src="js/modernizr.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400" rel="stylesheet">
 
 </head>
 
@@ -27,36 +27,38 @@
     <div class="grid-container fluid main-body">
         <!-- This is the wrapper container -->
 
-        <div class="grid-x hero-img">
-            <!-- This is the top section of the main page -->
-
-            <header class="top-bar grid-x cell main-header">
-                <div class="site-logo cell small-6" style="border:solid red 1px">
-                    <img src="imgs/logo.png" alt="Chuck Obaze Designs Logo">
-                </div>
-
-                <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium" style="border:solid red 1px">
-                    <button class="menu-icon cell small-6" type="button" data-toggle="responsive-menu"></button>
-                    <div class="title-bar-title align-right">Menu</div>
-                </div>
-                   
-                <nav class="main-nav cell small-6" id="responsive-menu" style="border:solid red 1px">
-                    <ul class="vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown">
-                        <li class="is-active styled-active"><a href="#">Home</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Contact Me</a></li>
-                    </ul>
-                </nav>
-
-            </header>
-            
-            <div class="intro-text cell">
-                <h11>Hi, I am a Digital Designer</h11>
+        <header class="top-bar grid-x cell main-header">
+            <div class="site-logo cell small-6">
+                <a class="img-link" href="#"><img src="imgs/logo.png" alt="Chuck Obaze Designs Logo"></a>
             </div>
 
-            
-            
-        </div>
+            <div class="title-bar button-container" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+                <button class="menu-icon cell small-6 menu-tag" type="button" data-toggle="responsive-menu"></button>
+                <!--<div class="title-bar-title align-right ">Menu</div>-->
+            </div>
+
+            <nav class="main-nav cell small-6" id="responsive-menu">
+                <ul class="vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown">
+                    <li class="is-active styled-active"><a href="#">Home</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <section class="grid-x cell hero-img"></section>
+
+        <section class="grid-x cell home-container">
+
+
+            <div class="intro-text cell">
+                <h1>Hi, I am a Digital Designer</h1>
+            </div>
+
+
+
+        </section>
 
 
     </div>

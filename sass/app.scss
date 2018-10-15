@@ -43,9 +43,10 @@ html {
 
 header.main-header {
     background-color: transparent;
-    position: absolute;
+    position: fixed;
     top: 0rem;
     border: $border green;
+    z-index: 1;
 }
 
 .hero-img {
@@ -73,10 +74,12 @@ nav.main-nav {
 
             a {
                 font-weight: bolder;
-                font-size: 2em !important;
-                padding-right: 2em;
+                font-size: 2rem !important;
+                padding-right: 2rem;
                 color: $white-color;
                 height: 100%;
+                font-family: 'Barlow Condensed', sans-serif;
+                font-weight: 100;
             }
         }
     }
@@ -94,12 +97,43 @@ nav.main-nav {
     .site-logo {
 
         img {
-            width: 6em;
+            width: 6rem;
         }
+    }
+
+    .img-link{
+
+    }
+
+    div.button-container{
+        padding: 0.9rem;
+        background-color: transparent;
+    }
+
+    .menu-tag{
+        width: 4em;
+        height: 2.7em;
+    }
+
+    .menu-tag::after{
+        width: 4em;
+        background:$red-color;
+        box-shadow: 0 10px 0 $red-color, 0 20px 0 $red-color;
+        height: 0.5em;
+        position: absolute;
+        top: 0.5rem;
+        left: -0.1rem;
+        display: block;
+    }
+
+    .menu-icon:hover::after{
+        background:$font-gray-color;
+        box-shadow: 0 10px 0 $font-gray-color, 0 20px 0 $font-gray-color;
     }
 
     nav.main-nav {
         width: 100% !important;
+        margin-top: 0.5rem;
 
         ul {
             width: 100% !important;
@@ -108,15 +142,25 @@ nav.main-nav {
             li {
                 width: 100% !important;
                 font-weight: bolder;
-                font-size: 2em !important;
-                padding-right: 2em;
+                font-size: 1.5rem !important;
+                font-weight: 100;
                 text-align: center;
+                border-bottom: solid 0.2rem $red-color;
+
+                &:first-child{
+                    border-top:solid 0.2rem $red-color;
+                }
+
+                a {
+                        padding: 2rem 1rem 2rem 1rem;
+                        background-color: transparent !important;
+                        box-sizing: border-box;
+                    }
 
                 li.styled-active {
-                    width: 100% !important;
 
                     a {
-                        width: 100% !important;
+                        padding-right: 0rem;
                     }
 
                 }
