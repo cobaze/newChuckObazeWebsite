@@ -82,7 +82,7 @@ nav.main-nav {
 }
 
 section.hero-img {
-    background: url(../imgs/home-bg.jpg) no-repeat;
+    background: url(../imgs/home-bg-2.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -127,11 +127,13 @@ div.intro-text {
         font-size: 4em;
         text-align: center;
         margin: 0 auto;
-        font-weight: 300;
+        font-weight: 200;
         line-height: 1.5em;
         position: fixed;
         z-index: -1;
+        font-family: 'Barlow Condensed', sans-serif;
     }
+
 }
 
 // This is to prevent FOUC (flash of unstyled content.)
@@ -216,6 +218,28 @@ div.intro-text {
         }
     }
 
+    .home-container{
+        height: 35em;
+        max-height: 100%;
+        clear: both;
+        position: absolute;
+        z-index: 1;
+        top: 22em;
+    }
+
+    div.intro-text {
+
+    height: 33em;
+    max-height: 100%;
+    margin: 0rem;
+
+    h1 {
+        line-height: 0.9em;
+        position: absolute;
+        top:5rem;
+    }
+}
+
 }
 
 /* Medium and up */
@@ -236,6 +260,27 @@ div.intro-text {
         padding-right: 0rem !important;
         padding-left: 0rem !important;
     }
+
+        .home-container{
+        height: 35em;
+        max-height: 100%;
+        clear: both;
+        position: absolute;
+        z-index: 1;
+        top: 22em;
+    }
+
+    div.intro-text {
+
+    height: 100%;
+    margin: 0rem;
+
+    h1 {
+        line-height: 0.9em;
+        position: absolute;
+        top:5rem;
+    }
+}
 
 
 }
