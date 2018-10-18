@@ -42,6 +42,7 @@ html {
     border: $border $red-color;
     padding-right: 0rem !important;
     padding-left: 0rem !important;
+    height: 94rem;
 }
 
 header.main-header {
@@ -50,6 +51,7 @@ header.main-header {
     top: 0rem;
     border: $border green;
     z-index: 1;
+    padding: 0rem;
 }
 
 .site-logo {
@@ -69,13 +71,13 @@ nav.main-nav {
 
 
             a {
-                font-weight: bolder;
-                font-size: 2rem !important;
+                font-weight: bold;
+                font-size: 2.5rem !important;
                 padding-right: 2rem;
                 color: $white-color;
                 height: 100%;
                 font-family: 'Barlow Condensed', sans-serif;
-                font-weight: 100;
+
             }
         }
     }
@@ -108,13 +110,12 @@ div.intro-text {
 
     h1 {
         width: 100%;
-        color: #ffffff;
+        color: $white-color;
         font-size: 15rem;
         text-align: center;
         margin: 0 auto;
         font-weight: 600;
         line-height: 1.5em;
-        opacity: 0.7;
         position: fixed;
         z-index: -1;
         font-family: 'Barlow Condensed', sans-serif;
@@ -123,7 +124,7 @@ div.intro-text {
 
     h2 {
         width: 100%;
-        color: #ffffff;
+        color: $white-color;
         font-size: 4em;
         text-align: center;
         margin: 0 auto;
@@ -152,7 +153,10 @@ div.intro-text {
         }
     }
 
-    .img-link {}
+    .img-link {
+
+
+    }
 
     div.button-container {
         padding: 0.9rem;
@@ -186,7 +190,7 @@ div.intro-text {
 
         ul {
             width: 100% !important;
-            background-color: transparent;
+            background-color: $red-color;
 
             li {
                 width: 100% !important;
@@ -194,10 +198,10 @@ div.intro-text {
                 font-size: 1.5rem !important;
                 font-weight: 100;
                 text-align: center;
-                border-bottom: solid 0.2rem $red-color;
+                border-bottom: solid 0.2rem $white-color;
 
                 &:first-child {
-                    border-top: solid 0.2rem $red-color;
+                    border-top: solid 0.2rem $white-color;
                 }
 
                 a {
@@ -223,7 +227,7 @@ div.intro-text {
         max-height: 100%;
         clear: both;
         position: absolute;
-        z-index: 1;
+        z-index: -1;
         top: 22em;
     }
 
