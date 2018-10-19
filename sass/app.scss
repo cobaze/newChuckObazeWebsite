@@ -98,7 +98,6 @@ section.hero-img {
 
 .home-container {
     height: 100%;
-    border: $border green;
     clear: both;
 }
 
@@ -116,7 +115,7 @@ div.intro-text {
         margin: 0 auto;
         font-weight: 600;
         line-height: 1.5em;
-        position: fixed;
+        position: relative;
         z-index: -1;
         font-family: 'Barlow Condensed', sans-serif;
         text-transform: uppercase;
@@ -130,8 +129,8 @@ div.intro-text {
         margin: 0 auto;
         font-weight: 200;
         line-height: 1.5em;
-        position: fixed;
-        z-index: -1;
+        position: relative;
+        z-index: -2;
         font-family: 'Barlow Condensed', sans-serif;
     }
 
@@ -153,10 +152,7 @@ div.intro-text {
         }
     }
 
-    .img-link {
-
-
-    }
+    .img-link {}
 
     div.button-container {
         padding: 0.9rem;
@@ -191,6 +187,7 @@ div.intro-text {
         ul {
             width: 100% !important;
             background-color: $red-color;
+            margin-bottom: 1rem;
 
             li {
                 width: 100% !important;
@@ -222,7 +219,7 @@ div.intro-text {
         }
     }
 
-    .home-container{
+    .home-container {
         height: 35em;
         max-height: 100%;
         clear: both;
@@ -233,16 +230,27 @@ div.intro-text {
 
     div.intro-text {
 
-    height: 33em;
-    max-height: 100%;
-    margin: 0rem;
+        height: 33em;
+        max-height: 100%;
+        margin: 0rem;
 
-    h1 {
-        line-height: 0.9em;
-        position: absolute;
-        top:5rem;
+        h1 {
+            line-height: 0.9em;
+            position: relative;
+            top: 5rem;
+        }
+
+        h2{
+            width: 100%;
+            color: $white-color;
+            font-size: 4em;
+            text-align: center;
+            font-weight: 200;
+            line-height: 1.5em;
+            position: relative;
+            z-index: -1;
+        }
     }
-}
 
 }
 
@@ -265,7 +273,7 @@ div.intro-text {
         padding-left: 0rem !important;
     }
 
-        .home-container{
+    .home-container {
         height: 35em;
         max-height: 100%;
         clear: both;
@@ -276,15 +284,20 @@ div.intro-text {
 
     div.intro-text {
 
-    height: 100%;
-    margin: 0rem;
+        height: 100%;
+        margin: 0rem;
 
-    h1 {
-        line-height: 0.9em;
-        position: absolute;
-        top:5rem;
+        h1 {
+            line-height: 0.9em;
+            position: relative;
+            top: 5rem;
+        }
+
+        h2{
+            position: relative;
+        }
+
     }
-}
 
 
 }
