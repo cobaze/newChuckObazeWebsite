@@ -1,1 +1,262 @@
-html{font-size:10px;font-family:'Barlow', sans-serif}*{margin:0;padding:0}.main-body{border:solid 1px #F15A29;padding-right:0rem !important;padding-left:0rem !important;height:94rem}header.main-header{background-color:transparent;position:fixed;top:0rem;border:solid 1px green;z-index:1;padding:0rem}.site-logo img{width:6rem}nav.main-nav ul{float:right;background-color:transparent}nav.main-nav ul li a{font-weight:bold;font-size:2.5rem !important;padding-right:2rem;color:#fff;height:100%;font-family:'Barlow Condensed', sans-serif}section.hero-img{background:url(../imgs/home-bg-2.jpg) no-repeat;background-size:cover;background-position:center;height:100%;position:fixed;z-index:-1;top:0em;left:0em;overflow:hidden;border:solid 1px #ff0}.home-container{height:100%;border:solid 1px green;clear:both}div.intro-text{margin-top:8%;margin-bottom:8%;height:25em;border:solid 1px red}div.intro-text h1{width:100%;color:#fff;font-size:15rem;text-align:center;margin:0 auto;font-weight:600;line-height:1.5em;position:fixed;z-index:-1;font-family:'Barlow Condensed', sans-serif;text-transform:uppercase}div.intro-text h2{width:100%;color:#fff;font-size:4em;text-align:center;margin:0 auto;font-weight:200;line-height:1.5em;position:fixed;z-index:-1;font-family:'Barlow Condensed', sans-serif}.no-js .top-bar{display:none}@media screen and (max-width: 39.9375em){.site-logo img{width:6rem}div.button-container{padding:0.9rem;background-color:transparent}.menu-tag{width:4em;height:2.7em}.menu-tag::after{width:4em;background:#F15A29;box-shadow:0 10px 0 #F15A29,0 20px 0 #F15A29;height:0.5em;position:absolute;top:0.5rem;left:-0.1rem;display:block}.menu-icon:hover::after{background:#A7A9AC;box-shadow:0 10px 0 #A7A9AC,0 20px 0 #A7A9AC}nav.main-nav{width:100% !important;margin-top:0.5rem}nav.main-nav ul{width:100% !important;background-color:#F15A29}nav.main-nav ul li{width:100% !important;font-weight:bolder;font-size:1.5rem !important;font-weight:100;text-align:center;border-bottom:solid 0.2rem #fff}nav.main-nav ul li:first-child{border-top:solid 0.2rem #fff}nav.main-nav ul li a{padding:2rem 1rem 2rem 1rem;background-color:transparent !important;box-sizing:border-box}nav.main-nav ul li li.styled-active a{padding-right:0rem}.home-container{height:35em;max-height:100%;clear:both;position:absolute;z-index:-1;top:22em}div.intro-text{height:33em;max-height:100%;margin:0rem}div.intro-text h1{line-height:0.9em;position:absolute;top:5rem}}@media screen and (min-width: 40em){.no-js .top-bar{display:block}.no-js .title-bar{display:none}.main-body{border:solid 1px #F15A29;padding-right:0rem !important;padding-left:0rem !important}.home-container{height:35em;max-height:100%;clear:both;position:absolute;z-index:1;top:22em}div.intro-text{height:100%;margin:0rem}div.intro-text h1{line-height:0.9em;position:absolute;top:5rem}}
+/*-----------------------------------------------------------------------------
+Prototype Style Sheet (empty commented stylesheet)
+
+version:   1.0
+author:    Chuck Obaze
+email:     obazechuck@gmail.com
+website:   http://chuckobaze.com
+-----------------------------------------------------------------------------*/
+/* =Remember Order Of Styling Links
+
+a:link, a:visited, a:hover, a:focus, a:active
+
+-----------------------------------------------------------------------------*/
+/* imports
+-----------------------------------------------------------------------------*/
+/* SCSS Variables
+-----------------------------------------------------------------------------*/
+/*/* SASS Variables
+--------------------------------*/
+/* START STYLING INDEX PAGE
+-----------------------------------------------------------------------------*/
+/* line 31, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+html {
+  font-size: 10px;
+  font-family: 'Barlow', sans-serif;
+}
+
+/* line 36, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 41, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+.main-body {
+  border: solid 1px #F15A29;
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+  height: 94rem;
+}
+
+/* line 48, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+header.main-header {
+  background-color: transparent;
+  position: fixed;
+  top: 0rem;
+  border: solid 1px green;
+  z-index: 1;
+  padding: 0rem;
+}
+
+/* line 59, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+.site-logo img {
+  width: 6rem;
+}
+
+/* line 66, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+nav.main-nav ul {
+  float: right;
+  background-color: transparent;
+}
+
+/* line 73, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+nav.main-nav ul li a {
+  font-size: 2.5rem !important;
+  padding-right: 2rem;
+  color: #FFFFFF;
+  height: 100%;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+/* line 85, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+section.hero-img {
+  background: url(../imgs/home-bg-2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+  top: 0em;
+  left: 0em;
+  overflow: hidden;
+  border: solid 1px yellow;
+}
+
+/* line 98, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+.home-container {
+  height: 19rem;
+  max-height: 100%;
+  clear: both;
+}
+
+/* line 104, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+div.intro-text {
+  margin-top: 8%;
+  margin-bottom: 8%;
+  height: 100%;
+  border: solid 1px red;
+}
+
+/* line 110, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+div.intro-text h1 {
+  width: 100%;
+  color: #FFFFFF;
+  font-size: 15rem;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 600;
+  line-height: 1.5em;
+  position: absolute;
+  z-index: -1;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
+/* line 124, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+div.intro-text h2 {
+  width: 100%;
+  color: #FFFFFF;
+  font-size: 4em;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 200;
+  position: absolute;
+  z-index: -1;
+  font-family: 'Barlow Condensed', sans-serif;
+  bottom: 28rem;
+}
+
+/* line 141, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+.no-js .top-bar {
+  display: none;
+}
+
+/* Small screen only */
+@media screen and (max-width: 39.9375em) {
+  /* line 150, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  .site-logo img {
+    width: 6rem;
+  }
+  /* line 157, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  div.button-container {
+    padding: 0.9rem;
+    background-color: transparent;
+  }
+  /* line 162, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  .menu-tag {
+    width: 4em;
+    height: 2.7em;
+  }
+  /* line 167, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  .menu-tag::after {
+    width: 4em;
+    background: #F15A29;
+    box-shadow: 0 10px 0 #F15A29, 0 20px 0 #F15A29;
+    height: 0.5em;
+    position: absolute;
+    top: 0.5rem;
+    left: -0.1rem;
+    display: block;
+  }
+  /* line 178, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  .menu-icon:hover::after {
+    background: #A7A9AC;
+    box-shadow: 0 10px 0 #A7A9AC, 0 20px 0 #A7A9AC;
+  }
+  /* line 183, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  nav.main-nav {
+    width: 100% !important;
+    margin-top: 0.5rem;
+  }
+  /* line 187, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  nav.main-nav ul {
+    width: 100% !important;
+    background-color: #F15A29;
+    margin-bottom: 1rem;
+  }
+  /* line 192, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  nav.main-nav ul li {
+    width: 100% !important;
+    font-weight: bolder;
+    font-size: 1.5rem !important;
+    font-weight: 100;
+    text-align: center;
+    border-bottom: solid 0.2rem #FFFFFF;
+  }
+  /* line 200, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  nav.main-nav ul li:first-child {
+    border-top: solid 0.2rem #FFFFFF;
+  }
+  /* line 204, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  nav.main-nav ul li a {
+    padding: 2rem 1rem 2rem 1rem;
+    background-color: transparent !important;
+    box-sizing: border-box;
+  }
+  /* line 212, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  nav.main-nav ul li li.styled-active a {
+    padding-right: 0rem;
+  }
+  /* line 222, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  .home-container {
+    height: 35em;
+    max-height: 100%;
+    clear: both;
+    position: absolute;
+    z-index: -1;
+    top: 22em;
+  }
+  /* line 231, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  div.intro-text {
+    height: 33em;
+    max-height: 100%;
+    margin: 0rem;
+  }
+  /* line 237, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  div.intro-text h1 {
+    line-height: 0.9em;
+    position: relative;
+    top: 5rem;
+  }
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+  /* line 252, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  .no-js .top-bar {
+    display: block;
+  }
+  /* line 256, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  .no-js .title-bar {
+    display: none;
+  }
+  /* line 260, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  .main-body {
+    border: solid 1px #F15A29;
+    padding-right: 0rem !important;
+    padding-left: 0rem !important;
+  }
+  /* line 266, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  .home-container {
+    height: 35em;
+    max-height: 100%;
+    clear: both;
+    position: absolute;
+    z-index: 1;
+    top: 22em;
+  }
+  /* line 275, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  div.intro-text {
+    height: 100%;
+    margin: 0rem;
+  }
+  /* line 280, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  div.intro-text h1 {
+    line-height: 0.9em;
+    position: relative;
+    top: 5rem;
+  }
+}
+
+/*# sourceMappingURL=../css/app.map */

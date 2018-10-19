@@ -71,7 +71,6 @@ nav.main-nav {
 
 
             a {
-                font-weight: bold;
                 font-size: 2.5rem !important;
                 padding-right: 2rem;
                 color: $white-color;
@@ -97,14 +96,15 @@ section.hero-img {
 }
 
 .home-container {
-    height: 100%;
+    height: 19rem;
+    max-height: 100%;
     clear: both;
 }
 
 div.intro-text {
     margin-top: 8%;
     margin-bottom: 8%;
-    height: 25em;
+    height: 100%;
     border: $border red;
 
     h1 {
@@ -115,7 +115,7 @@ div.intro-text {
         margin: 0 auto;
         font-weight: 600;
         line-height: 1.5em;
-        position: relative;
+        position: absolute;
         z-index: -1;
         font-family: 'Barlow Condensed', sans-serif;
         text-transform: uppercase;
@@ -128,10 +128,10 @@ div.intro-text {
         text-align: center;
         margin: 0 auto;
         font-weight: 200;
-        line-height: 1.5em;
-        position: relative;
-        z-index: -2;
+        position: absolute;
+        z-index: -1;
         font-family: 'Barlow Condensed', sans-serif;
+        bottom: 28rem;
     }
 
 }
@@ -240,16 +240,6 @@ div.intro-text {
             top: 5rem;
         }
 
-        h2{
-            width: 100%;
-            color: $white-color;
-            font-size: 4em;
-            text-align: center;
-            font-weight: 200;
-            line-height: 1.5em;
-            position: relative;
-            z-index: -1;
-        }
     }
 
 }
@@ -291,10 +281,6 @@ div.intro-text {
             line-height: 0.9em;
             position: relative;
             top: 5rem;
-        }
-
-        h2{
-            position: relative;
         }
 
     }
