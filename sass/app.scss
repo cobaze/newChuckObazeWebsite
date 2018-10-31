@@ -1,92 +1,92 @@
-/*-----------------------------------------------------------------------------
+/*--------------------------------------
 Prototype Style Sheet (empty commented stylesheet)
-
 version:   1.0
 author:    Chuck Obaze
 email:     obazechuck@gmail.com
 website:   http://chuckobaze.com
------------------------------------------------------------------------------*/
+--------------------------------*/
 
-/* =Remember Order Of Styling Links
-
+/* Remember Order Of Styling Links
 a:link, a:visited, a:hover, a:focus, a:active
-
------------------------------------------------------------------------------*/
+--------------------------------*/
 
 /* imports
------------------------------------------------------------------------------*/
+--------------------------------*/
 @import 'colors';
 
-/* SCSS Variables
------------------------------------------------------------------------------*/
+/* SASS Variables
+--------------------------------*/
 $border: solid 1px;
 $body-font-size: 10px;
 
-/*/* SASS Variables
+/* SASS Extends
 --------------------------------*/
+%sections{
+    height: 100rem;
+    max-height: 100%;
+}
+
 
 /* START STYLING INDEX PAGE
 -----------------------------------------------------------------------------*/
-
 html {
     font-size: $body-font-size;
     font-family: 'Barlow', sans-serif;
 }
-
 * {
     margin: 0;
     padding: 0;
 }
-
 .main-body {
     border: $border $red-color;
     padding-right: 0rem !important;
     padding-left: 0rem !important;
-    height: 94rem;
+    height: 100%;
 }
-
 header.main-header {
     background-color: transparent;
     position: fixed;
     top: 0rem;
     border: $border green;
-    z-index: 1;
+    z-index: 2;
     padding: 0rem;
 }
-
-.site-logo {
-
+div.site-logo {
     img {
         width: 6rem;
     }
 }
+li.styled-active{
 
+    a{
+        color: $red-color !important;
+    }
+}
 nav.main-nav {
-
     ul {
         float: right;
         background-color: transparent;
-
         li {
-
-
             a {
                 font-size: 2.5rem !important;
                 padding-right: 2rem;
-                color: $white-color;
+                color: $gray-color;
                 height: 100%;
                 font-family: 'Barlow Condensed', sans-serif;
-
+                font-weight: bold;
+                &:hover, &:focus{
+                    color: $red-color;
+                }
             }
         }
     }
 }
-
 section.hero-img {
-    background: url(../imgs/home-bg-2.jpg) no-repeat;
+    background: url(../imgs/white-bg.jpg) no-repeat;
     background-size: cover;
-    background-position: center;
-    height: 100%;
+    background-position: center bottom;
+    height: 100rem;
+    max-height: 100%;
     position: fixed;
     z-index: -1;
     top: 0em;
@@ -94,196 +94,134 @@ section.hero-img {
     overflow: hidden;
     border: $border yellow;
 }
-
-.home-container {
-    height: 19rem;
-    max-height: 100%;
-    clear: both;
+section.first-section {
+    @extend %sections;
 }
-
 div.intro-text {
-    margin-top: 8%;
-    margin-bottom: 8%;
-    height: 100%;
-    border: $border red;
-
+    height: 20rem;
+    position: fixed;
+    top: 30rem;
+    z-index: -1;
     h1 {
         width: 100%;
-        color: $white-color;
-        font-size: 15rem;
+        color: $red-color;
+        font-size: 20rem;
         text-align: center;
         margin: 0 auto;
         font-weight: 600;
-        line-height: 1.5em;
-        position: absolute;
-        z-index: -1;
+        line-height: 17rem;
         font-family: 'Barlow Condensed', sans-serif;
         text-transform: uppercase;
     }
-
     h2 {
         width: 100%;
-        color: $white-color;
-        font-size: 4em;
+        color: $gray-color;
+        font-size: 5rem;
         text-align: center;
         margin: 0 auto;
-        font-weight: 200;
-        position: absolute;
-        z-index: -1;
+        font-weight: bold;
         font-family: 'Barlow Condensed', sans-serif;
-        bottom: 28rem;
     }
-
 }
 
-// This is to prevent FOUC (flash of unstyled content.)
+//a.dwn-btn{
+//    display: inline-block !important;
+//            text-align: center !important;
+//            align-content: center !important;
+//            align-items: center!important;
+//    
+//}
 
+section.second-section {
+    @extend %sections;
+    background-color: $red-color;
+}
+// This is to prevent FOUC (flash of unstyled content.)
 .no-js .top-bar {
     display: none;
 }
-
 /* Small screen only */
 @media screen and (max-width: 39.9375em) {
-
+    // This is to prevent FOUC (flash of unstyled content.)
+    .no-js .top-bar {
+        display: block;
+    }
+    .no-js .title-bar {
+        display: none;
+    }
     .site-logo {
-
         img {
             width: 6rem;
         }
     }
-
-    .img-link {}
-
     div.button-container {
         padding: 0.9rem;
         background-color: transparent;
     }
-
     .menu-tag {
-        width: 4em;
-        height: 2.7em;
+        width: 4rem;
+        height: 2.7rem;
     }
-
     .menu-tag::after {
-        width: 4em;
+        width: 4rem;
         background: $red-color;
-        box-shadow: 0 10px 0 $red-color, 0 20px 0 $red-color;
-        height: 0.5em;
+        box-shadow: 0 1rem 0 $red-color, 0 2rem 0 $red-color;
+        height: 0.5rem;
         position: absolute;
         top: 0.5rem;
         left: -0.1rem;
         display: block;
     }
-
     .menu-icon:hover::after {
-        background: $font-gray-color;
-        box-shadow: 0 10px 0 $font-gray-color, 0 20px 0 $font-gray-color;
+        background: $gray-color;
+        box-shadow: 0 1rem 0 $gray-color, 0 2rem 0 $gray-color;
     }
-
     nav.main-nav {
         width: 100% !important;
         margin-top: 0.5rem;
-
         ul {
             width: 100% !important;
-            background-color: $red-color;
+            background-color: $white-color;
             margin-bottom: 1rem;
-
             li {
                 width: 100% !important;
                 font-weight: bolder;
                 font-size: 1.5rem !important;
                 font-weight: 100;
                 text-align: center;
-                border-bottom: solid 0.2rem $white-color;
-
+                border-bottom: solid 0.2rem $red-color;
                 &:first-child {
-                    border-top: solid 0.2rem $white-color;
+                    border-top: solid 0.2rem $red-color;
                 }
-
                 a {
                     padding: 2rem 1rem 2rem 1rem;
                     background-color: transparent !important;
                     box-sizing: border-box;
                 }
-
                 li.styled-active {
-
                     a {
                         padding-right: 0rem;
                     }
-
                 }
-
             }
         }
     }
-
-    .home-container {
-        height: 35em;
-        max-height: 100%;
-        clear: both;
-        position: absolute;
-        z-index: -1;
-        top: 22em;
-    }
-
+    
     div.intro-text {
-
-        height: 33em;
-        max-height: 100%;
-        margin: 0rem;
-
-        h1 {
-            line-height: 0.9em;
-            position: relative;
-            top: 5rem;
-        }
-
+        height: 35rem;
     }
-
 }
-
-/* Medium and up */
-@media screen and (min-width: 40em) {
-
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
     // This is to prevent FOUC (flash of unstyled content.)
-
     .no-js .top-bar {
         display: block;
     }
-
     .no-js .title-bar {
         display: none;
     }
-
-    .main-body {
-        border: $border $red-color;
-        padding-right: 0rem !important;
-        padding-left: 0rem !important;
-    }
-
-    .home-container {
-        height: 35em;
-        max-height: 100%;
-        clear: both;
-        position: absolute;
-        z-index: 1;
-        top: 22em;
-    }
-
+    
     div.intro-text {
-
-        height: 100%;
-        margin: 0rem;
-
-        h1 {
-            line-height: 0.9em;
-            position: relative;
-            top: 5rem;
-        }
-
+        height: 35rem;
     }
-
-
 }
