@@ -14,7 +14,7 @@ a:link, a:visited, a:hover, a:focus, a:active
 --------------------------------*/
 /* SASS Extends
 --------------------------------*/
-/* line 24, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+/* line 24, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 section.first-section, section.second-section {
   height: 100rem;
   max-height: 100%;
@@ -22,19 +22,19 @@ section.first-section, section.second-section {
 
 /* START STYLING INDEX PAGE
 -----------------------------------------------------------------------------*/
-/* line 32, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+/* line 32, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 html {
   font-size: 10px;
   font-family: 'Barlow', sans-serif;
 }
 
-/* line 36, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+/* line 37, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* line 40, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+/* line 42, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 .main-body {
   border: solid 1px #F15A29;
   padding-right: 0rem !important;
@@ -42,7 +42,7 @@ html {
   height: 100%;
 }
 
-/* line 46, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+/* line 49, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 header.main-header {
   background-color: transparent;
   position: fixed;
@@ -52,23 +52,23 @@ header.main-header {
   padding: 0rem;
 }
 
-/* line 55, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+/* line 59, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 div.site-logo img {
   width: 6rem;
 }
 
-/* line 61, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+/* line 66, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 li.styled-active a {
   color: #F15A29 !important;
 }
 
-/* line 66, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+/* line 72, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 nav.main-nav ul {
   float: right;
   background-color: transparent;
 }
 
-/* line 70, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+/* line 77, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 nav.main-nav ul li a {
   font-size: 2.5rem !important;
   padding-right: 2rem;
@@ -78,12 +78,12 @@ nav.main-nav ul li a {
   font-weight: bold;
 }
 
-/* line 77, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+/* line 85, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 nav.main-nav ul li a:hover, nav.main-nav ul li a:focus {
   color: #F15A29;
 }
 
-/* line 84, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+/* line 94, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 section.hero-img {
   background: url(../imgs/white-bg.jpg) no-repeat;
   background-size: cover;
@@ -98,7 +98,7 @@ section.hero-img {
   border: solid 1px yellow;
 }
 
-/* line 100, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+/* line 112, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 div.intro-text {
   height: 20rem;
   position: fixed;
@@ -106,7 +106,7 @@ div.intro-text {
   z-index: -1;
 }
 
-/* line 105, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+/* line 118, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 div.intro-text h1 {
   width: 100%;
   color: #F15A29;
@@ -119,7 +119,7 @@ div.intro-text h1 {
   text-transform: uppercase;
 }
 
-/* line 116, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+/* line 130, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 div.intro-text h2 {
   width: 100%;
   color: #525252;
@@ -130,41 +130,49 @@ div.intro-text h2 {
   font-family: 'Barlow Condensed', sans-serif;
 }
 
-/* line 135, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+/* line 141, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+a.dwn-btn {
+  display: inline-block !important;
+  text-align: center !important;
+  align-content: center !important;
+  align-items: center !important;
+}
+
+/* line 149, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 section.second-section {
   background-color: #F15A29;
 }
 
-/* line 140, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+/* line 155, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 .no-js .top-bar {
   display: none;
 }
 
 /* Small screen only */
 @media screen and (max-width: 39.9375em) {
-  /* line 146, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+  /* line 163, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   .no-js .top-bar {
     display: block;
   }
-  /* line 149, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+  /* line 167, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   .no-js .title-bar {
     display: none;
   }
-  /* line 153, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+  /* line 172, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   .site-logo img {
     width: 6rem;
   }
-  /* line 157, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+  /* line 177, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   div.button-container {
     padding: 0.9rem;
     background-color: transparent;
   }
-  /* line 161, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+  /* line 182, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   .menu-tag {
     width: 4rem;
     height: 2.7rem;
   }
-  /* line 165, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+  /* line 187, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   .menu-tag::after {
     width: 4rem;
     background: #F15A29;
@@ -175,23 +183,23 @@ section.second-section {
     left: -0.1rem;
     display: block;
   }
-  /* line 175, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+  /* line 198, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   .menu-icon:hover::after {
     background: #525252;
     box-shadow: 0 1rem 0 #525252, 0 2rem 0 #525252;
   }
-  /* line 179, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+  /* line 203, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   nav.main-nav {
     width: 100% !important;
     margin-top: 0.5rem;
   }
-  /* line 182, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+  /* line 207, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   nav.main-nav ul {
     width: 100% !important;
-    background-color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.5);
     margin-bottom: 1rem;
   }
-  /* line 186, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+  /* line 212, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   nav.main-nav ul li {
     width: 100% !important;
     font-weight: bolder;
@@ -200,21 +208,21 @@ section.second-section {
     text-align: center;
     border-bottom: solid 0.2rem #F15A29;
   }
-  /* line 193, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+  /* line 220, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   nav.main-nav ul li:first-child {
     border-top: solid 0.2rem #F15A29;
   }
-  /* line 196, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+  /* line 224, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   nav.main-nav ul li a {
     padding: 2rem 1rem 2rem 1rem;
     background-color: transparent !important;
     box-sizing: border-box;
   }
-  /* line 202, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+  /* line 231, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   nav.main-nav ul li li.styled-active a {
     padding-right: 0rem;
   }
-  /* line 210, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+  /* line 239, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   div.intro-text {
     height: 35rem;
   }
@@ -222,15 +230,15 @@ section.second-section {
 
 /* Medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-  /* line 217, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+  /* line 248, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   .no-js .top-bar {
     display: block;
   }
-  /* line 220, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+  /* line 252, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   .no-js .title-bar {
     display: none;
   }
-  /* line 224, //cead.prd/data/users/atl0/bs3714/USRDATA/Documents/newChuckObazeWebsite-master/newChuckObazeWebsite-master/sass/app.scss */
+  /* line 256, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   div.intro-text {
     height: 35rem;
   }
