@@ -51,10 +51,11 @@ hr {
     height: 1rem;
     background-color: $dark-red;
     margin: 0 auto;
-    width: 10rem;
+    width: 8rem;
     border: 0;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
+    clear: both;
 }
 
 .indi{
@@ -65,7 +66,6 @@ header.main-header {
     background-color: transparent;
     position: fixed;
     top: 0rem;
-    border: $border green;
     z-index: 2;
     padding: 0rem;
 }
@@ -76,10 +76,15 @@ div.site-logo {
     }
 }
 
-li.styled-active {
+.dropdown.menu
+.is-active > a{
+    color: $red-color;
+}
+
+.styled-active {
 
     a {
-        color: $red-color !important;
+        color: $red-color;
     }
 }
 
@@ -119,7 +124,6 @@ section.hero-img {
     top: 0em;
     left: 0em;
     overflow: hidden;
-    border: $border yellow;
 }
 
 section.first-section {
@@ -185,10 +189,13 @@ a.dwn-btn {
 section.second-section {
     @extend %sections;
     background-color: $white-color;
+    height: 65rem;
 }
 
 div.ss-contents {
     margin-top: 8rem;
+    height: 25rem;
+    margin-bottom: 5rem;
 
     h3 {
         color: $red-color;
@@ -196,9 +203,9 @@ div.ss-contents {
         font-family: $barlow-font;
         font-size: 10rem;
         font-weight: bold;
-        line-height:7rem;
+        line-height:10rem;
         width: 100%;
-        height: 8rem;
+        height: 14rem;
     }
 
     p {
@@ -209,7 +216,7 @@ div.ss-contents {
         margin: 0 auto;
         text-align: center;
         max-width: 100%;
-        margin-top: 3rem;
+        line-height: 3.5rem;
     }
 }
 

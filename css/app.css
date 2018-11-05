@@ -46,23 +46,23 @@ hr {
   height: 1rem;
   background-color: #7A1A00;
   margin: 0 auto;
-  width: 10rem;
+  width: 8rem;
   border: 0;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
+  clear: both;
 }
 
-/* line 60, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+/* line 61, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 .indi {
   border: solid 1px red;
 }
 
-/* line 64, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+/* line 65, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 header.main-header {
   background-color: transparent;
   position: fixed;
   top: 0rem;
-  border: solid 1px green;
   z-index: 2;
   padding: 0rem;
 }
@@ -72,18 +72,23 @@ div.site-logo img {
   width: 6rem;
 }
 
-/* line 81, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
-li.styled-active a {
-  color: #F15A29 !important;
+/* line 79, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+.dropdown.menu .is-active > a {
+  color: #F15A29;
 }
 
-/* line 87, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+/* line 86, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+.styled-active a {
+  color: #F15A29;
+}
+
+/* line 92, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 nav.main-nav ul {
   float: right;
   background-color: transparent;
 }
 
-/* line 92, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+/* line 97, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 nav.main-nav ul li a {
   font-size: 2.5rem !important;
   padding-right: 2rem;
@@ -94,13 +99,13 @@ nav.main-nav ul li a {
   transition: 0.5s;
 }
 
-/* line 101, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+/* line 106, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 nav.main-nav ul li a:hover, nav.main-nav ul li a:focus {
   color: #F15A29;
   transform: scale(1.1);
 }
 
-/* line 111, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+/* line 116, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 section.hero-img {
   background: url(../imgs/white-bg.jpg) no-repeat;
   background-size: cover;
@@ -112,10 +117,9 @@ section.hero-img {
   top: 0em;
   left: 0em;
   overflow: hidden;
-  border: solid 1px yellow;
 }
 
-/* line 129, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+/* line 133, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 div.intro-text {
   height: 40rem;
   position: fixed;
@@ -123,7 +127,7 @@ div.intro-text {
   z-index: -1;
 }
 
-/* line 135, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+/* line 139, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 div.intro-text h1 {
   width: 100%;
   color: #F15A29;
@@ -135,7 +139,7 @@ div.intro-text h1 {
   font-family: "Barlow Condensed", sans-serif;
 }
 
-/* line 146, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+/* line 150, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 div.intro-text p {
   width: 100%;
   color: #525252;
@@ -146,7 +150,7 @@ div.intro-text p {
   font-family: "Barlow Condensed", sans-serif;
 }
 
-/* line 157, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+/* line 161, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 div.btn-container {
   position: fixed;
   top: 60rem;
@@ -156,7 +160,7 @@ div.btn-container {
   z-index: -1;
 }
 
-/* line 166, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+/* line 170, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 a.dwn-btn {
   display: inline-block;
   margin: 0 auto;
@@ -169,34 +173,37 @@ a.dwn-btn {
   background-position: center center;
 }
 
-/* line 177, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+/* line 181, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 a.dwn-btn:hover, a.dwn-btn:focus {
   background-image: url(../imgs/arrow-down-pc.png);
 }
 
-/* line 185, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+/* line 189, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 section.second-section {
   background-color: #FFFFFF;
+  height: 65rem;
 }
 
-/* line 190, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+/* line 195, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 div.ss-contents {
   margin-top: 8rem;
+  height: 25rem;
+  margin-bottom: 5rem;
 }
 
-/* line 193, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+/* line 200, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 div.ss-contents h3 {
   color: #F15A29;
   text-align: center;
   font-family: "Barlow Condensed", sans-serif;
   font-size: 10rem;
   font-weight: bold;
-  line-height: 7rem;
+  line-height: 10rem;
   width: 100%;
-  height: 8rem;
+  height: 14rem;
 }
 
-/* line 204, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+/* line 211, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 div.ss-contents p {
   color: #525252;
   font-size: 2.5rem;
@@ -205,17 +212,17 @@ div.ss-contents p {
   margin: 0 auto;
   text-align: center;
   max-width: 100%;
-  margin-top: 3rem;
+  line-height: 3.5rem;
 }
 
-/* line 218, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+/* line 225, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 footer.main-footer {
   height: 5rem;
   background-color: #525252;
   align-items: center;
 }
 
-/* line 223, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+/* line 230, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 footer.main-footer p {
   margin: 0 auto;
   color: #FFFFFF;
@@ -224,32 +231,32 @@ footer.main-footer p {
   font-weight: 100;
 }
 
-/* line 234, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+/* line 241, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 .no-js .top-bar {
   display: none;
 }
 
 /* Small screen only */
 @media screen and (max-width: 39.9375em) {
-  /* line 242, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  /* line 249, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   .no-js .top-bar {
     display: block;
   }
-  /* line 246, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  /* line 253, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   .no-js .title-bar {
     display: none;
   }
-  /* line 250, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  /* line 257, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   div.button-container {
     padding: 0.9rem;
     background-color: transparent;
   }
-  /* line 255, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  /* line 262, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   .menu-tag {
     width: 5rem;
     height: 3.5rem;
   }
-  /* line 260, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  /* line 267, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   .menu-tag::after {
     width: 4rem;
     background: #F15A29;
@@ -260,23 +267,23 @@ footer.main-footer p {
     left: -0.1rem;
     display: block;
   }
-  /* line 271, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  /* line 278, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   .menu-icon:hover::after {
     background: #525252;
     box-shadow: 0 1rem 0 #525252, 0 2rem 0 #525252;
   }
-  /* line 276, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  /* line 283, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   nav.main-nav {
     width: 100% !important;
     margin-top: 0.5rem;
   }
-  /* line 280, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  /* line 287, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   nav.main-nav ul {
     width: 100% !important;
     background-color: rgba(255, 255, 255, 0.5);
     margin-bottom: 1rem;
   }
-  /* line 285, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  /* line 292, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   nav.main-nav ul li {
     width: 100% !important;
     font-weight: bolder;
@@ -285,26 +292,26 @@ footer.main-footer p {
     text-align: center;
     border-bottom: solid 0.2rem #F15A29;
   }
-  /* line 293, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  /* line 300, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   nav.main-nav ul li:first-child {
     border-top: solid 0.2rem #F15A29;
   }
-  /* line 297, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  /* line 304, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   nav.main-nav ul li a {
     padding: 2rem 1rem 2rem 1rem;
     background-color: transparent !important;
     box-sizing: border-box;
   }
-  /* line 304, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  /* line 311, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   nav.main-nav ul li li.styled-active a {
     padding-right: 0rem;
   }
-  /* line 312, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  /* line 319, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   div.intro-text {
     height: 55rem;
     border: solid 1px green;
   }
-  /* line 317, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  /* line 324, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   div.btn-container {
     top: 75rem;
   }
@@ -312,20 +319,20 @@ footer.main-footer p {
 
 /* Medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-  /* line 326, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  /* line 333, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   .no-js .top-bar {
     display: block;
   }
-  /* line 330, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  /* line 337, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   .no-js .title-bar {
     display: none;
   }
-  /* line 334, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  /* line 341, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   div.intro-text {
     height: 55rem;
     border: solid 1px green;
   }
-  /* line 339, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+  /* line 346, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   div.btn-container {
     top: 75rem;
   }
