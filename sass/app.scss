@@ -66,7 +66,7 @@ header.main-header {
     background-color: transparent;
     position: fixed;
     top: 0rem;
-    z-index: 2;
+    z-index: 3;
     padding: 0rem;
 }
 
@@ -162,13 +162,12 @@ div.btn-container {
     position: fixed;
     top: 60rem;
     height: 10rem;
-    width: 100%;
-    text-align: center;
-    z-index: -1;
+    align-content: center;
+    display: flex;
 }
 
 a.dwn-btn {
-    display: inline-block;
+    display: flex;
     margin: 0 auto;
     height: 10rem;
     width: 10rem;
@@ -189,7 +188,9 @@ a.dwn-btn {
 section.second-section {
     @extend %sections;
     background-color: $white-color;
-    height: 65rem;
+    height: 85rem;
+    position: absolute;
+    z-index: 2;
 }
 
 div.ss-contents {
@@ -219,7 +220,6 @@ div.ss-contents {
         line-height: 3.5rem;
     }
 }
-
 
 // Footer Style
 footer.main-footer{
