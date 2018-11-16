@@ -1,28 +1,52 @@
 $(document).foundation()
 
-$(window).scroll(function () {
+$(document).ready(function () {
 
-    // Header bg color appears
-    if ($(window).scrollTop() > 1) {
-        $('.main-header').css({
-            'background-color': 'rgba(255, 255, 255)',
-            'border-bottom':'solid rgb(241, 90, 43) 0.3rem'
-        });
+    $(this).scrollTop(0);
 
-    } else {
-        $('.main-header').css({
-            'background-color': 'transparent',
-            'border-bottom': 'none'
-        });
-    }
 
-    $('.dwn-btn').click(function(e){
+    $('.dwn-btn').click(function (e) {
         e.preventDefault();
         $('html, body').animate({
-            scrollTop: $('#tester').offset().top}, 2000);
-        });
+            scrollTop: $('#tester').offset().top
+        }, 2000);
+    });
 
-    // Footer Date update
-    var currentYear = (new Date).getFullYear();
-    $("#thisYear").text((new Date).getFullYear());
+    $(window).scroll(function () {
+
+        // Header bg color appears
+        if ($(window).scrollTop() > 1) {
+            $('.main-header').css({
+                'background-color': 'rgba(255, 255, 255)',
+                'border-bottom': 'solid rgb(241, 90, 43) 0.3rem'
+            });
+
+//            $('.styled-active a').css({
+//                'color':'#F15A29'
+//            });
+
+        } else {
+            $('.main-header').css({
+                'background-color': 'transparent',
+                'border-bottom': 'none'
+            });
+
+            $('.styled-active a').css({
+                'color':'#F15A29'
+            });
+        };
+
+    });
+
 });
+
+// This fades the page in
+$(window).on('load', function () {
+
+    $(document.body).hide().fadeIn(1000);
+
+});
+
+// Footer Date update
+var currentYear = (new Date).getFullYear();
+$("#thisYear").text((new Date).getFullYear());

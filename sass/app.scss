@@ -18,7 +18,8 @@ a:link, a:visited, a:hover, a:focus, a:active
 --------------------------------*/
 $border: solid 1px;
 $body-font-size: 10px;
-$barlow-font:'Barlow Condensed', sans-serif;
+$barlow-font:'Barlow Condensed',
+sans-serif;
 $regular-size: 2.5rem;
 
 /* SASS Extends
@@ -76,12 +77,40 @@ div.site-logo {
     }
 }
 
-.dropdown.menu
-.is-active > a{
+ul.dropdown ul.menu li.is-active > a {
     color: $red-color;
 }
 
-.styled-active {
+/* Foundation Default Styles Start. Do Not Delete */
+.dropdown.menu .is-active > a {
+    color: $red-color;
+}
+
+.menu .is-active > a {
+    background: transparent;
+    color: $red-color;
+}
+
+.title-bar {
+    background: transparent;
+    color: transparent;
+}
+
+.menu-icon::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: transparent;
+    box-shadow: 0 7px 0 transparent, 0 14px 0 transparent;
+    content: '';
+}
+
+/* Foundation Default Styles End. Do Not Delete */
+
+li.styled-active {
 
     a {
         color: $red-color;
@@ -204,7 +233,7 @@ div.ss-contents {
         font-family: $barlow-font;
         font-size: 10rem;
         font-weight: bold;
-        line-height:10rem;
+        line-height: 10rem;
         width: 100%;
         height: 14rem;
     }
@@ -222,12 +251,12 @@ div.ss-contents {
 }
 
 // Footer Style
-footer.main-footer{
+footer.main-footer {
     height: 5rem;
     background-color: $gray-color;
     align-items: center;
 
-    p{
+    p {
         margin: 0 auto;
         color: $white-color;
         font-family: $barlow-font;
