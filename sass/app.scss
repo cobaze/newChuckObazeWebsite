@@ -250,6 +250,28 @@ div.ss-contents {
     }
 }
 
+div.portfolio{
+    margin-bottom: 5em;
+
+}
+
+div.port-btn{
+    border: $border red;
+    position: fixed;
+    top: 90rem;
+    height: 10rem;
+    align-content: center;
+    display: flex;
+}
+
+a.more-btn{
+    display: flex;
+    margin: 0 auto;
+    height: 10rem;
+    width: 10rem;
+    border: $border red;
+}
+
 // Footer Style
 footer.main-footer {
     height: 5rem;
