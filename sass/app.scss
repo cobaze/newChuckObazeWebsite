@@ -231,7 +231,7 @@ a.dwn-btn {
 section.second-section {
     @extend %sections;
     background-color: $white-color;
-    height: 95rem;
+    height: 93rem;
     position: relative;
     z-index: 2;
 }
@@ -262,6 +262,35 @@ div.ss-contents {
         max-width: 100%;
         line-height: 3.5rem;
         font-weight: 300;
+    }
+}
+
+a.package-pp{
+//    background-image: url(../imgs/package-design-pp.jpg);
+//    background-repeat: no-repeat;
+//    background-size: cover;
+//    background-position: center;
+
+    img{
+        z-index: 5;
+    }
+
+    h4{
+        background-color: $red-color;
+        font-family:$barlow-font;
+        color: $white-color;
+        font-weight: bold;
+        width: 12rem;
+        padding: 1rem;
+        position: fixed;
+        top: 71.2rem;
+    }
+
+    &:hover,
+    &:focus{
+        background-color: black;
+        opacity: 0.5;
+        transition: background-color 0.25s ease-out, color 0.25s ease-out;
     }
 }
 
