@@ -265,38 +265,42 @@ div.ss-contents {
     }
 }
 
-a.package-pp{
-//    background-image: url(../imgs/package-design-pp.jpg);
-//    background-repeat: no-repeat;
-//    background-size: cover;
-//    background-position: center;
+a.package-pp {
 
-    img{
-        z-index: 5;
-    }
+    background-color: $dark-red;
 
-    h4{
+//    img {
+//
+//        &:focus {
+//            opacity: 0.5;
+//            transition: opacity 0.25s ease-out, color 0.25s ease-out;
+//        }
+//
+//    }
+
+    h4 {
         background-color: $red-color;
-        font-family:$barlow-font;
+        font-family: $barlow-font;
         color: $white-color;
         font-weight: bold;
         width: 12rem;
         padding: 1rem;
-        position: fixed;
-        top: 71.2rem;
-    }
+        position: absolute;
+        top: 54rem;
+        left: 17rem;
+        z-index: 3;
+        text-align: center;
+        display: none;
 
-    &:hover,
-    &:focus{
-        background-color: black;
-        opacity: 0.5;
-        transition: background-color 0.25s ease-out, color 0.25s ease-out;
+//        &:focus {
+//            display: block;
+//            transition: display 0.25s ease-out, color 0.25s ease-out;
+//        }
     }
 }
 
 div.portfolio {
     margin-bottom: 5rem;
-
 }
 
 div.port-btn {
@@ -489,11 +493,11 @@ footer.main-footer {
         top: 75rem;
     }
 
-    section.second-section{
+    section.second-section {
         height: 240rem;
     }
 
-    section.third-section{
+    section.third-section {
         height: 190rem;
     }
 }
@@ -519,11 +523,11 @@ footer.main-footer {
         top: 75rem;
     }
 
-    section.second-section{
+    section.second-section {
         height: 133rem;
     }
 
-    section.third-section{
+    section.third-section {
         height: 110rem;
     }
 }
