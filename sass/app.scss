@@ -231,9 +231,9 @@ a.dwn-btn {
 section.second-section {
     @extend %sections;
     background-color: $white-color;
-    height: 93rem;
     position: relative;
     z-index: 2;
+    height: auto;
 }
 
 div.ss-contents {
@@ -301,6 +301,7 @@ a.package-pp {
 
 div.portfolio {
     margin-bottom: 5rem;
+    height: 36rem;
 }
 
 div.port-btn {
