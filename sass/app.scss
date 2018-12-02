@@ -24,9 +24,18 @@ $regular-size: 2.5rem;
 
 /* SASS Extends
 --------------------------------*/
-%sections {
-    height: 100rem;
-    max-height: 100%;
+
+%h3 {
+    width: 100%;
+    text-align: center;
+    color: $white-color;
+    font-family: $barlow-font;
+    font-size: 10rem;
+    font-weight: bold;
+    line-height: 10rem;
+    width: 100%;
+    height: 14rem;
+    margin-top: 8rem;
 }
 
 
@@ -168,7 +177,8 @@ section.hero-img {
 }
 
 section.first-section {
-    @extend %sections;
+    height: 100rem;
+    max-height: 100%;
 }
 
 div.intro-text {
@@ -246,7 +256,6 @@ a.dwn-btn {
 // Second Section Style
 
 section.second-section {
-    @extend %sections;
     background-color: $white-color;
     position: relative;
     z-index: 2;
@@ -294,14 +303,6 @@ a.ppt-pp {
     width: 100%;
     height: auto;
     position: relative;
-}
-
-a.package-pp {
-
-    img {
-        width: 100%;
-        height: auto;
-    }
 
     h4 {
         background-color: $red-color;
@@ -316,52 +317,50 @@ a.package-pp {
         left: 35%;
         z-index: 3;
         text-align: center;
+        display: none;
+    }
+}
+
+a.marketing-pp,
+a.ppt-pp {
+
+    h4 {
+        width: 16rem;
     }
 }
 
 div.port-btn {
-    border: $border red;
-    height: 5rem;
+    height: 7.5rem;
     margin-bottom: 5rem;
-}
 
-a.more-btn {
-    margin: 0 auto;
-    padding: 2rem;
-    width: 20rem;
-    border-radius: 1rem;
-    font-size: 3rem;
-    display: block;
-    font-weight: bold;
-    font-family: $barlow-font;
-    background-color: $red-color;
+    a {
+        margin: 0 auto;
+        padding: 2rem;
+        width: 20rem;
+        border-radius: 1rem;
+        font-size: 3rem;
+        display: block;
+        font-weight: bold;
+        font-family: $barlow-font;
+        background-color: $red-color;
 
-    &:hover,
-    &:focus {
-        background-color: $dark-red;
+        &:hover,
+        &:focus {
+            background-color: $dark-red;
+        }
     }
 }
 
 // Third Section Style
 
 section.third-section {
-    @extend %sections;
     background-color: $gray-color;
-    height: 60rem;
+    height: 75rem;
     z-index: 3;
     position: relative;
 
     h3 {
-        width: 100%;
-        text-align: center;
-        color: $white-color;
-        font-family: $barlow-font;
-        font-size: 10rem;
-        font-weight: bold;
-        line-height: 10rem;
-        width: 100%;
-        height: 14rem;
-        margin-top: 8rem;
+        @extend %h3;
     }
 }
 
@@ -399,7 +398,31 @@ div.ts-icons {
 
 // Fourth Section
 
+section.fourth-section {
+    height: 50rem;
+    position: relative;
+    z-index: 3;
+    background-image: url(../imgs/phils-bg.jpg);
+    background-color: $red-color;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 
+    h3{
+        @extend %h3;
+        color: $white-color;
+    }
+
+    p {
+        font-family: $barlow-font;
+        color: $white-color;
+        font-size: 4rem;
+        width: 86rem;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 4.5rem;
+    }
+}
 
 
 // Footer Style
@@ -502,7 +525,6 @@ footer.main-footer {
 
     div.intro-text {
         height: 55rem;
-        border: $border green;
     }
 
     div.btn-container {
@@ -510,16 +532,7 @@ footer.main-footer {
     }
 
     section.second-section {
-        height: 240rem;
-    }
-
-    a.package-pp,
-    a.web-pp,
-    a.marketing-pp,
-    a.ppt-pp {
-        background-color: $dark-red;
-        //    height: 100%;
-        width: auto;
+        height: 222rem;
     }
 
     section.third-section {
@@ -550,13 +563,6 @@ footer.main-footer {
 
     section.second-section {
         height: 131rem;
-    }
-
-    a.package-pp,
-    a.web-pp,
-    a.marketing-pp,
-    a.ppt-pp {
-        height: 0%;
     }
 
     section.third-section {
