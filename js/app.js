@@ -40,20 +40,20 @@ $(document).ready(function () {
 
 });
 
-$(".package-pp").mouseenter(function () {
-        $(".package-pp img").animate({
-            "opacity": "0.5"
-        }, 500, "swing");
-
-        $(".package-pp h4").fadeIn(500);
-    })
-    .mouseleave(function () {
-        $(".package-pp img").animate({
-            "opacity": "1"
-        }, 500, "swing");
-
-        $(".package-pp h4").fadeOut(500);
-    });
+//$(".package-pp").mouseenter(function () {
+//        $(".package-pp img").animate({
+//            "opacity": "0.5"
+//        }, 500, "swing");
+//
+//        $(".package-pp h4").fadeIn(500);
+//    })
+//    .mouseleave(function () {
+//        $(".package-pp img").animate({
+//            "opacity": "1"
+//        }, 500, "swing");
+//
+//        $(".package-pp h4").fadeOut(500);
+//    });
 
 // This fades the page in
 $(window).on("load", function (e) {

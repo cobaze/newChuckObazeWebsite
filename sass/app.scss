@@ -217,12 +217,29 @@ a.dwn-btn {
     background-size: 10rem;
     background-color: transparent;
     background-position: center center;
-    transition: background-image 0.25s ease-out, color 0.25s ease-out;
+    transition: background-image 0.25s ease-out;
+    animation-name: upNdown;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
 
     &:hover,
     &:focus {
         background-image: url(../imgs/arrow-down-pc.png);
         background-color: transparent;
+    }
+}
+
+@keyframes upNdown {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(0.5rem);
     }
 }
 
@@ -265,18 +282,26 @@ div.ss-contents {
     }
 }
 
+div.portfolio {
+    margin-bottom: 5rem;
+}
+
+a.package-pp,
+a.web-pp,
+a.marketing-pp,
+a.ppt-pp {
+    background-color: $dark-red;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
 a.package-pp {
 
-    background-color: $dark-red;
-
-//    img {
-//
-//        &:focus {
-//            opacity: 0.5;
-//            transition: opacity 0.25s ease-out, color 0.25s ease-out;
-//        }
-//
-//    }
+    img {
+        width: 100%;
+        height: auto;
+    }
 
     h4 {
         background-color: $red-color;
@@ -284,24 +309,14 @@ a.package-pp {
         color: $white-color;
         font-weight: bold;
         width: 12rem;
+        max-width: 100%;
         padding: 1rem;
         position: absolute;
-        top: 54rem;
-        left: 17rem;
+        top: 45%;
+        left: 37%;
         z-index: 3;
         text-align: center;
-        display: none;
-
-//        &:focus {
-//            display: block;
-//            transition: display 0.25s ease-out, color 0.25s ease-out;
-//        }
     }
-}
-
-div.portfolio {
-    margin-bottom: 5rem;
-    height: 36rem;
 }
 
 div.port-btn {
@@ -498,6 +513,15 @@ footer.main-footer {
         height: 240rem;
     }
 
+    a.package-pp,
+    a.web-pp,
+    a.marketing-pp,
+    a.ppt-pp {
+        background-color: $dark-red;
+        //    height: 100%;
+        width: auto;
+    }
+
     section.third-section {
         height: 190rem;
     }
@@ -525,7 +549,14 @@ footer.main-footer {
     }
 
     section.second-section {
-        height: 133rem;
+        height: 131rem;
+    }
+
+    a.package-pp,
+    a.web-pp,
+    a.marketing-pp,
+    a.ppt-pp {
+        height: 0%;
     }
 
     section.third-section {
