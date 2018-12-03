@@ -14,7 +14,7 @@ a:link, a:visited, a:hover, a:focus, a:active
 --------------------------------*/
 /* SASS Extends
 --------------------------------*/
-/* line 28, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 28, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 section.third-section h3, section.fourth-section h3 {
   width: 100%;
   text-align: center;
@@ -30,19 +30,19 @@ section.third-section h3, section.fourth-section h3 {
 
 /* START STYLING INDEX PAGE
 -----------------------------------------------------------------------------*/
-/* line 44, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 44, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 html {
   font-size: 10px;
   font-family: 'Barlow', sans-serif;
 }
 
-/* line 49, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 49, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* line 54, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 54, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 .main-body {
   padding-right: 0rem !important;
   padding-left: 0rem !important;
@@ -50,7 +50,7 @@ html {
   border: solid 1px green;
 }
 
-/* line 61, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 61, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 hr.hot-red {
   height: 1rem;
   background-color: #F15A29;
@@ -62,7 +62,7 @@ hr.hot-red {
   clear: both;
 }
 
-/* line 72, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 72, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 hr.dark-red {
   height: 1rem;
   background-color: #7A1A00;
@@ -74,12 +74,12 @@ hr.dark-red {
   clear: both;
 }
 
-/* line 83, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 83, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 .indi {
   border: solid 1px red;
 }
 
-/* line 87, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 87, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 header.main-header {
   background-color: transparent;
   position: fixed;
@@ -88,35 +88,35 @@ header.main-header {
   padding: 0rem;
 }
 
-/* line 96, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 96, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 div.site-logo img {
   width: 6rem;
 }
 
-/* line 101, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 101, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 ul.dropdown ul.menu li.is-active > a {
   color: #F15A29;
 }
 
 /*---------------------Foundation Default Styles Start. Do Not Delete---------------------*/
-/* line 106, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 106, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 .dropdown.menu .is-active > a {
   color: #F15A29;
 }
 
-/* line 110, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 110, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 .menu .is-active > a {
   background: transparent;
   color: #F15A29;
 }
 
-/* line 115, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 115, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 .title-bar {
   background: transparent;
   color: transparent;
 }
 
-/* line 120, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 120, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 .menu-icon::after {
   position: absolute;
   top: 0;
@@ -130,18 +130,18 @@ ul.dropdown ul.menu li.is-active > a {
 }
 
 /*---------------------Foundation Default Styles End. Do Not Delete---------------------*/
-/* line 136, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 136, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 li.styled-active a {
   color: #F15A29;
 }
 
-/* line 142, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 142, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 nav.main-nav ul {
   float: right;
   background-color: transparent;
 }
 
-/* line 147, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 147, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 nav.main-nav ul li a {
   font-size: 2.5rem !important;
   padding-right: 2rem;
@@ -152,13 +152,13 @@ nav.main-nav ul li a {
   transition: 0.5s;
 }
 
-/* line 156, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 156, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 nav.main-nav ul li a:hover, nav.main-nav ul li a:focus {
   color: #F15A29;
   transform: scale(1.1);
 }
 
-/* line 166, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 166, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 section.hero-img {
   background: url(../imgs/white-bg.jpg) no-repeat;
   background-size: cover;
@@ -172,13 +172,13 @@ section.hero-img {
   overflow: hidden;
 }
 
-/* line 179, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 179, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 section.first-section {
   height: 100rem;
   max-height: 100%;
 }
 
-/* line 184, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 184, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 div.intro-text {
   height: 40rem;
   position: fixed;
@@ -186,7 +186,7 @@ div.intro-text {
   z-index: -1;
 }
 
-/* line 190, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 190, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 div.intro-text h1 {
   width: 100%;
   color: #F15A29;
@@ -198,7 +198,7 @@ div.intro-text h1 {
   font-family: "Barlow Condensed", sans-serif;
 }
 
-/* line 201, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 201, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 div.intro-text p {
   width: 100%;
   color: #525252;
@@ -209,7 +209,7 @@ div.intro-text p {
   font-family: "Barlow Condensed", sans-serif;
 }
 
-/* line 212, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 212, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 div.btn-container {
   position: fixed;
   top: 60rem;
@@ -218,7 +218,7 @@ div.btn-container {
   display: flex;
 }
 
-/* line 220, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 220, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 a.dwn-btn {
   display: flex;
   margin: 0 auto;
@@ -238,7 +238,7 @@ a.dwn-btn {
   animation-direction: alternate;
 }
 
-/* line 239, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 238, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 a.dwn-btn:hover, a.dwn-btn:focus {
   background-image: url(../imgs/arrow-down-pc.png);
   background-color: transparent;
@@ -253,7 +253,7 @@ a.dwn-btn:hover, a.dwn-btn:focus {
   }
 }
 
-/* line 258, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 257, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 section.second-section {
   background-color: #FFFFFF;
   position: relative;
@@ -261,14 +261,14 @@ section.second-section {
   height: auto;
 }
 
-/* line 265, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 264, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 div.ss-contents {
   margin-top: 8rem;
   height: 25rem;
   margin-bottom: 5rem;
 }
 
-/* line 270, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 269, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 div.ss-contents h2 {
   color: #F15A29;
   text-align: center;
@@ -280,7 +280,7 @@ div.ss-contents h2 {
   height: 14rem;
 }
 
-/* line 281, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 280, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 div.ss-contents p {
   color: #525252;
   font-size: 2.5rem;
@@ -293,12 +293,12 @@ div.ss-contents p {
   font-weight: 300;
 }
 
-/* line 294, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 293, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 div.portfolio {
   margin-bottom: 5rem;
 }
 
-/* line 298, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 297, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 a.package-pp,
 a.web-pp,
 a.marketing-pp,
@@ -309,7 +309,7 @@ a.ppt-pp {
   position: relative;
 }
 
-/* line 307, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 306, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 a.package-pp h4,
 a.web-pp h4,
 a.marketing-pp h4,
@@ -329,20 +329,20 @@ a.ppt-pp h4 {
   display: none;
 }
 
-/* line 327, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 326, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 a.marketing-pp h4,
 a.ppt-pp h4 {
   width: 16rem;
   left: 27%;
 }
 
-/* line 333, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 332, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 div.port-btn {
   height: 7.5rem;
   margin-bottom: 5rem;
 }
 
-/* line 337, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 336, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 div.port-btn a {
   margin: 0 auto;
   padding: 2rem;
@@ -355,27 +355,32 @@ div.port-btn a {
   background-color: #F15A29;
 }
 
-/* line 348, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 347, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 div.port-btn a:hover, div.port-btn a:focus {
   background-color: #7A1A00;
 }
 
-/* line 357, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 356, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 section.third-section {
-  background-color: #525252;
-  height: 75rem;
-  z-index: 3;
+  background-color: #F2F2F2;
+  height: 70rem;
+  z-index: 2;
   position: relative;
 }
 
-/* line 368, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 362, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
+section.third-section h3 {
+  color: #F15A29;
+}
+
+/* line 368, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 div.ts-icons {
   width: 150rem;
   max-width: 100%;
   margin: 0 auto;
 }
 
-/* line 373, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 373, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 div.ts-icons img {
   width: 15rem;
   margin: 0 auto;
@@ -383,20 +388,20 @@ div.ts-icons img {
   margin-bottom: 2rem;
 }
 
-/* line 380, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 380, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 div.ts-icons p {
-  color: #FFFFFF;
+  color: #525252;
   font-size: 2.5rem;
   font-family: "Barlow Condensed", sans-serif;
-  width: 30rem;
+  width: 30.5rem;
   margin: 0 auto;
   text-align: center;
   max-width: 100%;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 3rem;
 }
 
-/* line 391, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 391, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 div.ts-icons p span {
   font-weight: bold;
   font-size: 3.5rem;
@@ -404,7 +409,7 @@ div.ts-icons p span {
   display: block;
 }
 
-/* line 402, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 402, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 section.fourth-section {
   height: 50rem;
   position: relative;
@@ -416,12 +421,12 @@ section.fourth-section {
   background-size: cover;
 }
 
-/* line 412, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 412, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 section.fourth-section h3 {
   color: #FFFFFF;
 }
 
-/* line 417, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 417, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 section.fourth-section p {
   font-family: "Barlow Condensed", sans-serif;
   color: #FFFFFF;
@@ -432,7 +437,7 @@ section.fourth-section p {
   line-height: 4.5rem;
 }
 
-/* line 430, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 430, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 footer.main-footer {
   height: 5rem;
   background-color: #525252;
@@ -440,7 +445,7 @@ footer.main-footer {
   clear: both;
 }
 
-/* line 438, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 438, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 footer.main-footer p {
   margin: 0 auto;
   color: #FFFFFF;
@@ -449,32 +454,32 @@ footer.main-footer p {
   font-weight: bold;
 }
 
-/* line 449, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+/* line 449, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
 .no-js .top-bar {
   display: none;
 }
 
 /* Small screen only */
 @media screen and (max-width: 39.9375em) {
-  /* line 457, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+  /* line 457, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   .no-js .top-bar {
     display: block;
   }
-  /* line 461, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+  /* line 461, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   .no-js .title-bar {
     display: none;
   }
-  /* line 465, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+  /* line 465, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   div.button-container {
     padding: 0.9rem;
     background-color: transparent;
   }
-  /* line 470, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+  /* line 470, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   .menu-tag {
     width: 5rem;
     height: 3.5rem;
   }
-  /* line 475, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+  /* line 475, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   .menu-tag::after {
     width: 4rem;
     background: #F15A29;
@@ -485,23 +490,23 @@ footer.main-footer p {
     left: -0.1rem;
     display: block;
   }
-  /* line 486, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+  /* line 486, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   .menu-icon:hover::after {
     background: #525252;
     box-shadow: 0 1rem 0 #525252, 0 2rem 0 #525252;
   }
-  /* line 491, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+  /* line 491, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   nav.main-nav {
     width: 100% !important;
     margin-top: 0.5rem;
   }
-  /* line 495, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+  /* line 495, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   nav.main-nav ul {
     width: 100% !important;
     background-color: rgba(255, 255, 255, 0.5);
     margin-bottom: 1rem;
   }
-  /* line 500, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+  /* line 500, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   nav.main-nav ul li {
     width: 100% !important;
     font-weight: bolder;
@@ -510,33 +515,33 @@ footer.main-footer p {
     text-align: center;
     border-bottom: solid 0.2rem #F15A29;
   }
-  /* line 508, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+  /* line 508, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   nav.main-nav ul li:first-child {
     border-top: solid 0.2rem #F15A29;
   }
-  /* line 512, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+  /* line 512, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   nav.main-nav ul li a {
     padding: 2rem 1rem 2rem 1rem;
     background-color: transparent !important;
     box-sizing: border-box;
   }
-  /* line 519, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+  /* line 519, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   nav.main-nav ul li li.styled-active a {
     padding-right: 0rem;
   }
-  /* line 527, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+  /* line 527, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   div.intro-text {
     height: 55rem;
   }
-  /* line 531, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+  /* line 531, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   div.btn-container {
     top: 75rem;
   }
-  /* line 535, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+  /* line 535, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   section.second-section {
     height: 222rem;
   }
-  /* line 539, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+  /* line 539, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   section.third-section {
     height: 190rem;
   }
@@ -544,28 +549,28 @@ footer.main-footer p {
 
 /* Medium only */
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-  /* line 548, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+  /* line 548, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   .no-js .top-bar {
     display: block;
   }
-  /* line 552, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+  /* line 552, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   .no-js .title-bar {
     display: none;
   }
-  /* line 556, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+  /* line 556, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   div.intro-text {
     height: 55rem;
     border: solid 1px green;
   }
-  /* line 561, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+  /* line 561, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   div.btn-container {
     top: 75rem;
   }
-  /* line 565, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+  /* line 565, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   section.second-section {
     height: 131rem;
   }
-  /* line 569, /Users/chuckobazeimac/Documents/newChuckObazeWebsite/sass/app.scss */
+  /* line 569, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/app.scss */
   section.third-section {
     height: 110rem;
   }

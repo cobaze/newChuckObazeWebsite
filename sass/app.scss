@@ -235,7 +235,6 @@ a.dwn-btn {
     animation-iteration-count: infinite;
     animation-direction: alternate;
 
-
     &:hover,
     &:focus {
         background-image: url(../imgs/arrow-down-pc.png);
@@ -355,13 +354,14 @@ div.port-btn {
 // Third Section Style
 
 section.third-section {
-    background-color: $gray-color;
-    height: 75rem;
-    z-index: 3;
+    background-color: $light-gray;
+    height: 70rem;
+    z-index: 2;
     position: relative;
 
     h3 {
         @extend %h3;
+        color: $red-color;
     }
 }
 
@@ -378,14 +378,14 @@ div.ts-icons {
     }
 
     p {
-        color: $white-color;
+        color: $gray-color;
         font-size: $regular-size;
         font-family: $barlow-font;
-        width: 30rem;
+        width: 30.5rem;
         margin: 0 auto;
         text-align: center;
         max-width: 100%;
-        font-weight: 300;
+        font-weight: 500;
         line-height: 3rem;
 
         span {
