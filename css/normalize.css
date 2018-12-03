@@ -4,7 +4,7 @@
  * 2. Prevent iOS and IE text size adjust after device orientation change,
  *    without disabling user zoom.
  */
-/* line 9, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 9, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -17,7 +17,7 @@ html {
 /**
  * Remove default margin.
  */
-/* line 19, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 19, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 body {
   margin: 0;
 }
@@ -30,7 +30,7 @@ body {
  * and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
-/* line 33, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 33, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 article,
 aside,
 details,
@@ -51,7 +51,7 @@ summary {
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
-/* line 54, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 54, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 audio,
 canvas,
 progress,
@@ -66,7 +66,7 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 67, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 67, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
@@ -76,7 +76,7 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9/10.
  * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
  */
-/* line 77, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 77, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 [hidden],
 template {
   display: none;
@@ -87,7 +87,7 @@ template {
 /**
  * Remove the gray background color from active links in IE 10.
  */
-/* line 89, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 89, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 a {
   background-color: transparent;
 }
@@ -96,7 +96,7 @@ a {
  * Improve readability of focused elements when they are also in an
  * active/hover state.
  */
-/* line 98, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 98, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -107,7 +107,7 @@ a:hover {
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
-/* line 110, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 110, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -115,7 +115,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
-/* line 118, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 118, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -124,7 +124,7 @@ strong {
 /**
  * Address styling not present in Safari and Chrome.
  */
-/* line 127, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 127, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 dfn {
   font-style: italic;
 }
@@ -133,7 +133,7 @@ dfn {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
  */
-/* line 136, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 136, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -142,7 +142,7 @@ h1 {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 145, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 145, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 mark {
   background: #ff0;
   color: #000;
@@ -151,7 +151,7 @@ mark {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 154, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 154, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 small {
   font-size: 80%;
 }
@@ -159,7 +159,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 162, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 162, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -168,12 +168,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 170, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 170, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 174, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 174, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 sub {
   bottom: -0.25em;
 }
@@ -183,7 +183,7 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
-/* line 185, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 185, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 img {
   border: 0;
 }
@@ -191,7 +191,7 @@ img {
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
-/* line 193, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 193, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -201,7 +201,7 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
-/* line 204, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 204, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 figure {
   margin: 1em 40px;
 }
@@ -209,7 +209,7 @@ figure {
 /**
  * Address differences between Firefox and other browsers.
  */
-/* line 212, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 212, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 hr {
   box-sizing: content-box;
   height: 0;
@@ -218,7 +218,7 @@ hr {
 /**
  * Contain overflow in all browsers.
  */
-/* line 221, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 221, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 pre {
   overflow: auto;
 }
@@ -226,7 +226,7 @@ pre {
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-/* line 229, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 229, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 code,
 kbd,
 pre,
@@ -247,7 +247,7 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-/* line 252, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 252, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 button,
 input,
 optgroup,
@@ -264,7 +264,7 @@ textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-/* line 266, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 266, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 button {
   overflow: visible;
 }
@@ -275,7 +275,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-/* line 277, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 277, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 button,
 select {
   text-transform: none;
@@ -288,7 +288,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 290, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 290, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -302,7 +302,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 302, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 302, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -311,7 +311,7 @@ html input[disabled] {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 311, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 311, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -322,7 +322,7 @@ input::-moz-focus-inner {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 322, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 322, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 input {
   line-height: normal;
 }
@@ -334,7 +334,7 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-/* line 334, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 334, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -348,7 +348,7 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 346, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 346, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -358,7 +358,7 @@ input[type="number"]::-webkit-outer-spin-button {
  * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
  */
-/* line 356, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 356, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -371,7 +371,7 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 367, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 367, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -380,7 +380,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 376, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 376, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -391,7 +391,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 387, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 387, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -402,7 +402,7 @@ legend {
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
-/* line 396, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 396, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 textarea {
   overflow: auto;
 }
@@ -411,7 +411,7 @@ textarea {
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
-/* line 405, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 405, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 optgroup {
   font-weight: bold;
 }
@@ -421,13 +421,13 @@ optgroup {
 /**
  * Remove most spacing between table cells.
  */
-/* line 416, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 416, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 421, C:/Users/Chuck Obaze/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
+/* line 421, /Users/chuckobazemac/Documents/GitHub/newChuckObazeWebsite/sass/normalize.scss */
 td,
 th {
   padding: 0;
