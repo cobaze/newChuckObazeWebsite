@@ -51,7 +51,7 @@ html {
     padding: 0;
 }
 
-.main-body {
+main.main-body {
     padding-right: 0rem !important;
     padding-left: 0rem !important;
     height: 100%;
@@ -427,6 +427,57 @@ section.fourth-section {
 
 // Fifth Section
 
+section.fifth-section{
+    background-color: $white-color;
+    height: 80rem;
+    z-index: 2;
+    position: relative;
+
+    h3{
+        @extend %h3;
+        color: $red-color;
+        margin-bottom: 10rem;
+    }
+
+}
+
+div.fs-icons {
+    width: 150rem;
+    max-width: 100%;
+    margin: 0 auto;
+
+    img {
+        width: 15rem;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 2rem;
+        margin-right: 2rem;
+        float: left;
+    }
+
+    p {
+        color: $gray-color;
+        font-size: $regular-size;
+        font-family: $barlow-font;
+        width: 56rem;
+        text-align: left;
+        max-width: 100%;
+        font-weight: 500;
+        line-height: 3rem;
+        float: left;
+
+        span {
+            font-weight: bold;
+            font-size: $regular-size + 1;
+            margin-bottom: 1rem;
+            display: block;
+        }
+    }
+}
+
+div.mp-space{
+    margin-bottom: 10rem;
+}
 
 
 
