@@ -31,13 +31,13 @@ $(document).ready(function () {
     // Hover on Home page Portfolio items
     $(".package-pp").mouseenter(function () {
             $(".package-pp img").animate({
-                "opacity": "0.5"
+                opacity: "0.5"
             }, 250, "swing");
             $(".package-pp h4").fadeIn(250);
         })
         .mouseleave(function () {
             $(".package-pp img").animate({
-                "opacity": "1"
+                opacity: "1"
             }, 250, "swing");
             $(".package-pp h4").fadeOut(250);
         });
@@ -53,29 +53,29 @@ $(document).ready(function () {
             }, 250, "swing");
             $(".web-pp h4").fadeOut(250);
         });
-    $(".marketing-pp").mouseenter(function () {
-            $(".marketing-pp img").animate({
+    $(".info-pp").mouseenter(function () {
+            $(".info-pp img").animate({
                 "opacity": "0.5"
             }, 250, "swing");
-            $(".marketing-pp h4").fadeIn(250);
+            $(".info-pp h4").fadeIn(250);
         })
         .mouseleave(function () {
-            $(".marketing-pp img").animate({
+            $(".info-pp img").animate({
                 "opacity": "1"
             }, 250, "swing");
-            $(".marketing-pp h4").fadeOut(250);
+            $(".info-pp h4").fadeOut(250);
         });
-    $(".ppt-pp").mouseenter(function () {
-            $(".ppt-pp img").animate({
+    $(".edit-pp").mouseenter(function () {
+            $(".edit-pp img").animate({
                 "opacity": "0.5"
             }, 250, "swing");
-            $(".ppt-pp h4").fadeIn(250);
+            $(".edit-pp h4").fadeIn(250);
         })
         .mouseleave(function () {
-            $(".ppt-pp img").animate({
+            $(".edit-pp img").animate({
                 "opacity": "1"
             }, 250, "swing");
-            $(".ppt-pp h4").fadeOut(250);
+            $(".edit-pp h4").fadeOut(250);
         });
     // Footer Date update
     var currentYear = (new Date).getFullYear();
