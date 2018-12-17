@@ -304,6 +304,15 @@ a.edit-pp {
     position: relative;
     overflow: hidden;
 
+    &:hover {
+        background: rgba(255, 100, 25, 0.3);
+
+        h4 {
+            display: block;
+        }
+
+    }
+
     h4 {
         background-color: $red-color;
         font-family: $barlow-font;
@@ -323,11 +332,14 @@ a.edit-pp {
     img {
 
         transition: all 0.25s ease-out;
+        -webkit-transition: all 0.25s ease-out;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
 
         &:hover,
         &:focus {
-            transform: scale(1.2);
-            background-image: url(/imgs/web-design-pp-test.jpg);
+            -webkit-transform: scale3d(1.2, 1.2, 1);
+            transform: scale3d(1.2, 1.2, 1);
         }
     }
 }
