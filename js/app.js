@@ -28,55 +28,6 @@ $(document).ready(function () {
         };
     });
 
-    // Hover on Home page Portfolio items
-//    $(".package-pp","").mouseenter(function () {
-//            $(".package-pp img").animate({
-//                opacity: "0.5"
-//            }, 250, "swing");
-//            $(".package-pp h4").fadeIn(250);
-//        })
-//        .mouseleave(function () {
-//            $(".package-pp img").animate({
-//                opacity: "1"
-//            }, 250, "swing");
-//            $(".package-pp h4").fadeOut(250);
-//        });
-//    $(".web-pp").mouseenter(function () {
-//            $(".web-pp img").animate({
-//                "opacity": "0.5"
-//            }, 250, "swing");
-//            $(".web-pp h4").fadeIn(250);
-//        })
-//        .mouseleave(function () {
-//            $(".web-pp img").animate({
-//                "opacity": "1"
-//            }, 250, "swing");
-//            $(".web-pp h4").fadeOut(250);
-//        });
-//    $(".info-pp").mouseenter(function () {
-//            $(".info-pp img").animate({
-//                "opacity": "0.5"
-//            }, 250, "swing");
-//            $(".info-pp h4").fadeIn(250);
-//        })
-//        .mouseleave(function () {
-//            $(".info-pp img").animate({
-//                "opacity": "1"
-//            }, 250, "swing");
-//            $(".info-pp h4").fadeOut(250);
-//        });
-//    $(".edit-pp").mouseenter(function () {
-//            $(".edit-pp img").animate({
-//                "opacity": "0.5"
-//            }, 250, "swing");
-//            $(".edit-pp h4").fadeIn(250);
-//        })
-//        .mouseleave(function () {
-//            $(".edit-pp img").animate({
-//                "opacity": "1"
-//            }, 250, "swing");
-//            $(".edit-pp h4").fadeOut(250);
-//        });
     // Footer Date update
     var currentYear = (new Date).getFullYear();
     $("#thisYear").text((new Date).getFullYear());
