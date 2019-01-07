@@ -14,9 +14,7 @@ $(document).ready(function () {
                 'background-color': 'rgba(255, 255, 255)',
                 'border-bottom': 'solid rgb(241, 90, 43) 0.3rem'
             });
-            //            $('.styled-active a').css({
-            //                'color':'#F15A29'
-            //            });
+
         } else {
             $('.main-header').css({
                 'background-color': 'transparent',
@@ -33,8 +31,8 @@ $(document).ready(function () {
     $("#thisYear").text((new Date).getFullYear());
 
     // Based on screen size
-    $(window).resize(function(){
-        if($(window).width() < 1024){
+    $(window).resize(function () {
+        if ($(window).width() < 1024) {
 
         }
     })

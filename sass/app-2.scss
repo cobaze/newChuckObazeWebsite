@@ -38,6 +38,12 @@ $regular-size: 2.5rem;
     margin-top: 8rem;
 }
 
+%port-mod {
+    margin-bottom: 5rem;
+    width: 150rem;
+    margin: 0 auto;
+}
+
 
 /* START STYLING INDEX PAGE
 -----------------------------------------------------------------------------*/
@@ -287,8 +293,13 @@ div.ss-contents {
     }
 }
 
-div.portfolio {
-    margin-bottom: 5rem;
+div.port-mod1 {
+    @extend %port-mod;
+    margin-bottom: 2rem;
+}
+
+div.port-mod2 {
+    @extend %port-mod
 }
 
 figure.package-pp,
@@ -384,135 +395,6 @@ div.port-btn {
         }
     }
 }
-
-// Third Section Style
-
-section.third-section {
-    background-color: $light-gray;
-    height: 70rem;
-    z-index: 2;
-    position: relative;
-
-    h3 {
-        @extend %h3;
-        color: $red-color;
-    }
-}
-
-div.ts-icons {
-    width: 150rem;
-    max-width: 100%;
-    margin: 0 auto;
-
-    img {
-        width: 15rem;
-        margin: 0 auto;
-        display: block;
-        margin-bottom: 2rem;
-    }
-
-    p {
-        color: $gray-color;
-        font-size: $regular-size;
-        font-family: $barlow-font;
-        width: 33rem;
-        margin: 0 auto;
-        text-align: center;
-        max-width: 100%;
-        font-weight: 500;
-        line-height: 3rem;
-
-        span {
-            font-weight: bold;
-            font-size: $regular-size + 1;
-            margin-bottom: -1rem;
-            display: block;
-        }
-    }
-}
-
-// Fourth Section
-
-section.fourth-section {
-    height: 50rem;
-    position: relative;
-    z-index: 3;
-    background-image: url(../imgs/phil-bg.jpg);
-    background-color: $red-color;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-
-    h3 {
-        @extend %h3;
-        color: $white-color;
-    }
-
-    p {
-        font-family: $barlow-font;
-        color: $white-color;
-        font-size: 4rem;
-        width: 86rem;
-        margin: 0 auto;
-        text-align: center;
-        line-height: 4.5rem;
-    }
-}
-
-// Fifth Section
-
-section.fifth-section {
-    background-color: $white-color;
-    height: 80rem;
-    z-index: 3;
-    position: relative;
-
-    h3 {
-        @extend %h3;
-        color: $red-color;
-        margin-bottom: 10rem;
-    }
-
-}
-
-div.fs-icons {
-    width: 150rem;
-    max-width: 100%;
-    margin: 0 auto;
-
-    img {
-        width: 15rem;
-        margin: 0 auto;
-        display: block;
-        margin-bottom: 2rem;
-        margin-right: 2rem;
-        float: left;
-    }
-
-    p {
-        color: $gray-color;
-        font-size: $regular-size;
-        font-family: $barlow-font;
-        width: 52rem;
-        text-align: left;
-        max-width: 100%;
-        font-weight: 500;
-        line-height: 3rem;
-        float: left;
-
-        span {
-            font-weight: bold;
-            font-size: $regular-size + 1;
-            margin-bottom: 1rem;
-            display: block;
-        }
-    }
-}
-
-div.mp-space {
-    margin-bottom: 10rem;
-}
-
 
 
 // Footer Style
@@ -626,7 +508,6 @@ footer.main-footer {
     }
 
     div.ss-contents {
-
         margin-bottom: 10rem;
 
         h2 {
