@@ -262,6 +262,7 @@ section.second-section {
     position: relative;
     z-index: 2;
     height: auto;
+    border: solid red 1px;
 }
 
 div.ss-contents {
@@ -299,7 +300,8 @@ div.port-mod1 {
 }
 
 div.port-mod2 {
-    @extend %port-mod
+    @extend %port-mod;
+    margin-bottom: 10rem;
 }
 
 figure.package-pp,
@@ -394,6 +396,17 @@ div.port-btn {
             background-color: $dark-red;
         }
     }
+}
+
+section.third-section{
+    background-color: $light-gray;
+    position: relative;
+    z-index: 2;
+    height: 130rem;
+}
+
+form.form-holder{
+    width: 150rem;
 }
 
 
