@@ -38,6 +38,12 @@ $regular-size: 2.5rem;
     margin-top: 8rem;
 }
 
+%port-mod {
+    margin-bottom: 5rem;
+    width: 150rem;
+    margin: 0 auto;
+}
+
 
 /* START STYLING INDEX PAGE
 -----------------------------------------------------------------------------*/
@@ -287,8 +293,14 @@ div.ss-contents {
     }
 }
 
-div.portfolio {
-    margin-bottom: 5rem;
+div.port-mod1 {
+    @extend %port-mod;
+    margin-bottom: 2rem;
+}
+
+div.port-mod2 {
+    @extend %port-mod;
+    margin-bottom: 7rem;
 }
 
 figure.package-pp,
@@ -521,8 +533,8 @@ footer.main-footer {
     background-color: $gray-color;
     align-items: center;
     clear: both;
-    //        position: relative;
-    //        z-index: 3;
+    position: relative;
+    z-index: 3;
 
     p {
         margin: 0 auto;
@@ -533,10 +545,48 @@ footer.main-footer {
     }
 }
 
+// PACKAGE DESIGN PORTFOLIO PAGE SASS/CSS
+
+section.pd-hero{
+    background-image: url(../imgs/info-page-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 0rem -70rem;
+    background-size: cover;
+    height: 30rem;
+}
+
+section.pd-sec2 {
+    background-color: $white-color;
+    position: relative;
+    z-index: 1;
+    margin-top: 15.3%;
+    margin-bottom: 17%;
+}
+
+//header.pd-header {
+//    background-color: $white-color !important;
+//    border-bottom: solid rgb(241, 90, 43) 0.3rem;
+//    position: fixed;
+//    top: 0rem;
+//    z-index: 3;
+//    padding: 0rem;
+//}
+
+div.pd-mod1 {
+    @extend %port-mod;
+    width: 125rem;
+    max-height: 100%;
+    height: 46rem;
+    max-width: 100%;
+}
 
 // This is to prevent FOUC (flash of unstyled content.)
 .no-js .top-bar {
-    display: none;
+    display: none !important;
+}
+
+.no-js .title-bar {
+    display: none !important;
 }
 
 /* Small screen only */
@@ -544,11 +594,11 @@ footer.main-footer {
 
     // This is to prevent FOUC (flash of unstyled content.)
     .no-js .top-bar {
-        display: block;
+        display: block !important;
     }
 
     .no-js .title-bar {
-        display: none;
+        display: none !important;
     }
 
     div.button-container {
