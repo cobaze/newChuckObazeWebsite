@@ -86,45 +86,25 @@ hr.dark-red {
     clear: both;
 }
 
-header.main-header {
+.main-header {
     background-color: transparent;
     position: fixed;
-    top: 3rem;
-    z-index: 3;
-    padding: 2.5rem 2rem 2.5rem 2rem;
-    border: $border red;
-}
-
-div.contact-info {
-    border: $border red;
-    background-color: $gray-color;
-    position: relative;
     z-index: 4;
-    padding: 1rem 2rem 1rem 2rem;
-}
-
-div.ci-assets {
-
-    img:first-child {
-        width: 2rem;
-        margin-right: 0.5rem;
-    }
-
-    img:last-child {
-        width: 2rem;
-    }
-
-    a {
-        font-family: $barlow-font;
-        font-size: 1.5rem;
-        color: $font-gray-color;
-
-    }
+    top: 0rem;
+    padding: 2.5rem 2rem 2.5rem 2rem;
+    transition: .3s all;
+    -webkit-transition: .3s all;
+    -o-transition: .3s all;
+    -moz-transition: .3s all;
 }
 
 div.site-logo {
     img {
         width: 10rem;
+        transition: .5s all;
+        -webkit-transition: .5s all;
+        -o-transition: .5s all;
+        -moz-transition: .5s all;
     }
 }
 
@@ -339,6 +319,10 @@ figure.edit-pp {
     height: auto;
     position: relative;
     overflow: hidden;
+    transition: 0.9s all;
+    -webkit-transition: 0.9s all;
+    -o-transition: 0.9s all;
+    -moz-transition: 0.9s all;
 
     &:hover,
     &:focus {
@@ -471,6 +455,17 @@ div.ts-icons {
     }
 }
 
+div.research,
+div.sketches,
+div.mockup,
+div.design {
+    transition: 0.9s all;
+    -webkit-transition: 0.9s all;
+    -o-transition: 0.9s all;
+    -moz-transition: 0.9s all;
+}
+
+
 // Fourth Section
 
 section.fourth-section {
@@ -503,7 +498,7 @@ section.fourth-section {
 
 section.fifth-section {
     background-color: $white-color;
-    height: 80rem;
+    height: 85rem;
     z-index: 3;
     position: relative;
 
@@ -563,13 +558,47 @@ footer.main-footer {
     clear: both;
     position: relative;
     z-index: 3;
+    padding: 0rem 0rem 0rem 2rem;
 
     p {
         margin: 0 auto;
         color: $white-color;
         font-family: $barlow-font;
-        font-size: $regular-size - 0.5;
-        font-weight: bold;
+        font-size: $regular-size - 0.9;
+        font-weight: 400;
+    }
+}
+
+div.contact-info {
+    background-color: $gray-color;
+    position: relative;
+    z-index: 4;
+
+    div {
+        height: 3rem;
+        width: 32rem;
+        float: right;
+    }
+
+    img {
+        width: 2rem;
+        margin-right: 1rem;
+        display: inline;
+    }
+
+    img:nth-child(1) {
+        width: 1.5rem;
+    }
+
+    p {
+        display: inline;
+        margin-right: 2rem;
+        vertical-align: middle;
+
+        a {
+            text-decoration: none;
+            color: $white-color;
+        }
     }
 }
 

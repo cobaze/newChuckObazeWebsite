@@ -8,22 +8,32 @@ $(document).ready(function () {
         }, 2000);
     });
     $(window).scroll(function () {
-        // Header bg color appears
-        if ($(window).scrollTop() > 1) {
-            $('.main-header').css({
-                'background-color': 'rgba(255, 255, 255)',
-                'border-bottom': 'solid rgb(241, 90, 43) 0.3rem'
+        // Header bg color appears and changes sizes
+        if ($(window).scrollTop() > 100) {
+            $('.site-logo img').css({
+                'width': '6rem'
             });
-
-        } else {
             $('.main-header').css({
+                'padding': '0rem 2rem 0rem 2rem',
+                'background-color': '#FFFFFF',
+                'border-bottom': 'solid #F2F2F2 0.2rem'
+            });
+            $('.main-nav ul li a').css({
+                'font-size': '2.5rem'
+            });
+        } else {
+            $('.site-logo img').css({
+                'width': '10rem'
+            });
+            $('.main-header').css({
+                'padding': '2.5rem 2rem 2.5rem 2rem',
                 'background-color': 'transparent',
                 'border-bottom': 'none'
             });
-            $('.styled-active a').css({
-                'color': '#F15A29'
-            });
-        };
+            $('.main-nav ul li a').css({
+                'font-size': '3rem'
+            })
+        }
     });
 
     // Footer Date update
@@ -31,14 +41,15 @@ $(document).ready(function () {
     $("#thisYear").text((new Date).getFullYear());
 
     // Based on screen size
-    $(window).resize(function () {
-        if ($(window).width() < 1024) {
+//    $(window).resize(function () {
+//        if ($(window).width() < 1024) {
+//
+//        }
+//    })
 
-        }
-    })
-});
-// This fades the page in
-$(window).on("load", function (e) {
-    e.preventDefault();
-    $(document.body).hide().fadeIn(1000);
+    // This fades the page in
+    $(window).on("load", function (e) {
+        e.preventDefault();
+        $(document.body).hide().fadeIn(1000);
+    });
 });
