@@ -148,7 +148,7 @@ section.hero-img {
     background: url(../imgs/white-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center bottom;
-    height: 100rem;
+    height: 100vh;
     max-height: 100%;
     position: fixed;
     z-index: -1;
@@ -158,7 +158,7 @@ section.hero-img {
 }
 
 section.first-section {
-    height: 100rem;
+    height: 100vh;
     max-height: 100%;
 }
 
