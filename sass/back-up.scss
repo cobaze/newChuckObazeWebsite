@@ -192,9 +192,9 @@ section.first-section {
 /*---------------------End Foundation Default Styles End. Do Not Delete---------------------*/
 
 div.intro-text {
-    height: 50rem;
+    height: 40rem;
     position: fixed;
-    top: 30%;
+    top: 30rem;
     z-index: -1;
 
     h1 {
@@ -221,7 +221,7 @@ div.intro-text {
 
 div.btn-container {
     position: fixed;
-    top: 60%;
+    top: 60rem;
     height: 10rem;
     align-content: center;
     display: flex;
@@ -320,10 +320,10 @@ figure.edit-pp {
     height: auto;
     position: relative;
     overflow: hidden;
-    transition: 1s all;
-    -webkit-transition: 1s all;
-    -o-transition: 1s all;
-    -moz-transition: 1s all;
+    transition: 0.9s all;
+    -webkit-transition: 0.9s all;
+    -o-transition: 0.9s all;
+    -moz-transition: 0.9s all;
 
     &:hover,
     &:focus {
@@ -428,50 +428,44 @@ div.ts-icons {
     width: 150rem;
     max-width: 100%;
     margin: 0 auto;
-    border: $border red;
 
     img {
         width: 15rem;
         margin: 0 auto;
         display: block;
         margin-bottom: 2rem;
-        border: $border green;
     }
 
     p {
         color: $gray-color;
         font-size: $regular-size;
         font-family: $barlow-font;
-        width: 35rem;
+        width: 33rem;
         margin: 0 auto;
         text-align: center;
         max-width: 100%;
         font-weight: 500;
         line-height: 3rem;
-        border: $border yellow;
 
         span {
             font-weight: bold;
             font-size: $regular-size + 1;
             margin-bottom: -1rem;
             display: block;
-            border: $border blue;
-        }
-    }
-
-    div {
-        transition: 1s all;
-        -webkit-transition: 1s all;
-        -o-transition: 1s all;
-        -moz-transition: 1s all;
-        border: $border aqua;
-        margin-right: 2vw;
-
-        &:last-child{
-            margin-right: 0%;
         }
     }
 }
+
+div.research,
+div.sketches,
+div.mockup,
+div.design {
+    transition: 0.9s all;
+    -webkit-transition: 0.9s all;
+    -o-transition: 0.9s all;
+    -moz-transition: 0.9s all;
+}
+
 
 // Fourth Section
 
@@ -514,6 +508,7 @@ section.fifth-section {
         color: $red-color;
         margin-bottom: 10rem;
     }
+
 }
 
 div.fs-icons {
