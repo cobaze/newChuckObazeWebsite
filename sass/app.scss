@@ -428,14 +428,13 @@ div.ts-icons {
     width: 150rem;
     max-width: 100%;
     margin: 0 auto;
-    border: $border red;
 
     img {
         width: 15rem;
         margin: 0 auto;
         display: block;
         margin-bottom: 2rem;
-        border: $border green;
+
     }
 
     p {
@@ -448,14 +447,14 @@ div.ts-icons {
         max-width: 100%;
         font-weight: 500;
         line-height: 3rem;
-        border: $border yellow;
+
 
         span {
             font-weight: bold;
             font-size: $regular-size + 1;
             margin-bottom: -1rem;
             display: block;
-            border: $border blue;
+
         }
     }
 
@@ -464,11 +463,10 @@ div.ts-icons {
         -webkit-transition: 1s all;
         -o-transition: 1s all;
         -moz-transition: 1s all;
-        border: $border aqua;
-        margin-right: 2vw;
+        margin-right: 1.3vw;
 
-        &:last-child{
-            margin-right: 0%;
+        &:last-child {
+            margin-right: 0vw;
         }
     }
 }
