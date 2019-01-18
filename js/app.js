@@ -20,7 +20,7 @@ $(document).ready(function () {
 
 $(window).scroll(function () {
     // Header bg color appears and changes sizes
-    if ($(window).scrollTop() > 100) {
+    if ($(window).scrollTop() > 10) {
         $('.site-logo img').css({
             'width': '6rem'
         });

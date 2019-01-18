@@ -221,7 +221,7 @@ div.intro-text {
 
 div.btn-container {
     position: fixed;
-    top: 60%;
+    top: 70%;
     height: 10rem;
     align-content: center;
     display: flex;
@@ -638,12 +638,19 @@ a.scroll-top-btn {
 
 // PACKAGE DESIGN PORTFOLIO PAGE SASS/CSS
 
-section.pd-hero {
-    background-image: url(../imgs/info-page-bg.jpg);
-    background-repeat: no-repeat;
-    background-position: 0rem -70rem;
-    background-size: cover;
-    height: 30rem;
+section.port-title {
+    background-color: $red-color;
+    height: 10rem;
+    position: relative;
+    top: 13.6rem;
+    padding-left: 3rem;
+
+    h2{
+        color: $white-color;
+        font-family: $barlow-font;
+        font-size: 6rem;
+        border: $border $white-color;
+    }
 }
 
 section.pd-sec2 {
@@ -654,14 +661,6 @@ section.pd-sec2 {
     margin-bottom: 17%;
 }
 
-//header.pd-header {
-//    background-color: $white-color !important;
-//    border-bottom: solid rgb(241, 90, 43) 0.3rem;
-//    position: fixed;
-//    top: 0rem;
-//    z-index: 3;
-//    padding: 0rem;
-//}
 
 div.pd-mod1 {
     @extend %port-mod;
