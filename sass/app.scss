@@ -649,8 +649,9 @@ section.port-title {
     h2{
         color: $white-color;
         font-family: $barlow-font;
-        font-size: 6rem;
+        font-size: 5rem;
         border: $border $white-color;
+        margin-left: 15rem;
     }
 }
 
@@ -665,10 +666,25 @@ section.pd-sec2 {
 
 div.pd-mod1 {
     @extend %port-mod;
-    width: 125rem;
-    max-height: 100%;
-    height: 46rem;
+    width: 220rem;
     max-width: 100%;
+    border: $border red;
+    margin-bottom: 2rem;
+}
+
+div.pd-mod2 {
+    @extend %port-mod;
+    width: 220rem;
+    max-width: 100%;
+    border: $border red;
+    margin-bottom: 2rem;
+}
+
+div.pd-mod3 {
+    @extend %port-mod;
+    width: 220rem;
+    max-width: 100%;
+    border: $border red;
 }
 
 
