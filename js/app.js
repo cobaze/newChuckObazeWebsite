@@ -54,10 +54,10 @@ $(window).scroll(function () {
 });
 
 // This fades the page in
-$(window).on("load", function (e) {
-    e.preventDefault();
-    $(document.body).hide().fadeIn(1000);
-});
+//$(window).on("load", function (e) {
+//    e.preventDefault();
+//    $(document.body).hide().fadeIn(1000);
+//});
 
 // Footer Date update
 var currentYear = (new Date).getFullYear();
