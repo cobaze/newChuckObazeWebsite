@@ -659,20 +659,37 @@ section.port-title {
     }
 }
 
-//section.pd-sec2 {
-//    background-color: $white-color;
-//    position: relative;
-//    z-index: 1;
-//    margin-top: 15.3%;
-//    margin-bottom: 11%;
-//}
+section.pd-sec2 {
+    background-color: $white-color;
+    position: relative;
+    z-index: 1;
+    margin-top: 7%;
+    margin-bottom: 11%;
+    border: $border red;
+}
 
+div.filters {
+    background-color: $white-color;
+    height: 10rem;
+    margin-bottom: 2%;
+    width: 100%;
+    border: $border red;
+}
+
+div.filter-holder{
+    border: $border red;
+    height: 5rem;
+    max-width: 100%;
+    width: 222rem;
+    margin: 0 auto;
+}
 
 div.pd-mod1 {
     @extend %port-mod;
     width: 220rem;
     max-width: 100%;
     margin-bottom: 2rem;
+    border: $border red;
 }
 
 div.pd-mod2 {
