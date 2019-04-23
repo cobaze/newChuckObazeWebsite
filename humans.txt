@@ -12,3 +12,12 @@
 	Language: English
 	Doctype:HTML5, CSS3
 	IDE: Coda 2, Git Hub, Sass, Photoshop, Illustrator, Scout, Cyberduck
+    
+    
+
+
+
+
+    https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_filter_elements
+    
+    *use this code for filtering*

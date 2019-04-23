@@ -64,6 +64,7 @@ main.main-body {
     border: $border green;
 }
 
+// Orange Line
 hr.hot-red {
     height: 1rem;
     background-color: $red-color;
@@ -75,6 +76,7 @@ hr.hot-red {
     clear: both;
 }
 
+// Dark Orange Line
 hr.dark-red {
     height: 1rem;
     background-color: $dark-red;
@@ -86,7 +88,7 @@ hr.dark-red {
     clear: both;
 }
 
-.main-header {
+header.main-header {
     background-color: transparent;
     position: fixed;
     z-index: 4;
@@ -106,10 +108,6 @@ div.site-logo {
         -o-transition: .5s all;
         -moz-transition: .5s all;
     }
-}
-
-ul.dropdown ul.menu li.is-active > a {
-    color: $red-color;
 }
 
 li.styled-active {
@@ -162,7 +160,12 @@ section.first-section {
     max-height: 100%;
 }
 
-/*---------------------Start Foundation Default Styles Start. Do Not Delete---------------------*/
+/*---------------------START FOUNDATION DEFAULT STYLES START. DO NOT DELETE---------------------*/
+
+ul.dropdown ul.menu li.is-active > a {
+    color: $red-color;
+}
+
 .dropdown.menu .is-active > a {
     color: $red-color;
 }
@@ -190,6 +193,9 @@ section.first-section {
 }
 
 /*---------------------End Foundation Default Styles End. Do Not Delete---------------------*/
+
+
+/* HOME PAGE STYLE STARTS HERE */
 
 div.intro-text {
     height: 50rem;
@@ -639,24 +645,38 @@ a.scroll-top-btn {
 
 // PACKAGE DESIGN PORTFOLIO PAGE SASS/CSS
 
-section.port-title {
+section.filters {
     background-color: $red-color;
     height: 10rem;
     position: relative;
     top: 13.6rem;
+}
+
+div.port-title {
+    border: $border white;
 
     h2 {
         color: $white-color;
         font-family: $barlow-font;
         font-size: 5rem;
-        margin-bottom: 0px;
-        line-height: 190%;
         font-weight: bold;
-        width: 222rem;
         padding-left: 2rem;
-        max-width: 100%;
-        margin: 0 auto;
     }
+
+//    h2 {
+//        color: $white-color;
+//        font-family: $barlow-font;
+//        font-size: 5rem;
+//        margin-bottom: 0px;
+//        line-height: 190%;
+//        font-weight: bold;
+//        width: 222rem;
+//        padding-left: 2rem;
+//        max-width: 100%;
+//        margin: 0 auto;
+//    }
+
+
 }
 
 section.pd-sec2 {
@@ -668,21 +688,21 @@ section.pd-sec2 {
     border: $border red;
 }
 
-div.filters {
-    background-color: $white-color;
-    height: 10rem;
-    margin-bottom: 2%;
-    width: 100%;
-    border: $border red;
-}
+//div.filters {
+//    background-color: $white-color;
+//    height: 10rem;
+//    margin-bottom: 2%;
+//    width: 100%;
+//    border: $border red;
+//}
 
-div.filter-holder{
-    border: $border red;
-    height: 5rem;
-    max-width: 100%;
-    width: 222rem;
-    margin: 0 auto;
-}
+//div.filter-holder {
+//    border: $border red;
+//    height: 5rem;
+//    max-width: 100%;
+//    width: 222rem;
+//    margin: 0 auto;
+//}
 
 div.pd-mod1 {
     @extend %port-mod;
