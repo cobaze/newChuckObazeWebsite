@@ -44,6 +44,28 @@ $regular-size: 2.5rem;
     margin: 0 auto;
 }
 
+%hr-dark-red {
+    height: 1rem;
+    background-color: $dark-red;
+    margin: 0 auto;
+    width: 8rem;
+    border: 0;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    clear: both;
+}
+
+%hr-hot-red {
+    height: 1rem;
+    background-color: $red-color;
+    margin: 0 auto;
+    width: 8rem;
+    border: 0;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    clear: both;
+}
+
 
 /* START STYLING INDEX PAGE
 -----------------------------------------------------------------------------*/
@@ -66,26 +88,12 @@ main.main-body {
 
 // Orange Line
 hr.hot-red {
-    height: 1rem;
-    background-color: $red-color;
-    margin: 0 auto;
-    width: 8rem;
-    border: 0;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    clear: both;
+    @extend %hr-hot-red
 }
 
 // Dark Orange Line
 hr.dark-red {
-    height: 1rem;
-    background-color: $dark-red;
-    margin: 0 auto;
-    width: 8rem;
-    border: 0;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    clear: both;
+    @extend %hr-dark-red
 }
 
 header.main-header {
@@ -643,7 +651,7 @@ a.scroll-top-btn {
     }
 }
 
-// PACKAGE DESIGN PORTFOLIO PAGE SASS/CSS
+///////////////////////////PACKAGE DESIGN PORTFOLIO PAGE SASS/CSS///////////////////////////////
 
 section.filters {
     background-color: $red-color;
@@ -653,8 +661,15 @@ section.filters {
     margin-bottom: 5rem;
 }
 
+div.filter {
+    width: 43.3%;
+    float: right;
+    line-height: 9.5rem;
+}
+
 div.port-title {
-    border: $border white;
+    width: 22rem;
+    float: left;
 
     h2 {
         color: $white-color;
@@ -662,22 +677,28 @@ div.port-title {
         font-size: 5rem;
         font-weight: bold;
         padding-left: 2rem;
+        line-height: 9.5rem;
     }
+}
 
-//    h2 {
-//        color: $white-color;
-//        font-family: $barlow-font;
-//        font-size: 5rem;
-//        margin-bottom: 0px;
-//        line-height: 190%;
-//        font-weight: bold;
-//        width: 222rem;
-//        padding-left: 2rem;
-//        max-width: 100%;
-//        margin: 0 auto;
-//    }
+button.btns {
+    font-family: $barlow-font;
+    font-size: 2rem;
+    background-color: transparent;
+    font-weight: bold;
+    transition: 0.5s;
+    margin-bottom: 0;
+    &:hover,
+    &:focus {
+        color: $white-color;
+        transform: scale(1.1);
+        background-color: transparent;
+        color: $dark-red;
+    }
+}
 
-
+button.btns-active {
+    color: $dark-red;
 }
 
 section.pd-sec2 {
@@ -689,21 +710,89 @@ section.pd-sec2 {
     border: $border red;
 }
 
-//div.filters {
-//    background-color: $white-color;
-//    height: 10rem;
-//    margin-bottom: 2%;
-//    width: 100%;
-//    border: $border red;
-//}
+figure.sec-one,
+figure.sec-two,
+figure.sec-three,
+figure.sec-four,
+figure.sec-five,
+figure.sec-six,
+figure.sec-seven,
+figure.sec-eight,
+figure.sec-nine,
+figure.sec-ten,
+figure.sec-eleven,
+figure.sec-twelve{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    transition: 1s all;
+    -webkit-transition: 1s all;
+    -o-transition: 1s all;
+    -moz-transition: 1s all;
 
-//div.filter-holder {
-//    border: $border red;
-//    height: 5rem;
-//    max-width: 100%;
-//    width: 222rem;
-//    margin: 0 auto;
-//}
+    &:hover,
+    &:focus {
+
+        figcaption {
+            background: rgba($red-color, 0.3);
+        }
+
+        img {
+            -webkit-transform: scale3d(1.2, 1.2, 1);
+            transform: scale3d(1.2, 1.2, 1);
+        }
+    }
+
+    figcaption {
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        display: table;
+
+        a {
+            display: block;
+            height: 4.5rem;
+            width: 12rem;
+            max-width: 100%;
+            background-color: $red-color;
+            font-family: $barlow-font;
+            color: $white-color;
+            font-weight: bold;
+            padding: 1rem;
+            text-align: center;
+            font-size: 1.6rem;
+            opacity: 0;
+            margin: 0 auto;
+            margin-top: 30%;
+
+            &:hover,
+            &:focus {
+                background-color: $dark-red;
+            }
+        }
+
+        &:hover,
+        &:focus {
+            a {
+                opacity: 1;
+            }
+        }
+    }
+
+    img {
+
+        transition: all 0.5s ease-in-out;
+        -webkit-transition: all 0.5s ease-in-out;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
 
 div.pd-mod1 {
     @extend %port-mod;
@@ -839,6 +928,54 @@ div.pd-mod3 {
     figure.web-pp,
     figure.info-pp,
     figure.edit-pp {
+
+        figcaption {
+
+            a {
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    section.filters{
+        height: 30rem;
+    }
+
+    div.port-title{
+        width: 100%;
+        border-bottom: 0.2rem solid $white-color;
+        h2{
+            padding-left: 0;
+            text-align: center;
+        }
+    }
+
+    div.filter{
+        width: 100%;
+        text-align: center;
+    }
+
+    section.pd-sec2 {
+        background-color: $white-color;
+        position: relative;
+        z-index: 1;
+        margin-top: 20rem;
+        border: $border red;
+    }
+
+    // Portfolio Project Holder
+    figure.sec-one,
+    figure.sec-two,
+    figure.sec-three,
+    figure.sec-four,
+    figure.sec-five,
+    figure.sec-six,
+    figure.sec-seven,
+    figure.sec-eight,
+    figure.sec-nine,
+    figure.sec-ten,
+    figure.sec-eleven,
+    figure.sec-twelve {
 
         figcaption {
 

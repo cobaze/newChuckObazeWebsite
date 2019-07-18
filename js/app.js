@@ -16,6 +16,7 @@ $(document).ready(function () {
             scrollTop: $('.main-body').offset().top
         }, 2000)
     })
+
 });
 
 $(window).scroll(function () {
