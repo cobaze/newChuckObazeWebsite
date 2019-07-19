@@ -83,7 +83,6 @@ main.main-body {
     padding-right: 0rem !important;
     padding-left: 0rem !important;
     height: 100%;
-    border: $border green;
 }
 
 // Orange Line
@@ -662,7 +661,9 @@ section.filters {
 }
 
 div.filter {
-    width: 43.3%;
+    //    width: 43.3%;
+    max-width: 100%;
+    width: 86rem;
     float: right;
     line-height: 9.5rem;
 }
@@ -681,6 +682,21 @@ div.port-title {
     }
 }
 
+button.btns-header {
+    font-family: $barlow-font;
+    font-size: 3rem;
+    font-weight: bold;
+    color: $white-color;
+    background-color: transparent;
+    margin-bottom: 0;
+    padding: 0;
+
+    &:hover,
+    &:focus {
+        background-color: transparent;
+    }
+}
+
 button.btns {
     font-family: $barlow-font;
     font-size: 2rem;
@@ -688,9 +704,9 @@ button.btns {
     font-weight: bold;
     transition: 0.5s;
     margin-bottom: 0;
+
     &:hover,
     &:focus {
-        color: $white-color;
         transform: scale(1.1);
         background-color: transparent;
         color: $dark-red;
@@ -706,8 +722,13 @@ section.pd-sec2 {
     position: relative;
     z-index: 1;
     margin-top: 15%;
-    margin-bottom: 11%;
-    border: $border red;
+    margin-bottom: 5%;
+}
+
+div.port-sec-holder{
+    @extend %port-mod;
+    width: 220rem;
+    max-width: 100%;
 }
 
 figure.sec-one,
@@ -722,6 +743,21 @@ figure.sec-nine,
 figure.sec-ten,
 figure.sec-eleven,
 figure.sec-twelve{
+    margin-bottom: 2rem;
+}
+
+figure.sec-one,
+figure.sec-two,
+figure.sec-three,
+figure.sec-four,
+figure.sec-five,
+figure.sec-six,
+figure.sec-seven,
+figure.sec-eight,
+figure.sec-nine,
+figure.sec-ten,
+figure.sec-eleven,
+figure.sec-twelve {
     width: 100%;
     height: auto;
     position: relative;
@@ -937,20 +973,21 @@ div.pd-mod3 {
         }
     }
 
-    section.filters{
+    section.filters {
         height: 30rem;
     }
 
-    div.port-title{
+    div.port-title {
         width: 100%;
         border-bottom: 0.2rem solid $white-color;
-        h2{
+
+        h2 {
             padding-left: 0;
             text-align: center;
         }
     }
 
-    div.filter{
+    div.filter {
         width: 100%;
         text-align: center;
     }
