@@ -725,10 +725,10 @@ section.pd-sec2 {
     margin-bottom: 5%;
 }
 
-div.port-sec-holder{
-    @extend %port-mod;
-    width: 220rem;
+div.port-sec-holder {
+    width: 100%;
     max-width: 100%;
+    margin-bottom: 0;
 }
 
 figure.sec-one,
@@ -742,8 +742,8 @@ figure.sec-eight,
 figure.sec-nine,
 figure.sec-ten,
 figure.sec-eleven,
-figure.sec-twelve{
-    margin-bottom: 2rem;
+figure.sec-twelve {
+    //    margin-bottom: 2rem;
 }
 
 figure.sec-one,
@@ -823,10 +823,42 @@ figure.sec-twelve {
 
     img {
 
-        transition: all 0.5s ease-in-out;
-        -webkit-transition: all 0.5s ease-in-out;
+        transition: all 0.7s ease-in-out;
+        -webkit-transition: all 0.7s ease-in-out;
         -webkit-transform: scale3d(1, 1, 1);
         transform: scale3d(1, 1, 1);
+    }
+}
+
+figure.sec-two,
+figure.sec-six,
+figure.sec-eight{
+
+    img {
+        width: 100%;
+    }
+}
+
+figure.sec-three,
+figure.sec-five{
+
+    figcaption{
+
+        a{
+            width: 15rem;
+            max-width: 100%;
+        }
+    }
+}
+
+figure.sec-six{
+
+    figcaption{
+
+        a{
+            width: 17rem;
+            max-width: 100%;
+        }
     }
 }
 

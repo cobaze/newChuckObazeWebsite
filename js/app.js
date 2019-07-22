@@ -17,15 +17,15 @@ $(document).ready(function () {
         }, 2000)
     })
 
-    filterSelection("all")
-    function filterSelection(c){
-        var x, i;
-        x = document.getElementsByClassName("filterDiv");
-        if(c == "all") c = "";
-        for(i = 0; i < x.length; i++){
-
-        }
-    }
+//    filterSelection("all")
+//    function filterSelection(c){
+//        var x, i;
+//        x = document.getElementsByClassName("filterDiv");
+//        if(c == "all") c = "";
+//        for(i = 0; i < x.length; i++){
+//
+//        }
+//    }
 
 });
 
