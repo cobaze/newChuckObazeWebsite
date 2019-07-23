@@ -757,7 +757,11 @@ figure.sec-eight,
 figure.sec-nine,
 figure.sec-ten,
 figure.sec-eleven,
-figure.sec-twelve {
+figure.sec-twelve,
+figure.sec-thirteen,
+figure.sec-fourteen,
+figure.sec-fifteen,
+figure.sec-sixteen{
     width: 100%;
     height: auto;
     position: relative;
@@ -794,7 +798,7 @@ figure.sec-twelve {
         a {
             display: block;
             height: 4.5rem;
-            width: 12rem;
+            width: 17rem;
             max-width: 100%;
             background-color: $red-color;
             font-family: $barlow-font;
@@ -830,57 +834,15 @@ figure.sec-twelve {
     }
 }
 
-figure.sec-two,
-figure.sec-six,
-figure.sec-eight{
-
-    img {
-        width: 100%;
-    }
-}
-
-figure.sec-three,
-figure.sec-five{
+figure.sec-thirteen,
+figure.sec-fourteen{
 
     figcaption{
 
         a{
-            width: 15rem;
-            max-width: 100%;
+            height: 7rem;
         }
     }
-}
-
-figure.sec-six{
-
-    figcaption{
-
-        a{
-            width: 17rem;
-            max-width: 100%;
-        }
-    }
-}
-
-div.pd-mod1 {
-    @extend %port-mod;
-    width: 220rem;
-    max-width: 100%;
-    margin-bottom: 2rem;
-    border: $border red;
-}
-
-div.pd-mod2 {
-    @extend %port-mod;
-    width: 220rem;
-    max-width: 100%;
-    margin-bottom: 2rem;
-}
-
-div.pd-mod3 {
-    @extend %port-mod;
-    width: 220rem;
-    max-width: 100%;
 }
 
 // This is to prevent FOUC (flash of unstyled content.)
