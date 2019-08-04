@@ -401,6 +401,25 @@ figure.edit-pp {
     }
 }
 
+figure.hp-ppt {
+    figcaption {
+
+        a {
+            height: 4.5rem;
+            width: 15rem;
+        }
+    }
+}
+
+figure.hm-six {
+    figcaption {
+
+        a {
+            height: 7rem;
+        }
+    }
+}
+
 div.port-btn {
     height: 7.5rem;
     margin-bottom: 5rem;
@@ -661,11 +680,10 @@ section.filters {
 }
 
 div.filter {
-    //    width: 43.3%;
     max-width: 100%;
-    width: 86rem;
+    width: 94rem;
     float: right;
-    line-height: 9.5rem;
+    line-height: 10.5rem;
 }
 
 div.port-title {
@@ -704,6 +722,7 @@ button.btns {
     font-weight: bold;
     transition: 0.5s;
     margin-bottom: 0;
+    padding: 0.5rem 1rem;
 
     &:hover,
     &:focus {
@@ -765,7 +784,7 @@ figure.sec-sixteen,
 figure.sec-seventeen,
 figure.sec-eighteen,
 figure.sec-nineteen,
-figure.sec-twenty{
+figure.sec-twenty {
     width: 100%;
     height: auto;
     position: relative;
@@ -840,11 +859,11 @@ figure.sec-twenty{
 
 figure.sec-thirteen,
 figure.sec-fourteen,
-figure.sec-seventeen{
+figure.sec-seventeen {
 
-    figcaption{
+    figcaption {
 
-        a{
+        a {
             height: 7rem;
         }
     }
