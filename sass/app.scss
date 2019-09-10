@@ -869,6 +869,13 @@ figure.sec-seventeen {
     }
 }
 
+figure.sec-nineteen{
+    background-color: black;
+    img{
+       width: 800px;
+    }
+}
+
 // This is to prevent FOUC (flash of unstyled content.)
 .no-js .top-bar {
     display: none !important;
@@ -922,7 +929,7 @@ figure.sec-seventeen {
 
         ul {
             width: 100% !important;
-            background-color: rgba(255, 255, 255, 0.5);
+            background-color: rgba(255, 255, 255, 1);
             margin-bottom: 1rem;
 
             li {
@@ -1015,10 +1022,11 @@ figure.sec-seventeen {
         position: relative;
         z-index: 1;
         margin-top: 20rem;
-        border: $border red;
+        margin-bottom: 0rem;
     }
 
-    // Portfolio Project Holder
+    // PORTFOLIO PAGE MOBILE BREAK CODE
+
     figure.sec-one,
     figure.sec-two,
     figure.sec-three,
@@ -1103,6 +1111,35 @@ figure.sec-seventeen {
             }
         }
     }
+
+    div.disappear{
+        display: none;
+    }
+
+    section.less-height{
+        height: 10rem;
+        border-bottom: 0rem solid transparent;
+    }
+
+    div.scroll-top{
+        display: none;
+    }
+
+    // FOOTER CODE
+
+    footer.main-footer{
+        padding: 1rem;
+        height: 10rem;
+    }
+
+    div.copyright-info{
+        width: 1.7rem;
+        margin: 0 auto;
+    }
+
+    div.contact-info{
+        margin-top: 1rem;
+    }
 }
 
 /* Medium only */
@@ -1132,5 +1169,50 @@ figure.sec-seventeen {
 
     section.third-section {
         height: 110rem;
+    }
+
+    section.pd-sec2{
+       margin-top: 20rem;
+        margin-bottom: 20rem;
+    }
+
+    // PORTFOLIO PAGE MOBILE BREAK CODE
+
+    div.disappear{
+        display: none;
+    }
+
+    section.less-height{
+        height: 10rem;
+        border-bottom: 0rem solid transparent;
+    }
+
+    div.port-title{
+        width: 100%;
+
+        h2{
+            text-align: center;
+        }
+    }
+
+    div.scroll-top{
+        display: none;
+    }
+
+    // FOOTER CODE
+
+    footer.main-footer{
+        border: $border red;
+        padding: 1rem;
+        height: 10rem;
+    }
+
+    div.copyright-info{
+        width: 1.7rem;
+        margin: 0 auto;
+    }
+
+    div.contact-info{
+        margin-top: 1rem;
     }
 }
