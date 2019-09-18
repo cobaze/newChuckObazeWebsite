@@ -66,7 +66,6 @@ $regular-size: 2.5rem;
     clear: both;
 }
 
-
 /* START STYLING INDEX PAGE
 -----------------------------------------------------------------------------*/
 html {
@@ -730,10 +729,18 @@ button.btns {
         background-color: transparent;
         color: $dark-red;
     }
+
+    a {
+        color: $dark-red;
+    }
 }
 
 button.btns-active {
     color: $dark-red;
+
+    a {
+        color: $dark-red;
+    }
 }
 
 section.pd-sec2 {
@@ -869,10 +876,11 @@ figure.sec-seventeen {
     }
 }
 
-figure.sec-nineteen{
+figure.sec-nineteen {
     background-color: black;
-    img{
-       width: 800px;
+
+    img {
+        width: 800px;
     }
 }
 
@@ -883,6 +891,72 @@ figure.sec-nineteen{
 
 .no-js .title-bar {
     display: none !important;
+}
+
+//AGLOW PAGE CSS
+
+section.aglow-sec2 {
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    margin-top: 10%;
+}
+
+div.proj-title {
+    width: 100%;
+    border-bottom: $border gray;
+
+    h2 {
+        color: $gray-color;
+        font-family: $barlow-font;
+        font-size: 5rem;
+        font-weight: bold;
+        padding-left: 2rem;
+        line-height: 9.5rem;
+        text-align: center;
+        margin-bottom: 4%;
+    }
+}
+
+div.proj-logo-title {
+    width: 100%;
+    margin-bottom: 2rem;
+
+    img {
+        display: block;
+        width: 125rem;
+        max-width: 100%;
+        float: left;
+        margin-left: 25rem;
+    }
+
+    p {
+        color: $gray-color;
+        font-size: $regular-size;
+        font-family: $barlow-font;
+        font-weight: 500;
+        line-height: 3rem;
+        width: 70rem;
+        margin-top: 23rem;
+        display: inline;
+        float: left;
+
+        span {
+            font-weight: bold;
+            font-size: 3.5rem;
+            margin-bottom: 2rem;
+            display: block;
+        }
+    }
+}
+
+section.aglow-sec3 {
+    width: 100%;
+    max-width: 100%;
+
+    img {
+        width: 100%;
+    }
 }
 
 /* Small screen only */
@@ -1112,32 +1186,82 @@ figure.sec-nineteen{
         }
     }
 
-    div.disappear{
+    div.disappear {
         display: none;
     }
 
-    section.less-height{
-        height: 10rem;
+    section.less-height {
+        height: 18rem;
         border-bottom: 0rem solid transparent;
     }
 
-    div.scroll-top{
+    div.scroll-top {
         display: none;
+    }
+
+    // AGLOW CODE
+
+    div.proj-title {
+        width: 100%;
+        border-bottom: $border gray;
+
+        h2 {
+            color: $gray-color;
+            font-family: $barlow-font;
+            font-size: 5rem;
+            font-weight: bold;
+            padding-left: 0rem;
+            line-height: 9.5rem;
+            text-align: center;
+            margin-bottom: 0%;
+        }
+    }
+
+    div.proj-logo-title {
+        width: 100%;
+        margin-bottom: 0rem;
+
+        img {
+            width: 100%;
+            margin-left: 0rem;
+            float: none;
+            display: block;
+            border-bottom: $border $gray-color;
+        }
+
+        p {
+            color: $gray-color;
+            font-size: $regular-size - 0.9;
+            font-family: $barlow-font;
+            font-weight: 500;
+            line-height: 3rem;
+            width: 100%;
+            margin-top: 0rem;
+            margin-bottom: 0rem;
+            padding: 2rem;
+            box-sizing: border-box;
+
+            span {
+                font-weight: bold;
+                font-size: 3.5rem;
+                margin-bottom: 2rem;
+            }
+        }
     }
 
     // FOOTER CODE
 
-    footer.main-footer{
+    footer.main-footer {
         padding: 1rem;
         height: 10rem;
     }
 
-    div.copyright-info{
+    div.copyright-info {
         width: 1.7rem;
         margin: 0 auto;
     }
 
-    div.contact-info{
+    div.contact-info {
         margin-top: 1rem;
     }
 }
@@ -1171,48 +1295,98 @@ figure.sec-nineteen{
         height: 110rem;
     }
 
-    section.pd-sec2{
-       margin-top: 20rem;
+    section.pd-sec2 {
+        margin-top: 20rem;
         margin-bottom: 20rem;
     }
 
     // PORTFOLIO PAGE MOBILE BREAK CODE
 
-    div.disappear{
+    div.disappear {
         display: none;
     }
 
-    section.less-height{
+    section.less-height {
         height: 10rem;
         border-bottom: 0rem solid transparent;
     }
 
-    div.port-title{
+    div.port-title {
         width: 100%;
 
-        h2{
+        h2 {
             text-align: center;
         }
     }
 
-    div.scroll-top{
+    div.scroll-top {
         display: none;
+    }
+
+    // AGLOW CODE
+
+    div.proj-title {
+        width: 100%;
+        border-bottom: $border gray;
+
+        h2 {
+            color: $gray-color;
+            font-family: $barlow-font;
+            font-size: 5rem;
+            font-weight: bold;
+            padding-left: 0rem;
+            line-height: 9.5rem;
+            text-align: center;
+            margin-bottom: 0%;
+        }
+    }
+
+    div.proj-logo-title {
+        width: 100%;
+        margin-bottom: 0rem;
+
+        img {
+            width: 100%;
+            margin-left: 0rem;
+            float: none;
+            display: block;
+            border-bottom: $border $gray-color;
+        }
+
+        p {
+            color: $gray-color;
+            font-size: $regular-size - 0.9;
+            font-family: $barlow-font;
+            font-weight: 500;
+            line-height: 3rem;
+            width: 100%;
+            margin-top: 0rem;
+            margin-bottom: 0rem;
+            padding: 2rem;
+            box-sizing: border-box;
+
+            span {
+                font-weight: bold;
+                font-size: 3.5rem;
+                margin-bottom: 2rem;
+            }
+        }
     }
 
     // FOOTER CODE
 
-    footer.main-footer{
+    footer.main-footer {
         border: $border red;
         padding: 1rem;
         height: 10rem;
     }
 
-    div.copyright-info{
+    div.copyright-info {
         width: 1.7rem;
         margin: 0 auto;
     }
 
-    div.contact-info{
+    div.contact-info {
         margin-top: 1rem;
     }
 }
