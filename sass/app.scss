@@ -926,9 +926,14 @@ div.proj-logo-title {
         display: block;
         width: 125rem;
         max-width: 100%;
-        float: left;
-        margin-left: 25rem;
+        margin: 0 auto;
     }
+}
+
+div.proj-desc {
+    background-color: $light-gray;
+    padding: 20rem 0rem 20rem 0rem;
+    box-sizing: border-box;
 
     p {
         color: $gray-color;
@@ -937,9 +942,9 @@ div.proj-logo-title {
         font-weight: 500;
         line-height: 3rem;
         width: 70rem;
-        margin-top: 23rem;
-        display: inline;
-        float: left;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
 
         span {
             font-weight: bold;
@@ -952,24 +957,22 @@ div.proj-logo-title {
 
 section.aglow-sec3 {
     width: 100%;
-    max-width: 100%;
-
-    img {
-        width: 100%;
-    }
+//    padding: 20rem 0rem 20rem 0rem;
 }
 
-div.ag-sketch-holder-1{
+//div.ag-sketch-holder-1 {
+//    border: $border red;
+//    img {
+//        margin: 0 auto;
+//        display: block;
+//    }
+//}
 
+div.ag-sketch-holder-2 {
+    display: inline;
+    border: $border red;
     img {
-        width: 70%;
-    }
-}
-
-div.ag-sketch-holder-2{
-
-    img {
-        width: 70%;
+        width: 120%;
     }
 }
 
