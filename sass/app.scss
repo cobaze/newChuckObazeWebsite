@@ -957,7 +957,7 @@ div.proj-desc {
 
 section.aglow-sec3 {
     width: 100%;
-//    padding: 20rem 0rem 20rem 0rem;
+    //    padding: 20rem 0rem 20rem 0rem;
 }
 
 //div.ag-sketch-holder-1 {
@@ -971,12 +971,31 @@ section.aglow-sec3 {
 div.ag-sketch-holder-2 {
     display: inline;
     border: $border red;
+
     img {
         width: 120%;
     }
 }
 
 //////////////////NIGERIA INFOGRAPHIC PAGE CSS
+
+section.info-sec1 {
+    background-color: #fff;
+}
+
+div.n-info-holder{
+    img{
+        width: 40rem;
+        max-width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+section.info-sec2,
+section.info-sec3{
+    margin-top: 10rem;
+}
 
 /* Small screen only */
 @media screen and (max-width: 39.9375em) {
