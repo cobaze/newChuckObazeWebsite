@@ -10,23 +10,46 @@ $(document).ready(function () {
         }, 2000);
     });
 
-    $('.scroll-top').click(function (e){
+    $('.scroll-top').click(function (e) {
         e.preventDefault();
         $('html, body').animate({
             scrollTop: $('.main-body').offset().top
         }, 2000)
     })
 
-//    filterSelection("all")
-//    function filterSelection(c){
-//        var x, i;
-//        x = document.getElementsByClassName("filterDiv");
-//        if(c == "all") c = "";
-//        for(i = 0; i < x.length; i++){
-//
-//        }
-//    }
+    //    filterSelection("all")
+    //    function filterSelection(c){
+    //        var x, i;
+    //        x = document.getElementsByClassName("filterDiv");
+    //        if(c == "all") c = "";
+    //        for(i = 0; i < x.length; i++){
+    //
+    //        }
+    //    }
 
+    function openModal() {
+        document.getElementById("myModal").style.display = "block";
+    }
+
+    function closeModal() {
+        document.getElementById("myModal").style.display = "none";
+    }
+
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlide(n) {
+        var i;
+        var slides = $
+    }
 });
 
 $(window).scroll(function () {
@@ -44,7 +67,7 @@ $(window).scroll(function () {
             'font-size': '2.5rem'
         });
         $('.scroll-top-btn').css({
-            'display':'block'
+            'display': 'block'
         });
     } else {
         $('.site-logo img').css({
@@ -59,7 +82,7 @@ $(window).scroll(function () {
             'font-size': '3rem'
         });
         $('.scroll-top-btn').css({
-            'display':'none'
+            'display': 'none'
         })
     }
 });

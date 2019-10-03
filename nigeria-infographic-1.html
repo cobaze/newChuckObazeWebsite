@@ -75,30 +75,52 @@
         </section>
 
         <section class="grid-x info-sec2">
-            <div class="small-12 medium-4 large-4 dev-modal" id="devModal">
-                <img src="./imgs/developmentAndMigration.jpg" alt="Nigeria Infographic">
+            <div class="small-12 medium-4 large-4 dev-modal">
+                <img src="./imgs/developmentAndMigration.jpg" alt="Development And Migration" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
             </div>
-            <div class="small-12 medium-4 large-4 n-info-holder">
-                <img src="./imgs/theoriesOfMigration.jpg" alt="Nigeria Infographic">
+            <div class="small-12 medium-4 large-4 dev-modal">
+                <img src="./imgs/theoriesOfMigration.jpg" alt="Nigeria Infographic" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
             </div>
-            <div class="small-12 medium-4 large-4 n-info-holder">
-               <img src="./imgs/nigeria-infographic.jpg" alt="Nigeria Infographic">
+            <div class="small-12 medium-4 large-4 dev-modal">
+                <img src="./imgs/nigeria-infographic.jpg" alt="Nigeria Infographic" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
             </div>
         </section>
-
-        section.grid-x.
 
         <section class="grid-x info-sec3">
-            <div class="small-12 medium-4 large-4 n-info-holder">
-                <img src="./imgs/ethiopia-infographic.jpg" alt="Nigeria Infographic">
+            <div class="small-12 medium-4 large-4 dev-modal">
+                <img src="./imgs/ethiopia-infographic.jpg" alt="Ethiopia Infographic" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
             </div>
-            <div class="small-12 medium-12 large-4 n-info-holder">
-                <img src="./imgs/mali-infographic.jpg" alt="Nigeria Infographic">
+            <div class="small-12 medium-12 large-4 dev-modal">
+                <img src="./imgs/mali-infographic.jpg" alt="Mali Infographic" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
             </div>
-            <div class="small-12 medium-12 large-4 n-info-holder">
-                <img src="./imgs/senegal-infographic.jpg" alt="Nigeria Infographic">
+            <div class="small-12 medium-12 large-4 dev-modal">
+                <img src="./imgs/senegal-infographic.jpg" alt="Senegal Infographic" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
             </div>
         </section>
+
+        <div class="small-12 medium-12 large-12 modal" id="myModal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+                <div class="mySlides">
+                    <img src="./imgs/developmentAndMigration.jpg" alt="Development And Migration">
+                </div>
+                <div class="mySlides">
+                    <img src="./imgs/theoriesOfMigration.jpg" alt="Theories Of Migration">
+                </div>
+                <div class="mySlides">
+                    <img src="./imgs/nigeria-infographic.jpg" alt="Nigeria Infographic">
+                </div>
+                <div class="mySlides">
+                    <img src="./imgs/ethiopia-infographic.jpg" alt="Ethiopia Infographic">
+                </div>
+                <div class="mySlides">
+                    <img src="./imgs/mali-infographic.jpg" alt="Mali Infographic">
+                </div>
+                <div class="mySlides">
+                    <img src="./imgs/senegal-infographic.jpg" alt="Senegal Infographic">
+                </div>
+            </div>
+        </div>
 
         <footer class="grid-x main-footer">
             <div class="cell small-12 large-8 copyright-info">
