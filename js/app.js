@@ -48,7 +48,7 @@ $(document).ready(function () {
 
     function showSlide(n) {
         var i;
-        var slides = $
+        var slides = document.getElementsByClassName("mySlides");
     }
 });
 
