@@ -680,7 +680,7 @@ section.filters {
 
 div.filter {
     max-width: 100%;
-    width: 94rem;
+    width: 96rem;
     float: right;
     line-height: 10.5rem;
 }
@@ -699,7 +699,7 @@ div.port-title {
     }
 }
 
-button.btns-header {
+.btns-header {
     font-family: $barlow-font;
     font-size: 3rem;
     font-weight: bold;
@@ -714,7 +714,7 @@ button.btns-header {
     }
 }
 
-button.btns {
+.btns {
     font-family: $barlow-font;
     font-size: 2rem;
     background-color: transparent;
@@ -735,7 +735,7 @@ button.btns {
     }
 }
 
-button.btns-active {
+.btns-active {
     color: $dark-red;
 
     a {
@@ -983,8 +983,13 @@ section.info-sec1 {
     background-color: #fff;
 }
 
-div.n-info-holder,
-div.dev-modal {
+section.info-sec2,
+section.info-sec3 {
+    margin-top: 10rem;
+}
+
+//div.n-info-holder,
+.dev-modal {
     img {
         width: 40rem;
         max-width: 100%;
@@ -999,10 +1004,11 @@ div.dev-modal {
     }
 }
 
-div.modal {
+// Modal Bg
+.modal {
     display: none;
     position: fixed;
-    z-index: 7;
+    z-index: 1;
     padding-top: 100px;
     left: 0;
     top: 0;
@@ -1013,26 +1019,15 @@ div.modal {
     background-color: rgba(0, 0, 0, 0.9);
 }
 
-img.modal-content {
+// Modal Content
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
     margin: auto;
-    display: block;
+    padding: 0;
+    //    display: block;
     width: 150rem;
     max-width: 100%;
-}
-
-div#caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
-}
-
-img.modal-content,
-div#caption{
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
@@ -1059,7 +1054,8 @@ div#caption{
     }
 }
 
-span.close{
+// Close Button
+.close {
     position: absolute;
     top: 15px;
     right: 35px;
@@ -1068,13 +1064,80 @@ span.close{
     font-weight: bold;
     transition: 0.6;
     cursor: pointer;
+
+    &:hover,
+    &:focus {
+        color: $dark-red;
+        cursor: pointer;
+        text-decoration: none;
+    }
 }
 
-section.info-sec2,
-section.info-sec3 {
-    margin-top: 10rem;
+.mySlides {
+    display: none;
 }
 
+.cursor {
+    cursor: pointer;
+}
+
+//#caption {
+//    margin: auto;
+//    display: block;
+//    width: 80%;
+//    max-width: 700px;
+//    text-align: center;
+//    color: #ccc;
+//    padding: 10px 0;
+//    height: 150px;
+//}
+
+///////////////////////////CONCUSSION INFOGRAPHIC PORTFOLIO PAGE SASS/CSS///////////////////////////////
+
+section.concus-sec1 {
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    margin-top: 10%;
+}
+
+div.concus-desc,
+div.bugout-desc {
+    padding: 20rem 0rem 20rem 0rem;
+    box-sizing: border-box;
+
+    p {
+        color: $gray-color;
+        font-size: $regular-size;
+        font-family: $barlow-font;
+        font-weight: 500;
+        line-height: 3rem;
+        width: 70rem;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+
+        span {
+            font-weight: bold;
+            font-size: 3.5rem;
+            margin-bottom: 2rem;
+            display: block;
+        }
+    }
+}
+
+div.concus-img-holder,
+div.bugout-img-holder {
+    margin-bottom: 2.6%;
+
+    img {
+        margin: 0 auto;
+        display: block;
+        width: 100rem;
+    }
+}
+
+///////////////////////////BUG OUT PORTFOLIO PAGE SASS/CSS///////////////////////////////
 
 
 /* Small screen only */
